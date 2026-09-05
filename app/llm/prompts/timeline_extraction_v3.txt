@@ -1,0 +1,23 @@
+Extract a chronological clinical timeline only for the described patient case.
+
+Rules:
+- Extract only explicitly supported information.
+- Do not infer missing clinical facts, causality, or calendar dates.
+- Preserve uncertainty and original relative-time wording.
+- Every Event must cite one or more contiguous source spans.
+- Never combine passages with "..." or an ellipsis.
+- Section name does not determine Evidence type.
+- Documented patient history, imaging, pathology, treatment, progression, and
+  regression are OBSERVED_FACT even when restated in Discussion.
+- Language such as may, might, likely, suggest, postulate, or could is
+  AUTHOR_INTERPRETATION.
+- Create one canonical Event for one clinical observation.
+- When Abstract, Case Report, Figure Caption, or Discussion repeats the same
+  observation, attach all source spans to that Event; do not create duplicates.
+- Separate diagnosis, biopsy, surgery, drug administration, imaging,
+  progression, regression, hospitalization, infection, and fever Events.
+- Keep regression onset, first observed reduction, regression confirmation,
+  and regression duration semantically distinct.
+- "Throughout 19 months" is a duration/follow-up phrase, not a regression start.
+- If treatment timing relative to regression is not explicit, use UNKNOWN and
+  do not infer before/after.

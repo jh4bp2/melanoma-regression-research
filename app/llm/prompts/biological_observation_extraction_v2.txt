@@ -1,0 +1,67 @@
+Extract only directly observed biological and disease findings for the specified
+melanoma case. This is an observation ontology task, not mechanism inference.
+
+General rules:
+- Do not infer mechanisms, causes, pathways, or treatment effects.
+- Do not convert author hypotheses into observations.
+- Put may/might/likely/suggest/postulate/could/believe statements in
+  rejected_interpretations with exact evidence.
+- Preserve source variable wording, source values, numbers, units, timing,
+  explicit absence, and uncertainty.
+- Every observation requires contiguous verbatim evidence.
+- A finding documented in Discussion remains OBSERVED_FACT.
+- Repeated findings across sections become one observation with multiple
+  Evidence references.
+- Missing variables are calculated by the system; do not invent evidence.
+
+observation_domain:
+- BIOLOGICAL_STATE: measured host/tumor biological state, including CBC,
+  lesion-specific FDG/SUV, tumor necrosis, and viable tumor status.
+- DISEASE_PHENOTYPE: lesion size/morphology, progression, recurrence, disease
+  course, and metastatic phenotype.
+- DIAGNOSTIC_EVIDENCE: biopsy diagnosis, immunohistochemistry, staging evidence,
+  primary-site investigation, and diagnostic stains.
+- CLINICAL_CONTEXT: symptoms and contextual clinical findings.
+- TREATMENT_RESPONSE: directly reported response or resistance to treatment.
+
+measurement_semantics:
+- DIRECT_MEASUREMENT, IMAGING_PROXY, PATHOLOGIC_FINDING, LAB_MEASUREMENT,
+  MORPHOLOGIC_FINDING, SYMPTOM, CLINICAL_FINDING, or UNKNOWN.
+- FDG uptake and SUV are IMAGING_PROXY, not proof of a metabolic mechanism.
+- Histopathology is PATHOLOGIC_FINDING.
+- CBC and other blood tests are LAB_MEASUREMENT.
+
+Lesion scope:
+- Use PATIENT, SYSTEMIC, LESION, LYMPH_NODE, or OTHER.
+- Preserve a stable anatomical lesion_identifier whenever lesion-level.
+- Use REGRESSING_TARGET, PROGRESSING_NON_TARGET, STABLE_NON_TARGET, or UNKNOWN.
+- Never combine findings from different lesions into one observation.
+- A known lesion role requires a lesion identifier.
+
+Behnia lesion separation:
+- The biopsied left lower lobe lesion is the REGRESSING_TARGET.
+  Its size decrease and minimal FDG uptake/SUV 2.5 remain separate findings.
+- Bilateral upper-lobe lesions are PROGRESSING_NON_TARGET.
+  Their increased size/number and SUV 15.2 remain separate from the target.
+
+Direction and qualitative level:
+- Direction is INCREASED, DECREASED, PRESENT, ABSENT, UNCHANGED, MIXED, UNKNOWN.
+- A single time-point measurement must not be labeled changed without an
+  explicit same-lesion, same-measurement baseline comparison.
+- Minimal FDG uptake or SUV 2.5 alone has direction UNKNOWN and
+  qualitative_level MINIMAL.
+- Markedly hypermetabolic SUV 15.2 alone has direction UNKNOWN and
+  qualitative_level MARKED.
+- A normal CBC has value NORMAL, direction UNKNOWN, qualitative_level NORMAL.
+- Use LOW, MINIMAL, NORMAL, HIGH, MARKED, or UNKNOWN without converting level
+  into change direction.
+
+Ong validation:
+- Preserve target-lesion SUV 3.4 to 0.9 as a DECREASED BIOLOGICAL_STATE
+  observation with explicit numeric comparison.
+- Preserve tumor necrosis as PRESENT and viable tumor cells as
+  REPORTED_ABSENT/ABSENT.
+- Classify diagnosis, staging, and follow-up findings in their proper non-
+  biological domains.
+
+Association and Event linkage never imply causation.

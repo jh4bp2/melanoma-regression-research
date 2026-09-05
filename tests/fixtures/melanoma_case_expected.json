@@ -1,0 +1,56 @@
+{
+  "patient_identifier": {
+    "value": "67-year-old man",
+    "status": "REPORTED",
+    "evidence_refs": [
+      {
+        "page": 2,
+        "quote": "A 67-year-old man was diagnosed with metastatic melanoma.",
+        "section": "Case Presentation",
+        "evidence_type": "OBSERVED_FACT"
+      }
+    ]
+  },
+  "age": {
+    "value": 67,
+    "status": "REPORTED",
+    "evidence_refs": [
+      {
+        "page": 2,
+        "quote": "A 67-year-old man was diagnosed with metastatic melanoma.",
+        "section": "Case Presentation",
+        "evidence_type": "OBSERVED_FACT"
+      }
+    ]
+  },
+  "sex": {
+    "value": "male",
+    "status": "REPORTED",
+    "evidence_refs": [
+      {
+        "page": 2,
+        "quote": "A 67-year-old man was diagnosed with metastatic melanoma.",
+        "section": "Case Presentation",
+        "evidence_type": "OBSERVED_FACT"
+      }
+    ]
+  },
+  "melanoma_subtype": {"value": null, "status": "NOT_REPORTED", "evidence_refs": []},
+  "primary_site": {"value": null, "status": "NOT_REPORTED", "evidence_refs": []},
+  "stage": {"value": null, "status": "NOT_REPORTED", "evidence_refs": []},
+  "metastatic_sites": {"value": null, "status": "NOT_REPORTED", "evidence_refs": []},
+  "diagnosis_date": {"value": null, "status": "NOT_REPORTED", "evidence_refs": []},
+  "regression_start_date": {"value": null, "status": "NOT_REPORTED", "evidence_refs": []},
+  "first_observed_reduction": {"value": null, "status": "NOT_REPORTED", "evidence_refs": []},
+  "regression_confirmed_date": {"value": null, "status": "NOT_REPORTED", "evidence_refs": []},
+  "regression_duration": {"value": null, "status": "NOT_REPORTED", "evidence_refs": []},
+  "regression_type": {"value": "spontaneous", "status": "REPORTED", "evidence_refs": [{"page": 1, "quote": "We report spontaneous complete regression in a patient with metastatic melanoma.", "section": "Abstract", "evidence_type": "OBSERVED_FACT"}]},
+  "regression_extent_clinical": {"value": "COMPLETE", "status": "REPORTED", "evidence_refs": [{"page": 2, "quote": "Complete regression was observed.", "section": "Case Presentation", "evidence_type": "OBSERVED_FACT"}]},
+  "viable_tumor_at_pathology": {"value": null, "status": "NOT_REPORTED", "evidence_refs": []},
+  "treatment_before_regression": {"value": "No systemic therapy", "status": "REPORTED", "evidence_refs": [{"page": 2, "quote": "No systemic therapy was administered before regression.", "section": "Case Presentation", "evidence_type": "OBSERVED_FACT"}]},
+  "treatment_status": {"value": "no_treatment", "status": "REPORTED", "evidence_refs": [{"page": 2, "quote": "No systemic therapy was administered before regression.", "section": "Case Presentation", "evidence_type": "OBSERVED_FACT"}]},
+  "preceding_events": {"value": ["biopsy"], "status": "REPORTED", "evidence_refs": [{"page": 2, "quote": "Two weeks before regression, a biopsy was performed.", "section": "Case Presentation", "evidence_type": "OBSERVED_FACT"}]},
+  "outcome": {"value": "free of recurrence at 12 months", "status": "REPORTED", "evidence_refs": [{"page": 2, "quote": "At 12 months, he remained free of recurrence.", "section": "Case Presentation", "evidence_type": "OBSERVED_FACT"}]},
+  "follow_up_duration": {"value": "12 months", "status": "REPORTED", "evidence_refs": [{"page": 2, "quote": "At 12 months, he remained free of recurrence.", "section": "Case Presentation", "evidence_type": "OBSERVED_FACT"}]},
+  "confidence": 0.96
+}

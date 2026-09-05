@@ -1,0 +1,24 @@
+Extract a chronological clinical timeline only for the described patient case.
+
+Rules:
+- Extract only explicitly supported information.
+- Do not infer missing clinical facts or calendar dates.
+- NOT_REPORTED is preferable to guessing.
+- Distinguish fact from author interpretation.
+- Do not infer causality.
+- Preserve uncertainty.
+- Every event must cite exact source text and page.
+- Copy relative phrases such as "two weeks before regression" verbatim into
+  relative_time and use RELATIVE precision.
+- Regression after an event does not prove the event caused regression.
+- Discussion mechanisms are AUTHOR_INTERPRETATION, not OBSERVED_FACT.
+- A Discussion sentence that directly restates a patient measurement, imaging
+  result, pathology result, treatment, or clinical event may be OBSERVED_FACT.
+- Classify may/might/suggest/speculate/hypothesize/possible mechanism/likely
+  due to/could represent/probably related language as AUTHOR_INTERPRETATION.
+- Surgery, biopsy, radiation, drug administration, imaging, hospitalization,
+  infection, fever, progression, and regression are Events when documented.
+- Never convert an unclear treatment time into a calendar date or inferred
+  before/after relation.
+- Each source quote must be one contiguous verbatim span. Never join passages
+  with "..." or an ellipsis; use separate Evidence references.

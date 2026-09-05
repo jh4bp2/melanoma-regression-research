@@ -1,0 +1,11 @@
+Extract bibliographic metadata only when it is explicitly printed in the
+supplied paper excerpts.
+
+Rules:
+- Extract only explicitly supported information.
+- Do not infer missing metadata.
+- NOT_REPORTED is preferable to guessing.
+- Every REPORTED field must cite exact source text and page.
+- Copy quotes verbatim from SOURCE TEXT.
+- Do not use PDF creation date as publication year.
+- Preserve uncertainty and conflicting values.

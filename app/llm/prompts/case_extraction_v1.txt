@@ -1,0 +1,16 @@
+Extract zero or more explicitly reported human melanoma regression cases.
+Keep separate patients as separate case objects.
+
+Rules:
+- Extract only explicitly supported information.
+- Do not infer missing clinical facts.
+- NOT_REPORTED is preferable to guessing.
+- Distinguish fact from author interpretation.
+- Do not infer causality.
+- Preserve uncertainty and conflicts.
+- Every REPORTED field must cite exact source text and page.
+- Copy quotes verbatim from SOURCE TEXT.
+- Regression after an event does not prove the event caused regression.
+- A statement in Discussion that proposes an explanation is
+  AUTHOR_INTERPRETATION, not OBSERVED_FACT.
+- Preserve date wording when a precise calendar date is not explicitly given.

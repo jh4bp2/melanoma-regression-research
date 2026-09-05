@@ -1,0 +1,44 @@
+Extract zero or more explicitly reported human melanoma regression cases.
+Keep separate patients as separate case objects.
+
+Rules:
+- Extract only explicitly supported information.
+- Do not infer missing clinical facts.
+- NOT_REPORTED is preferable to guessing.
+- Distinguish fact from author interpretation sentence by sentence.
+- Section name is context only; it does not determine Evidence type.
+- Documented patient observations in Discussion are OBSERVED_FACT.
+- Language such as may, might, likely, suggest, postulate, or could is
+  AUTHOR_INTERPRETATION.
+- Do not infer causality.
+- Preserve uncertainty and conflicts.
+- Every REPORTED or REPORTED_ABSENT field must cite contiguous source text.
+- Copy quotes verbatim. Never join passages with "..." or an ellipsis.
+- Regression after an event does not prove the event caused regression.
+- primary_site uses REPORTED_ABSENT with null value and evidence when the
+  primary site was investigated but not identified. Do not use NOT_REPORTED
+  for an explicit "no primary identified" finding.
+- regression_extent_clinical is COMPLETE, PARTIAL, UNCERTAIN, or NOT_REPORTED.
+  COMPLETE or PARTIAL requires explicit clinical extent wording in the source.
+  Imaging reduction alone does not establish PARTIAL extent, and pathology
+  saying no viable tumor cells does not establish COMPLETE clinical extent.
+  If pathology reports no viable tumor but clinical extent is not explicit,
+  use UNCERTAIN and cite the relevant pathology/clinical observations.
+- viable_tumor_at_pathology is PRESENT, ABSENT, NOT_ASSESSED, or UNCERTAIN.
+  Use ABSENT when pathology explicitly reports no viable tumor cells.
+- Keep regression_start_date, first_observed_reduction,
+  regression_confirmed_date, and regression_duration separate.
+- regression_start_date is REPORTED only when the source explicitly states
+  regression onset/beginning or gives an exact onset date. A title or phrase
+  such as "following biopsy" expresses sequence, not an onset date.
+- A duration such as "throughout 19 months" is regression_duration or
+  follow-up evidence, not regression_start_date.
+- Preserve relative wording; never invent a calendar date.
+- treatment_status is only one of: no_treatment, active_treatment,
+  prior_treatment, treatment_stopped, treatment_completed, unknown.
+- Surgery, biopsy, radiation sessions, drug administrations, imaging, and
+  hospitalization are Events, not treatment_status values.
+- treatment_before_regression contains oncologic treatment history. If its
+  timing relative to regression is unclear, use UNCERTAIN.
+- If one observation is repeated in Abstract, Case Report, Figure Caption, or
+  Discussion, return one field value with multiple Evidence references.

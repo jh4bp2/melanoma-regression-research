@@ -1,0 +1,51 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# Databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+data/research.db
+data/research.db-*
+
+# Copyrighted paper PDFs
+data/papers/*.pdf
+
+# Large extracted full-text dumps
+data/processed/*.txt
+
+# Keep audit reports and placeholders
+!data/processed/.gitkeep
+!data/processed/audit/
+!data/processed/audit/**
+
+# Acquisition metadata, not PDFs
+!data/papers/.gitkeep
+!data/papers/README.md
+!data/papers/manifest.json
+
+# Append-only corpus snapshots
+data/corpus/history/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/

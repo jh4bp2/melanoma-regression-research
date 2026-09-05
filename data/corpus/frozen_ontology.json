@@ -1,0 +1,10 @@
+{
+  "corpus_infra_version": "phase4a.1",
+  "corpus_rule_version": "corpus-infra-v1",
+  "phase2_schema": "phase2.3",
+  "phase2_rule": "phase2.3-case-scope-v1",
+  "phase3_schema": "phase3.4",
+  "phase3_rule": "phase3.4-stability-v1",
+  "phase3_prompt": "biological_observation_extraction:v5",
+  "policy": "Do not change schema/rule/prompt for a single new paper. Record ONTOLOGY_PRESSURE_POINT and review in batch."
+}

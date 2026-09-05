@@ -1,0 +1,517 @@
+# PHASE 3 Biological Observation Audit
+
+- RUN ID: 35
+- CASE ID: 2
+- SOURCE PHASE 2 RUN: 18
+- STATUS: partial
+- SCHEMA: phase3.1
+- RULE: phase3.1-ontology-v4
+- PROMPT: biological_observation_extraction:v2
+
+## Biological Observations
+
+### Observation 1
+
+CATEGORY: METABOLIC
+OBSERVATION DOMAIN: BIOLOGICAL_STATE
+MEASUREMENT SEMANTICS: IMAGING_PROXY
+VARIABLE: FDG uptake and maximum standardized uptake value
+NORMALIZED VARIABLE: FDG_UPTAKE_MAXIMUM_SUV
+VALUE: very minimal FDG uptake with max SUV of 2.5
+NORMALIZED VALUE: 2.5
+UNIT: NONE
+DIRECTION: UNKNOWN
+STATUS: REPORTED
+TIME RELATION: DURING_REGRESSION
+TEMPORAL PRECISION: RELATIVE
+SCOPE TYPE: LESION
+LESION IDENTIFIER: left lower lobe biopsied lesion
+REGRESSION ROLE: REGRESSING_TARGET
+QUALITATIVE LEVEL: MINIMAL
+CONTEXT: F-18 FDG PET-CT, 43 days after baseline CT
+LINKED EVENT ID: 127
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 1
+SECTION: Case Report
+QUOTE: "the previously biopsied left lung nodule has decreased in size and showed very minimal FDG uptake with max SUV of 2.5"
+
+EVIDENCE 2 TYPE: OBSERVED_FACT
+PAGE: 2
+SECTION: Discussion
+QUOTE: "On the fused image (B) it does not show increased uptake of F-18 ﬂudeoxyglucose."
+
+### Observation 2
+
+CATEGORY: METABOLIC
+OBSERVATION DOMAIN: BIOLOGICAL_STATE
+MEASUREMENT SEMANTICS: IMAGING_PROXY
+VARIABLE: maximum standardized uptake value
+NORMALIZED VARIABLE: MAXIMUM_SUV
+VALUE: 15.2
+NORMALIZED VALUE: 15.2
+UNIT: NONE
+DIRECTION: UNKNOWN
+STATUS: REPORTED
+TIME RELATION: DURING_REGRESSION
+TEMPORAL PRECISION: RELATIVE
+SCOPE TYPE: LESION
+LESION IDENTIFIER: bilateral upper-lobe lesions
+REGRESSION ROLE: PROGRESSING_NON_TARGET
+QUALITATIVE LEVEL: MARKED
+CONTEXT: F-18 FDG PET-CT, 43 days after baseline CT
+LINKED EVENT ID: 125
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 1
+SECTION: Case Report
+QUOTE: "were markedly hypermetabolic with maximum standardized uptake value (max SUV) of 15.2"
+
+### Observation 3
+
+CATEGORY: OTHER
+OBSERVATION DOMAIN: BIOLOGICAL_STATE
+MEASUREMENT SEMANTICS: LAB_MEASUREMENT
+VARIABLE: complete blood count
+NORMALIZED VARIABLE: COMPLETE_BLOOD_COUNT
+VALUE: normal
+NORMALIZED VALUE: NORMAL
+UNIT: NONE
+DIRECTION: UNKNOWN
+STATUS: REPORTED
+TIME RELATION: BEFORE_REGRESSION
+TEMPORAL PRECISION: UNKNOWN
+SCOPE TYPE: SYSTEMIC
+LESION IDENTIFIER: NONE
+REGRESSION ROLE: UNKNOWN
+QUALITATIVE LEVEL: NORMAL
+CONTEXT: Laboratory tests at presentation
+LINKED EVENT ID: NONE
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 1
+SECTION: Case Report
+QUOTE: "While the complete blood count was normal"
+
+### Observation 4
+
+CATEGORY: OTHER
+OBSERVATION DOMAIN: DIAGNOSTIC_EVIDENCE
+MEASUREMENT SEMANTICS: IMAGING_PROXY
+VARIABLE: left hilar nodal spread
+NORMALIZED VARIABLE: HILAR_NODAL_SPREAD
+VALUE: left hilar nodal spread
+NORMALIZED VALUE: NONE
+UNIT: NONE
+DIRECTION: PRESENT
+STATUS: REPORTED
+TIME RELATION: DURING_REGRESSION
+TEMPORAL PRECISION: RELATIVE
+SCOPE TYPE: LYMPH_NODE
+LESION IDENTIFIER: hilar/mediastinal lymph nodes
+REGRESSION ROLE: UNKNOWN
+QUALITATIVE LEVEL: UNKNOWN
+CONTEXT: PET-CT, 43 days later
+LINKED EVENT ID: 126
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 2
+SECTION: Discussion
+QUOTE: "Note left hilar nodal spread (arrowhead)."
+
+### Observation 5
+
+CATEGORY: OTHER
+OBSERVATION DOMAIN: DISEASE_PHENOTYPE
+MEASUREMENT SEMANTICS: MORPHOLOGIC_FINDING
+VARIABLE: left lower lobe nodule status compared with previous chest x-ray
+NORMALIZED VARIABLE: LEFT_LOWER_LOBE_PULMONARY_NODULE_STATUS
+VALUE: not seen on a previous chest x-ray
+NORMALIZED VALUE: NONE
+UNIT: NONE
+DIRECTION: PRESENT
+STATUS: REPORTED
+TIME RELATION: BEFORE_REGRESSION
+TEMPORAL PRECISION: UNKNOWN
+SCOPE TYPE: LESION
+LESION IDENTIFIER: left lower lobe biopsied lesion
+REGRESSION ROLE: REGRESSING_TARGET
+QUALITATIVE LEVEL: UNKNOWN
+CONTEXT: Chest x-ray comparison
+LINKED EVENT ID: NONE
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 1
+SECTION: Case Report
+QUOTE: "This was not seen on a previous chest x-ray"
+
+EVIDENCE 2 TYPE: OBSERVED_FACT
+PAGE: 2
+SECTION: Discussion
+QUOTE: "This was new since a previous ﬁlm 6 years earlier"
+
+### Observation 6
+
+CATEGORY: OTHER
+OBSERVATION DOMAIN: DISEASE_PHENOTYPE
+MEASUREMENT SEMANTICS: MORPHOLOGIC_FINDING
+VARIABLE: left lower lobe opacity on chest x-ray
+NORMALIZED VARIABLE: LEFT_LOWER_LOBE_PULMONARY_OPACITY
+VALUE: well defined round opacity in the left lower lobe
+NORMALIZED VALUE: NONE
+UNIT: NONE
+DIRECTION: PRESENT
+STATUS: REPORTED
+TIME RELATION: BEFORE_REGRESSION
+TEMPORAL PRECISION: UNKNOWN
+SCOPE TYPE: LESION
+LESION IDENTIFIER: left lower lobe biopsied lesion
+REGRESSION ROLE: REGRESSING_TARGET
+QUALITATIVE LEVEL: UNKNOWN
+CONTEXT: Chest x-ray
+LINKED EVENT ID: NONE
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 1
+SECTION: Case Report
+QUOTE: "the chest x-ray showed a well deﬁned round opacity in the left lower lobe"
+
+EVIDENCE 2 TYPE: OBSERVED_FACT
+PAGE: 2
+SECTION: Discussion
+QUOTE: "Initial chest x-ray showed a well circumscribed left lower lobe nodule."
+
+### Observation 7
+
+CATEGORY: OTHER
+OBSERVATION DOMAIN: DISEASE_PHENOTYPE
+MEASUREMENT SEMANTICS: MORPHOLOGIC_FINDING
+VARIABLE: left lower lobe nodule size
+NORMALIZED VARIABLE: LESION_SIZE
+VALUE: 27 × 23 mm
+NORMALIZED VALUE: [27, 23]
+UNIT: mm
+DIRECTION: UNKNOWN
+STATUS: REPORTED
+TIME RELATION: BEFORE_REGRESSION
+TEMPORAL PRECISION: RELATIVE
+SCOPE TYPE: LESION
+LESION IDENTIFIER: left lower lobe biopsied lesion
+REGRESSION ROLE: REGRESSING_TARGET
+QUALITATIVE LEVEL: UNKNOWN
+CONTEXT: Initial computed tomography, 10 days later
+LINKED EVENT ID: 123
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 2
+SECTION: Discussion
+QUOTE: "Representative images from the initial computed tomography, 10 days later. (A) Axial images in lung window shows a 27 × 23 mm left lower lobe nodule"
+
+### Observation 8
+
+CATEGORY: OTHER
+OBSERVATION DOMAIN: DISEASE_PHENOTYPE
+MEASUREMENT SEMANTICS: MORPHOLOGIC_FINDING
+VARIABLE: left lower lobe nodule size
+NORMALIZED VARIABLE: LESION_SIZE
+VALUE: decreased from 27 × 23 mm to 17 × 14 mm
+NORMALIZED VALUE: [27, 23, 17, 14]
+UNIT: mm
+DIRECTION: DECREASED
+STATUS: REPORTED
+TIME RELATION: DURING_REGRESSION
+TEMPORAL PRECISION: RELATIVE
+SCOPE TYPE: LESION
+LESION IDENTIFIER: left lower lobe biopsied lesion
+REGRESSION ROLE: REGRESSING_TARGET
+QUALITATIVE LEVEL: UNKNOWN
+CONTEXT: PET-CT 43 days after baseline CT
+LINKED EVENT ID: 127
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 2
+SECTION: Discussion
+QUOTE: "The left lower lobe nodule (A) has decreased to 17 × 14 mm in size."
+
+EVIDENCE 2 TYPE: OBSERVED_FACT
+PAGE: 2
+SECTION: Discussion
+QUOTE: "Representative images from the initial computed tomography, 10 days later. (A) Axial images in lung window shows a 27 × 23 mm left lower lobe nodule"
+
+### Observation 9
+
+CATEGORY: OTHER
+OBSERVATION DOMAIN: DISEASE_PHENOTYPE
+MEASUREMENT SEMANTICS: MORPHOLOGIC_FINDING
+VARIABLE: biopsied lesion size
+NORMALIZED VARIABLE: LESION_SIZE
+VALUE: continued to decrease in size throughout the 19 months that followed after initial diagnosis
+NORMALIZED VALUE: NONE
+UNIT: NONE
+DIRECTION: DECREASED
+STATUS: REPORTED
+TIME RELATION: LONG_TERM_FOLLOWUP
+TEMPORAL PRECISION: RELATIVE
+SCOPE TYPE: LESION
+LESION IDENTIFIER: left lower lobe biopsied lesion
+REGRESSION ROLE: REGRESSING_TARGET
+QUALITATIVE LEVEL: UNKNOWN
+CONTEXT: Despite recurrence of disease
+LINKED EVENT ID: 129
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 3
+SECTION: Discussion
+QUOTE: "despite the recur- rence of disease, the biopsied lesion continued to decrease in size throughout the 19 months that followed after initial diagnosis."
+
+### Observation 10
+
+CATEGORY: OTHER
+OBSERVATION DOMAIN: DISEASE_PHENOTYPE
+MEASUREMENT SEMANTICS: MORPHOLOGIC_FINDING
+VARIABLE: bilateral upper-lobe cavitary lesion size and number
+NORMALIZED VARIABLE: LESION_SIZE_AND_NUMBER
+VALUE: increased in size and number
+NORMALIZED VALUE: NONE
+UNIT: NONE
+DIRECTION: INCREASED
+STATUS: REPORTED
+TIME RELATION: DURING_REGRESSION
+TEMPORAL PRECISION: RELATIVE
+SCOPE TYPE: LESION
+LESION IDENTIFIER: bilateral upper-lobe lesions
+REGRESSION ROLE: PROGRESSING_NON_TARGET
+QUALITATIVE LEVEL: UNKNOWN
+CONTEXT: F-18 FDG PET-CT, 43 days after baseline CT
+LINKED EVENT ID: 125
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 1
+SECTION: Case Report
+QUOTE: "The time interval between the baseline CT and PET-CT was 43 days. On F-18 FDG PET-CT, bilateral upper lobe cavitary lesions had increased in size and number"
+
+### Observation 11
+
+CATEGORY: OTHER
+OBSERVATION DOMAIN: TREATMENT_RESPONSE
+MEASUREMENT SEMANTICS: CLINICAL_FINDING
+VARIABLE: melanoma recurrence with metastatic sites
+NORMALIZED VARIABLE: MELANOMA_RECURRENCE
+VALUE: melanoma recurred with lung, brain, and spinal cord metastases
+NORMALIZED VALUE: ['lung', 'brain', 'spinal cord']
+UNIT: NONE
+DIRECTION: PRESENT
+STATUS: REPORTED
+TIME RELATION: AFTER_REGRESSION
+TEMPORAL PRECISION: UNKNOWN
+SCOPE TYPE: SYSTEMIC
+LESION IDENTIFIER: NONE
+REGRESSION ROLE: UNKNOWN
+QUALITATIVE LEVEL: UNKNOWN
+CONTEXT: Following favorable initial response to ipilimumab
+LINKED EVENT ID: NONE
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 3
+SECTION: Discussion
+QUOTE: "melanoma re- curred with lung, brain, and spinal cord metastases"
+
+### Observation 12
+
+CATEGORY: OTHER
+OBSERVATION DOMAIN: CLINICAL_CONTEXT
+MEASUREMENT SEMANTICS: SYMPTOM
+VARIABLE: presenting symptoms
+NORMALIZED VARIABLE: SYMPTOMS
+VALUE: night sweats, cough, and hemoptysis
+NORMALIZED VALUE: ['night sweats', 'cough', 'hemoptysis']
+UNIT: NONE
+DIRECTION: PRESENT
+STATUS: REPORTED
+TIME RELATION: BEFORE_REGRESSION
+TEMPORAL PRECISION: UNKNOWN
+SCOPE TYPE: PATIENT
+LESION IDENTIFIER: NONE
+REGRESSION ROLE: UNKNOWN
+QUALITATIVE LEVEL: UNKNOWN
+CONTEXT: Presentation
+LINKED EVENT ID: NONE
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 1
+SECTION: Case Report
+QUOTE: "A 55-year-old woman presented with night sweats, cough, and hemoptysis."
+
+### Observation 13
+
+CATEGORY: OTHER
+OBSERVATION DOMAIN: TREATMENT_RESPONSE
+MEASUREMENT SEMANTICS: CLINICAL_FINDING
+VARIABLE: ipilimumab resistance
+NORMALIZED VARIABLE: TREATMENT_RESISTANCE
+VALUE: resistant to ipilimumab
+NORMALIZED VALUE: NONE
+UNIT: NONE
+DIRECTION: PRESENT
+STATUS: REPORTED
+TIME RELATION: AFTER_REGRESSION
+TEMPORAL PRECISION: UNKNOWN
+SCOPE TYPE: SYSTEMIC
+LESION IDENTIFIER: NONE
+REGRESSION ROLE: UNKNOWN
+QUALITATIVE LEVEL: UNKNOWN
+CONTEXT: Melanoma recurrence with lung, brain, and spinal cord metastases
+LINKED EVENT ID: NONE
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 3
+SECTION: Discussion
+QUOTE: "this time resistant to ipilimumab."
+
+### Observation 14
+
+CATEGORY: OTHER
+OBSERVATION DOMAIN: TREATMENT_RESPONSE
+MEASUREMENT SEMANTICS: CLINICAL_FINDING
+VARIABLE: initial response to ipilimumab
+NORMALIZED VARIABLE: TREATMENT_RESPONSE
+VALUE: favorable initial response
+NORMALIZED VALUE: NONE
+UNIT: NONE
+DIRECTION: PRESENT
+STATUS: REPORTED
+TIME RELATION: AFTER_REGRESSION
+TEMPORAL PRECISION: UNKNOWN
+SCOPE TYPE: PATIENT
+LESION IDENTIFIER: NONE
+REGRESSION ROLE: UNKNOWN
+QUALITATIVE LEVEL: UNKNOWN
+CONTEXT: Immune therapy with ipilimumab
+LINKED EVENT ID: 128
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 3
+SECTION: Discussion
+QUOTE: "Our patient underwent immune therapy with ipilimumab with a favorable initial response."
+
+### Observation 15
+
+CATEGORY: OTHER
+OBSERVATION DOMAIN: DISEASE_PHENOTYPE
+MEASUREMENT SEMANTICS: MORPHOLOGIC_FINDING
+VARIABLE: bilateral upper lung cavitary lesions
+NORMALIZED VARIABLE: UPPER_LUNG_CAVITARY_LESIONS
+VALUE: smaller cavitary lesions were seen in the bilateral upper lungs
+NORMALIZED VALUE: NONE
+UNIT: NONE
+DIRECTION: PRESENT
+STATUS: REPORTED
+TIME RELATION: BEFORE_REGRESSION
+TEMPORAL PRECISION: RELATIVE
+SCOPE TYPE: LESION
+LESION IDENTIFIER: bilateral upper-lobe lesions
+REGRESSION ROLE: PROGRESSING_NON_TARGET
+QUALITATIVE LEVEL: UNKNOWN
+CONTEXT: Chest CT performed 10 days later
+LINKED EVENT ID: 123
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 1
+SECTION: Case Report
+QUOTE: "In addition to the left lower lobe pulmonary nodule, smaller cavitary lesions were seen in the bilateral upper lungs"
+
+### Observation 16
+
+CATEGORY: PATHOLOGIC
+OBSERVATION DOMAIN: DIAGNOSTIC_EVIDENCE
+MEASUREMENT SEMANTICS: PATHOLOGIC_FINDING
+VARIABLE: CT-guided biopsy diagnosis
+NORMALIZED VARIABLE: BIOPSY_DIAGNOSIS
+VALUE: positive for metastatic melanoma
+NORMALIZED VALUE: metastatic melanoma
+UNIT: NONE
+DIRECTION: PRESENT
+STATUS: REPORTED
+TIME RELATION: BEFORE_REGRESSION
+TEMPORAL PRECISION: UNKNOWN
+SCOPE TYPE: LESION
+LESION IDENTIFIER: left lower lobe biopsied lesion
+REGRESSION ROLE: REGRESSING_TARGET
+QUALITATIVE LEVEL: UNKNOWN
+CONTEXT: CT-guided biopsy
+LINKED EVENT ID: 124
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 1
+SECTION: Case Report
+QUOTE: "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma."
+
+### Observation 17
+
+CATEGORY: PATHOLOGIC
+OBSERVATION DOMAIN: DIAGNOSTIC_EVIDENCE
+MEASUREMENT SEMANTICS: CLINICAL_FINDING
+VARIABLE: primary melanoma lesion on clinical examination
+NORMALIZED VARIABLE: PRIMARY_MELANOMA_LESION
+VALUE: clinical examination did not reveal a primary lesion
+NORMALIZED VALUE: NONE
+UNIT: NONE
+DIRECTION: ABSENT
+STATUS: REPORTED_ABSENT
+TIME RELATION: BEFORE_REGRESSION
+TEMPORAL PRECISION: UNKNOWN
+SCOPE TYPE: PATIENT
+LESION IDENTIFIER: NONE
+REGRESSION ROLE: UNKNOWN
+QUALITATIVE LEVEL: UNKNOWN
+CONTEXT: Clinical examination following diagnosis of melanoma
+LINKED EVENT ID: NONE
+CONFIDENCE: 1.00
+
+EVIDENCE 1 TYPE: OBSERVED_FACT
+PAGE: 1
+SECTION: Case Report
+QUOTE: "Patient had no history of melanoma and clinical examination did not reveal a primary lesion."
+
+## Rejected As Interpretation
+
+### Rejected Interpretation 1
+
+STATEMENT: We suggest immune system modulation, triggered by biopsy, could have played a role, although the precise mechanism remains unknown.
+REASON: Author hypothesis using “suggest” and “could”; it is not a directly observed finding.
+PAGE: 1
+SECTION: Title
+QUOTE: "We suggest immune system modulation, triggered by biopsy, could have played a role, although the precise mechanism remains unknown."
+
+### Rejected Interpretation 2
+
+STATEMENT: We postulate that trauma from biopsy could have induced an inflammatory response and lead to subsequent regression of this lesion although the mechanism leading to this rare phenomenon remains obscure.
+REASON: Author postulate using “could”; it is not a directly observed finding.
+PAGE: 3
+SECTION: Discussion
+QUOTE: "We postulate that trauma from biopsy could have induced an inﬂammatory response and lead to subsequent regres- sion of this lesion although the mechanism leading to this rare phenomenon remains obscure."
+
+## Summary
+
+- OBSERVATIONS: 17
+- VERIFIED EVIDENCE: 22
+- REJECTED EVIDENCE: 2
+- DUPLICATE MERGES: 0
+- UNCERTAIN: 0
+- NOT REPORTED TARGETS: 38

@@ -1,0 +1,281 @@
+[
+  {
+    "case_id": 16,
+    "lesion_id": 55,
+    "organ": "LUNG",
+    "location": "UPPER_LOBE",
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 17,
+    "lesion_id": 56,
+    "organ": "LUNG",
+    "location": "LOWER_LOBE",
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 17,
+    "lesion_id": 57,
+    "organ": "LYMPH_NODE",
+    "location": null,
+    "laterality": null,
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 18,
+    "lesion_id": 58,
+    "organ": "SKIN",
+    "location": "PRIMARY_SITE",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 18,
+    "lesion_id": 59,
+    "organ": "SKIN",
+    "location": "POPLITEAL",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 18,
+    "lesion_id": 60,
+    "organ": "SKIN",
+    "location": "MEDIAL_KNEE",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 20,
+    "lesion_id": 61,
+    "organ": "LYMPH_NODE",
+    "location": "AXILLA",
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": "PROGRESSING"
+  },
+  {
+    "case_id": 20,
+    "lesion_id": 62,
+    "organ": "LIVER",
+    "location": null,
+    "laterality": null,
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 21,
+    "lesion_id": 63,
+    "organ": "SKIN",
+    "location": "HEEL",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": "REGRESSED"
+  },
+  {
+    "case_id": 21,
+    "lesion_id": 64,
+    "organ": "SKIN",
+    "location": "THIGH",
+    "laterality": null,
+    "collection_id": null,
+    "regression_role": "PROGRESSING"
+  },
+  {
+    "case_id": 21,
+    "lesion_id": 65,
+    "organ": "SKIN",
+    "location": "ANKLE",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 22,
+    "lesion_id": 66,
+    "organ": "LYMPH_NODE",
+    "location": "INGUINAL",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": "PROGRESSING"
+  },
+  {
+    "case_id": 22,
+    "lesion_id": 67,
+    "organ": "SKIN",
+    "location": "SUBUNGUAL",
+    "laterality": null,
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 23,
+    "lesion_id": 68,
+    "organ": "LYMPH_NODE",
+    "location": "AXILLA",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 23,
+    "lesion_id": 69,
+    "organ": "SKIN",
+    "location": "FINGERTIP",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 24,
+    "lesion_id": 99,
+    "organ": "SKIN",
+    "location": "PRIMARY_SITE",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 25,
+    "lesion_id": 100,
+    "organ": "SKIN",
+    "location": null,
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 25,
+    "lesion_id": 101,
+    "organ": "SKIN",
+    "location": null,
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 25,
+    "lesion_id": 102,
+    "organ": "LYMPH_NODE",
+    "location": null,
+    "laterality": null,
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 26,
+    "lesion_id": 103,
+    "organ": null,
+    "location": "PRIMARY_SITE",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 26,
+    "lesion_id": 104,
+    "organ": "LUNG",
+    "location": null,
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 26,
+    "lesion_id": 105,
+    "organ": "LUNG",
+    "location": null,
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 27,
+    "lesion_id": 106,
+    "organ": "SKIN",
+    "location": "PRIMARY_SITE",
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 27,
+    "lesion_id": 107,
+    "organ": "LYMPH_NODE",
+    "location": null,
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 27,
+    "lesion_id": 108,
+    "organ": "SKIN",
+    "location": null,
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 27,
+    "lesion_id": 109,
+    "organ": "LYMPH_NODE",
+    "location": null,
+    "laterality": null,
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 28,
+    "lesion_id": 110,
+    "organ": "LYMPH_NODE",
+    "location": "INGUINAL",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 28,
+    "lesion_id": 111,
+    "organ": null,
+    "location": "PRIMARY_SITE",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 29,
+    "lesion_id": 112,
+    "organ": null,
+    "location": "PRIMARY_SITE",
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 30,
+    "lesion_id": 113,
+    "organ": null,
+    "location": "PRIMARY_SITE",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 30,
+    "lesion_id": 114,
+    "organ": "LYMPH_NODE",
+    "location": null,
+    "laterality": null,
+    "collection_id": null,
+    "regression_role": null
+  }
+]

@@ -1,0 +1,15 @@
+from __future__ import annotations
+
+HYPOTHESIS_TRACKS = {
+    "TRACK_A": "Within-melanoma regression state transition",
+    "TRACK_B": "Local vs systemic regression",
+    "TRACK_C": "Adaptive option collapse / resource stress",
+    "TRACK_D": "Host immune predisposition",
+    "TRACK_E": "Why melanoma?",
+}
+
+TRACK_POLICY = (
+    "Tracks are research-axis names only. "
+    "Do not assign papers or cases to a track during corpus intake. "
+    "Do not put these hypotheses into extraction prompts."
+)

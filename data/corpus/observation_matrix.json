@@ -1,0 +1,6678 @@
+{
+  "version": "phase4a.1",
+  "analysis_enabled": false,
+  "note": "Skeleton only. Do not compute correlations or causal scores.",
+  "columns": [
+    "infection",
+    "fever",
+    "surgery",
+    "biopsy",
+    "vaccination",
+    "immunotherapy_history",
+    "immune_infiltration",
+    "CD3",
+    "CD8",
+    "NK",
+    "macrophage",
+    "FDG_SUV",
+    "necrosis",
+    "viable_tumor",
+    "hypoxia",
+    "metabolic_marker",
+    "genotype",
+    "irAE",
+    "leukoderma",
+    "regression_extent",
+    "progression_elsewhere"
+  ],
+  "value_and_status_separated": true,
+  "case_rows": [
+    {
+      "row_type": "case",
+      "paper_id": 2,
+      "case_id": 16,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "biopsy": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "0.9",
+          "measurement_status": "MEASURED"
+        },
+        "necrosis": {
+          "value": "present within the necrotic cells",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "viable_tumor": {
+          "value": "ABSENT",
+          "measurement_status": "REPORTED_ABSENT"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNCERTAIN",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "ABSENT",
+          "measurement_status": "REPORTED_ABSENT"
+        }
+      }
+    },
+    {
+      "row_type": "case",
+      "paper_id": 1,
+      "case_id": 17,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "very minimal FDG uptake with max SUV of 2.5",
+          "measurement_status": "MEASURED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "PARTIAL|UNCERTAIN",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        }
+      }
+    },
+    {
+      "row_type": "case",
+      "paper_id": 3,
+      "case_id": 18,
+      "cells": {
+        "infection": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "biopsy": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "immune_infiltration": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "CD3": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "CD8": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "ABSENT",
+          "measurement_status": "REPORTED_ABSENT"
+        },
+        "viable_tumor": {
+          "value": "some areas of viable tumor as evident by SOX10 staining",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "BRAF,del(5q)",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "COMPLETE|UNCERTAIN",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        }
+      }
+    },
+    {
+      "row_type": "case",
+      "paper_id": 4,
+      "case_id": 19,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "surgery": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "biopsy": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "vaccination": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "COMPLETE|UNCERTAIN",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        }
+      }
+    },
+    {
+      "row_type": "case",
+      "paper_id": 5,
+      "case_id": 20,
+      "cells": {
+        "infection": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "fever": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "surgery": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "biopsy": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "fat necrosis",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "viable_tumor": {
+          "value": "ABSENT",
+          "measurement_status": "REPORTED_ABSENT"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "BRAF,MC1R,MEFV",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "irAE": {
+          "value": "hepatotoxicity,polymyositis",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "PARTIAL",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        }
+      }
+    },
+    {
+      "row_type": "case",
+      "paper_id": 6,
+      "case_id": 21,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "AUTHOR_ALTERNATIVE_PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "necrosis",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "regression_extent": {
+          "value": "COMPLETE",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        }
+      }
+    },
+    {
+      "row_type": "case",
+      "paper_id": 7,
+      "case_id": 22,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "BRAF",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "COMPLETE|UNCERTAIN",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        }
+      }
+    },
+    {
+      "row_type": "case",
+      "paper_id": 7,
+      "case_id": 23,
+      "cells": {
+        "infection": {
+          "value": "ABSENT",
+          "measurement_status": "REPORTED_ABSENT"
+        },
+        "fever": {
+          "value": "ABSENT",
+          "measurement_status": "REPORTED_ABSENT"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "necrotic and necroinflammatory background",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "BRAF",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNCERTAIN",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "case",
+      "paper_id": 8,
+      "case_id": 24,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "XDP",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNCERTAIN",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "case",
+      "paper_id": 8,
+      "case_id": 25,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "XDP",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNCERTAIN",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        }
+      }
+    },
+    {
+      "row_type": "case",
+      "paper_id": 9,
+      "case_id": 26,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "COMPLETE|UNCERTAIN",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "case",
+      "paper_id": 10,
+      "case_id": 27,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "biopsy": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "1591 IU/L",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "genotype": {
+          "value": "BRAF,STK11",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNCERTAIN",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        }
+      }
+    },
+    {
+      "row_type": "case",
+      "paper_id": 11,
+      "case_id": 28,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "BRAF",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNCERTAIN",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "case",
+      "paper_id": 12,
+      "case_id": 29,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNCERTAIN",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "case",
+      "paper_id": 13,
+      "case_id": 30,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "biopsy": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNCERTAIN",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        },
+        "progression_elsewhere": {
+          "value": "PRESENT",
+          "measurement_status": "REPORTED_QUALITATIVELY"
+        }
+      }
+    }
+  ],
+  "lesion_rows": [
+    {
+      "row_type": "lesion",
+      "case_id": 16,
+      "lesion_id": 55,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 17,
+      "lesion_id": 56,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 17,
+      "lesion_id": 57,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 18,
+      "lesion_id": 58,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 18,
+      "lesion_id": 59,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 18,
+      "lesion_id": 60,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 20,
+      "lesion_id": 61,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 20,
+      "lesion_id": 62,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 21,
+      "lesion_id": 63,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 21,
+      "lesion_id": 64,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 21,
+      "lesion_id": 65,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 22,
+      "lesion_id": 66,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 22,
+      "lesion_id": 67,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 23,
+      "lesion_id": 68,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 23,
+      "lesion_id": 69,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 24,
+      "lesion_id": 99,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 25,
+      "lesion_id": 100,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 25,
+      "lesion_id": 101,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 25,
+      "lesion_id": 102,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 26,
+      "lesion_id": 103,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 26,
+      "lesion_id": 104,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 26,
+      "lesion_id": 105,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 27,
+      "lesion_id": 106,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 27,
+      "lesion_id": 107,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 27,
+      "lesion_id": 108,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 27,
+      "lesion_id": 109,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 28,
+      "lesion_id": 110,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 28,
+      "lesion_id": 111,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 29,
+      "lesion_id": 112,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 30,
+      "lesion_id": 113,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "lesion",
+      "case_id": 30,
+      "lesion_id": 114,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    }
+  ],
+  "episode_rows": [
+    {
+      "row_type": "episode",
+      "case_id": 16,
+      "episode_id": 28,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 17,
+      "episode_id": 29,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 17,
+      "episode_id": 30,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 18,
+      "episode_id": 31,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 18,
+      "episode_id": 32,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 18,
+      "episode_id": 33,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 19,
+      "episode_id": 34,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 19,
+      "episode_id": 35,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 19,
+      "episode_id": 36,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 19,
+      "episode_id": 37,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 20,
+      "episode_id": 38,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 20,
+      "episode_id": 39,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 21,
+      "episode_id": 40,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 22,
+      "episode_id": 41,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 22,
+      "episode_id": 42,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 23,
+      "episode_id": 43,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 24,
+      "episode_id": 68,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 25,
+      "episode_id": 69,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 25,
+      "episode_id": 70,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 25,
+      "episode_id": 71,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 26,
+      "episode_id": 72,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 26,
+      "episode_id": 73,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 27,
+      "episode_id": 74,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 28,
+      "episode_id": 75,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 28,
+      "episode_id": 76,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 29,
+      "episode_id": 77,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    },
+    {
+      "row_type": "episode",
+      "case_id": 30,
+      "episode_id": 78,
+      "cells": {
+        "infection": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "fever": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "surgery": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "biopsy": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "vaccination": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immunotherapy_history": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "immune_infiltration": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD3": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "CD8": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "NK": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "macrophage": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "FDG_SUV": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "necrosis": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "viable_tumor": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "hypoxia": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "metabolic_marker": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "genotype": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "irAE": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "leukoderma": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "regression_extent": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        },
+        "progression_elsewhere": {
+          "value": "UNKNOWN",
+          "measurement_status": "NOT_REPORTED"
+        }
+      }
+    }
+  ]
+}

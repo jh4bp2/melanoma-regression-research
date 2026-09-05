@@ -1,0 +1,107 @@
+[
+  {
+    "paper_id": 2,
+    "case_id": 16,
+    "patient_marker": "man with pulmonary metastatic melanoma [run 67]",
+    "year": 2016,
+    "melanoma_context": "malignant melanoma"
+  },
+  {
+    "paper_id": 1,
+    "case_id": 17,
+    "patient_marker": "paper-1-case-1 [run 69]",
+    "year": 2018,
+    "melanoma_context": "metastatic melanoma"
+  },
+  {
+    "paper_id": 3,
+    "case_id": 18,
+    "patient_marker": "paper-3-case-1 [run 71]",
+    "year": 2017,
+    "melanoma_context": "cutaneous melanoma with in-transit metastases"
+  },
+  {
+    "paper_id": 4,
+    "case_id": 19,
+    "patient_marker": "paper-4-case-1 [run 73]",
+    "year": 2013,
+    "melanoma_context": "right anterior tibial area"
+  },
+  {
+    "paper_id": 5,
+    "case_id": 20,
+    "patient_marker": "paper-5-case-1 [run 75]",
+    "year": 2022,
+    "melanoma_context": "metastatic melanoma"
+  },
+  {
+    "paper_id": 6,
+    "case_id": 21,
+    "patient_marker": "paper-6-case-1 [run 77]",
+    "year": 2017,
+    "melanoma_context": "acral melanoma (AM)"
+  },
+  {
+    "paper_id": 7,
+    "case_id": 22,
+    "patient_marker": "Patient A [run 79]",
+    "year": 2025,
+    "melanoma_context": null
+  },
+  {
+    "paper_id": 7,
+    "case_id": 23,
+    "patient_marker": "Patient B [run 79]",
+    "year": 2025,
+    "melanoma_context": "tip of the right fifth digit"
+  },
+  {
+    "paper_id": 8,
+    "case_id": 24,
+    "patient_marker": "CASE 1; proband (Fig. 1; II.4) [run 102]",
+    "year": 1978,
+    "melanoma_context": "primary subcutaneous malignant melanoma with metastatic malignant melanoma"
+  },
+  {
+    "paper_id": 8,
+    "case_id": 25,
+    "patient_marker": "CASE 2; sister of the proband (Fig. 1; II.2) [run 102]",
+    "year": 1978,
+    "melanoma_context": "malignant melanoma"
+  },
+  {
+    "paper_id": 9,
+    "case_id": 26,
+    "patient_marker": "paper-9-case-1 [run 105]",
+    "year": 1955,
+    "melanoma_context": "mixed-celled malignant melanoma of the choroid"
+  },
+  {
+    "paper_id": 10,
+    "case_id": 27,
+    "patient_marker": "paper-10-case-1 [run 107]",
+    "year": 2016,
+    "melanoma_context": "nodular melanoma"
+  },
+  {
+    "paper_id": 11,
+    "case_id": 28,
+    "patient_marker": "paper-11-case-1 [run 109]",
+    "year": 2020,
+    "melanoma_context": "invasive malignant melanoma"
+  },
+  {
+    "paper_id": 12,
+    "case_id": 29,
+    "patient_marker": "paper-12-case-1 [run 112]",
+    "year": 2022,
+    "melanoma_context": "regressing melanoma"
+  },
+  {
+    "paper_id": 13,
+    "case_id": 30,
+    "patient_marker": "72-year-old retired farmer [run 114]",
+    "year": 1984,
+    "melanoma_context": "malignant melanoma"
+  }
+]

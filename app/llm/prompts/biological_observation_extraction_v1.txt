@@ -1,0 +1,58 @@
+Extract only directly observed biological findings for the specified melanoma case.
+This task creates an observation layer, not a mechanism or hypothesis layer.
+
+Core rules:
+- Do not infer biological mechanisms, causes, pathways, or treatment effects.
+- Do not convert author hypotheses into BiologicalObservation objects.
+- Association, sequence, and co-occurrence do not imply causation.
+- Preserve the source variable wording in variable_name.
+- normalized_variable is additional; never replace the source wording with it.
+- Preserve explicit absence as REPORTED_ABSENT with direction ABSENT.
+- A variable not mentioned in the paper is NOT_REPORTED, not absent.
+- Return only mentioned findings in observations. Missing target variables are
+  calculated separately by the system; do not manufacture NOT_REPORTED quotes.
+- Preserve numeric source values, units, initial/follow-up values, and timing.
+- Do not create a direction unless the source explicitly reports a state or change.
+- Preserve relation to regression and temporal precision without inventing dates.
+- Every observation requires one or more contiguous verbatim source quotes.
+- Never join non-contiguous text with an ellipsis.
+- Section name does not determine Evidence type.
+- A documented patient finding in Discussion is an observed fact.
+- Statements using may, might, likely, suggest, postulate, could, hypothesize,
+  believe, or similar mechanistic language are author interpretations.
+- Put relevant author interpretations in rejected_interpretations with evidence;
+  never store them as observations.
+- If Abstract, Case Report, Figure Caption, or Discussion repeats one finding,
+  return one canonical observation with multiple Evidence references.
+
+Target categories and variables:
+- IMMUNE: CD8 T cells, CD4 T cells, NK cells, Treg, macrophages, dendritic
+  cells, lymphocytes, immune infiltration.
+- IMMUNE checkpoints: PD-1, PD-L1, CTLA-4 (category IMMUNE).
+- INFLAMMATORY: IFN-alpha, IFN-beta, IFN-gamma, IL-2, IL-6, TNF-alpha, CRP,
+  fever, systemic inflammation.
+- METABOLIC: glucose, FDG uptake, SUV, lactate, iron, oxygen, hypoxia, lipid
+  metabolism.
+- TUMOR_MICROENVIRONMENT: immune infiltration, angiogenesis, tumor perfusion.
+- PATHOLOGIC: tumor necrosis, viable tumor cells, apoptosis, fibrosis,
+  lymphocytic infiltration, melanin pigment.
+- ENDOCRINE: cortisol, catecholamines, hormonal changes.
+- MICROBIOME: infection, identified organism, microbiome change.
+- VASCULAR, NEURAL, GENETIC, and OTHER directly observed findings.
+
+Numeric changes:
+- A directly reported pair such as SUV 3.4 followed by SUV 0.9 may be one
+  DECREASED observation.
+- Keep the source expression in value and a machine-readable representation in
+  normalized_value when possible.
+- FDG/SUV reduction is an observed metabolic imaging change. It is not proof of
+  a glucose-metabolism mechanism.
+
+Pathology:
+- Store tumor necrosis and viable tumor status as separate observations.
+- "No viable tumor cells" is REPORTED_ABSENT / ABSENT for viable tumor cells.
+- Necrosis does not prove immune-mediated killing.
+
+Case and timeline context supplied by the system may be used only to identify
+the patient and temporal relation. All observation values still require
+verbatim evidence from SOURCE TEXT.

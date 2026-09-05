@@ -1,0 +1,1845 @@
+{
+  "export_type": "PHASE_2_RESEARCH_AUDIT",
+  "warning": "Association does not imply causation.",
+  "paper": {
+    "id": 2,
+    "title": "Spontaneous regression of pulmonary\nmetastatic melanoma",
+    "authors": [
+      "Sook Fen Ong",
+      "Michael Harden",
+      "Shabnam Irandoust",
+      "Richard Wai Wing Lee"
+    ],
+    "year": 2016,
+    "journal": "Respirology Case Reports",
+    "doi": "10.1002/rcr2.138",
+    "pmid": null,
+    "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4722093.1/PMC4722093.1.pdf",
+    "abstract": "Spontaneous regression of metastatic melanoma is a rare event with only 76 cases\nhaving been reported since 1866. The precise mechanism of regression remains\nunknown. We present a case of a man with spontaneous regression of pulmonary\nmetastatic melanoma conﬁrmed on histopathology accompanied by reduction in\nﬂuorodeoxyglucose-activity on serial positron emission tomography/computed\ntomography scan.",
+    "full_text_path": "C:\\Users\\bidul\\Desktop\\암 추적\\data\\papers\\ong_2015_pmc4722093.pdf",
+    "extracted_text_path": "C:\\Users\\bidul\\Desktop\\암 추적\\data\\processed\\4ec00bf0ec1e5a27d9a0f86df3e5861d1de7122528152146761f58e387c0394c.txt",
+    "paper_type": "case_report",
+    "analysis_status": "partial",
+    "content_sha256": "4ec00bf0ec1e5a27d9a0f86df3e5861d1de7122528152146761f58e387c0394c",
+    "page_count": 3,
+    "created_at": "2026-09-02T13:22:16"
+  },
+  "extraction_run": {
+    "id": 7,
+    "paper_id": 2,
+    "model": "gpt-5.6-terra",
+    "prompt_version": "paper_metadata:v1,case_detection:v1,case_extraction:v1,timeline_extraction:v1",
+    "status": "partial",
+    "retry_count": 0,
+    "started_at": "2026-09-02T16:26:35",
+    "finished_at": "2026-09-02T16:27:18.215743",
+    "error": null,
+    "result_json": {
+      "verification_failures": [
+        {
+          "field": "paper.case_existence",
+          "page": 1,
+          "quote": "A healthy 83-year-old male, a lifelong non-smoker, was found to have an incidental 15 mm left upper lobe lingula segment lung nodule... Computed-tomography-guided biopsy demonstrated malignant melanoma, immunohistochemistry was positive for S-100 and Melan-A.",
+          "reason": "Quote was not found in normalized paper text",
+          "status": "UNVERIFIED"
+        },
+        {
+          "field": "paper.case_existence",
+          "page": 1,
+          "quote": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis. Histopathology showed scattered completely infarcted and necrotic ghost outlines of cells seen within the nodule with no viable cells present.",
+          "reason": "Quote was not found in normalized paper text",
+          "status": "UNVERIFIED"
+        },
+        {
+          "field": "case.outcome",
+          "page": 7,
+          "quote": "Post-operative CT chest confirmed the left upper lobe nodule had been completely resected with no new pulmonary nodules.",
+          "reason": "Quote was not found in normalized paper text",
+          "status": "UNVERIFIED"
+        },
+        {
+          "field": "event.description",
+          "page": 7,
+          "quote": "Post-operative CT chest confirmed the left upper lobe nodule had been completely resected with no new pulmonary nodules.",
+          "reason": "Quote was not found in normalized paper text",
+          "status": "UNVERIFIED"
+        }
+      ],
+      "metadata": {
+        "title": {
+          "value": "Spontaneous regression of pulmonary\nmetastatic melanoma",
+          "status": "REPORTED",
+          "evidence_refs": [
+            {
+              "page": 1,
+              "quote": "Spontaneous regression of pulmonary\nmetastatic melanoma",
+              "section": "Title",
+              "evidence_type": "OBSERVED_FACT"
+            }
+          ]
+        },
+        "authors": {
+          "value": [
+            "Sook Fen Ong",
+            "Michael Harden",
+            "Shabnam Irandoust",
+            "Richard Wai Wing Lee"
+          ],
+          "status": "REPORTED",
+          "evidence_refs": [
+            {
+              "page": 1,
+              "quote": "Sook Fen Ong1, Michael Harden2, Shabnam Irandoust3 & Richard Wai Wing Lee1",
+              "section": "Title",
+              "evidence_type": "OBSERVED_FACT"
+            }
+          ]
+        },
+        "year": {
+          "value": 2016,
+          "status": "REPORTED",
+          "evidence_refs": [
+            {
+              "page": 1,
+              "quote": "Respirology Case Reports 2016; 4(1):\n7–9",
+              "section": "Title",
+              "evidence_type": "OBSERVED_FACT"
+            }
+          ]
+        },
+        "journal": {
+          "value": "Respirology Case Reports",
+          "status": "REPORTED",
+          "evidence_refs": [
+            {
+              "page": 1,
+              "quote": "Respirology Case Reports 2016; 4(1):\n7–9",
+              "section": "Title",
+              "evidence_type": "OBSERVED_FACT"
+            }
+          ]
+        },
+        "doi": {
+          "value": "10.1002/rcr2.138",
+          "status": "REPORTED",
+          "evidence_refs": [
+            {
+              "page": 1,
+              "quote": "doi: 10.1002/rcr2.138",
+              "section": "Title",
+              "evidence_type": "OBSERVED_FACT"
+            }
+          ]
+        },
+        "pmid": {
+          "value": null,
+          "status": "NOT_REPORTED",
+          "evidence_refs": []
+        },
+        "abstract": {
+          "value": "Spontaneous regression of metastatic melanoma is a rare event with only 76 cases\nhaving been reported since 1866. The precise mechanism of regression remains\nunknown. We present a case of a man with spontaneous regression of pulmonary\nmetastatic melanoma conﬁrmed on histopathology accompanied by reduction in\nﬂuorodeoxyglucose-activity on serial positron emission tomography/computed\ntomography scan.",
+          "status": "REPORTED",
+          "evidence_refs": [
+            {
+              "page": 1,
+              "quote": "Spontaneous regression of metastatic melanoma is a rare event with only 76 cases\nhaving been reported since 1866. The precise mechanism of regression remains\nunknown. We present a case of a man with spontaneous regression of pulmonary\nmetastatic melanoma conﬁrmed on histopathology accompanied by reduction in\nﬂuorodeoxyglucose-activity on serial positron emission tomography/computed\ntomography scan.",
+              "section": "Abstract",
+              "evidence_type": "AUTHOR_INTERPRETATION"
+            }
+          ]
+        },
+        "paper_type": {
+          "value": "case_report",
+          "status": "REPORTED",
+          "evidence_refs": [
+            {
+              "page": 3,
+              "quote": "To our knowledge, this is the only case report of sponta-\nneous regression of melanoma with evidence of serial\nreduction in FDG-avidity on PET/CT imaging, and con-\nﬁrmed on histopathology.",
+              "section": "Discussion",
+              "evidence_type": "AUTHOR_INTERPRETATION"
+            }
+          ]
+        }
+      },
+      "case_detection": {
+        "existence": "YES",
+        "confidence": 0.99,
+        "evidence_refs": [
+          {
+            "page": 1,
+            "quote": "A healthy 83-year-old male, a lifelong non-smoker, was found to have an incidental 15 mm left upper lobe lingula segment lung nodule... Computed-tomography-guided biopsy demonstrated malignant melanoma, immunohistochemistry was positive for S-100 and Melan-A.",
+            "section": "Case Report",
+            "evidence_type": "OBSERVED_FACT"
+          },
+          {
+            "page": 1,
+            "quote": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis. Histopathology showed scattered completely infarcted and necrotic ghost outlines of cells seen within the nodule with no viable cells present.",
+            "section": "Case Report",
+            "evidence_type": "OBSERVED_FACT"
+          },
+          {
+            "page": 1,
+            "quote": "The final diagnosis was spontaneous regression of pulmonary metastatic melanoma confirmed on histopathology accompanied by reduction in FDG-activity on serial PET scan.",
+            "section": "Case Report",
+            "evidence_type": "AUTHOR_INTERPRETATION"
+          }
+        ]
+      },
+      "cases": [
+        {
+          "patient_identifier": {
+            "value": null,
+            "status": "NOT_REPORTED",
+            "evidence_refs": []
+          },
+          "age": {
+            "value": 83,
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 7,
+                "quote": "A healthy 83-year-old male, a lifelong non-smoker, was found to have an incidental 15 mm left upper lobe lingula segment lung nodule as part of the investigation of peripheral neuropathy.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "sex": {
+            "value": "male",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 7,
+                "quote": "A healthy 83-year-old male, a lifelong non-smoker, was found to have an incidental 15 mm left upper lobe lingula segment lung nodule as part of the investigation of peripheral neuropathy.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "melanoma_subtype": {
+            "value": "pulmonary metastatic melanoma",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 7,
+                "quote": "The final diagnosis was spontaneous regression of pulmonary metastatic melanoma confirmed on histopathology accompanied by reduction in FDG-activity on serial PET scan.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "primary_site": {
+            "value": null,
+            "status": "NOT_REPORTED",
+            "evidence_refs": []
+          },
+          "stage": {
+            "value": null,
+            "status": "NOT_REPORTED",
+            "evidence_refs": []
+          },
+          "metastatic_sites": {
+            "value": [
+              "left upper lobe lingula segment of lung"
+            ],
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 7,
+                "quote": "A healthy 83-year-old male, a lifelong non-smoker, was found to have an incidental 15 mm left upper lobe lingula segment lung nodule as part of the investigation of peripheral neuropathy.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              },
+              {
+                "page": 7,
+                "quote": "The final diagnosis was spontaneous regression of pulmonary metastatic melanoma confirmed on histopathology accompanied by reduction in FDG-activity on serial PET scan.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "diagnosis_date": {
+            "value": null,
+            "status": "NOT_REPORTED",
+            "evidence_refs": []
+          },
+          "regression_start_date": {
+            "value": "at 6 months",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 7,
+                "quote": "Serial PET/CT scans were performed at 3 and 6 months as part of the treatment planning workup, which confirmed no progression of disease, but the left upper lobe nodule SUV (standardized uptake value) had reduced to 0.9 at 6 months (Fig. 2B).",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "regression_confirmed_date": {
+            "value": "8 months after initial diagnosis",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 7,
+                "quote": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis.Histopathology showed scattered completely infarcted and necrotic ghost outlines of cells seen within the nodule with no viable cells present.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "regression_type": {
+            "value": "spontaneous regression of pulmonary metastatic melanoma",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 7,
+                "quote": "The final diagnosis was spontaneous regression of pulmonary metastatic melanoma confirmed on histopathology accompanied by reduction in FDG-activity on serial PET scan.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "partial_or_complete": {
+            "value": "complete",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 7,
+                "quote": "Histopathology showed scattered completely infarcted and necrotic ghost outlines of cells seen within the nodule with no viable cells present.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "treatment_before_regression": {
+            "value": null,
+            "status": "NOT_REPORTED",
+            "evidence_refs": []
+          },
+          "treatment_status": {
+            "value": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis.",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 7,
+                "quote": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "preceding_events": {
+            "value": [
+              "investigation of peripheral neuropathy",
+              "Computed-tomography-guided biopsy"
+            ],
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 7,
+                "quote": "A healthy 83-year-old male, a lifelong non-smoker, was found to have an incidental 15 mm left upper lobe lingula segment lung nodule as part of the investigation of peripheral neuropathy.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              },
+              {
+                "page": 7,
+                "quote": "Computed-tomography-guided biopsy demonstrated malignant melanoma, immunohistochemistry was positive for S-100 and Melan-A (Fig. 1A).",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "outcome": {
+            "value": "Post-operative CT chest confirmed the left upper lobe nodule had been completely resected with no new pulmonary nodules.",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 7,
+                "quote": "Post-operative CT chest confirmed the left upper lobe nodule had been completely resected with no new pulmonary nodules.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "follow_up_duration": {
+            "value": null,
+            "status": "NOT_REPORTED",
+            "evidence_refs": []
+          },
+          "confidence": 0.95
+        }
+      ],
+      "timelines": [
+        {
+          "case_id": 1,
+          "events": [
+            {
+              "event_type": "other",
+              "description": "During investigation of peripheral neuropathy, an incidental 15 mm left upper lobe lingula segment lung nodule was found.",
+              "event_date": null,
+              "relative_time": null,
+              "date_precision": "UNKNOWN",
+              "relation_to_regression": "BEFORE",
+              "temporal_order_confidence": 0.9,
+              "evidence_refs": [
+                {
+                  "page": 7,
+                  "quote": "A healthy 83-year-old male, a lifelong non-smoker, was found to have an incidental 15 mm left upper lobe lingula segment lung nodule as part of the investigation of peripheral neuropathy.",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "biopsy",
+              "description": "Computed-tomography-guided biopsy demonstrated malignant melanoma; immunohistochemistry was positive for S-100 and Melan-A.",
+              "event_date": null,
+              "relative_time": null,
+              "date_precision": "UNKNOWN",
+              "relation_to_regression": "BEFORE",
+              "temporal_order_confidence": 0.95,
+              "evidence_refs": [
+                {
+                  "page": 7,
+                  "quote": "Computed-tomography-guided biopsy demonstrated malignant melanoma, immunohistochemistry was positive for S-100 and Melan-A (Fig. 1A).",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "diagnosis",
+              "description": "Malignant melanoma was diagnosed by computed-tomography-guided biopsy.",
+              "event_date": null,
+              "relative_time": null,
+              "date_precision": "UNKNOWN",
+              "relation_to_regression": "BEFORE",
+              "temporal_order_confidence": 0.95,
+              "evidence_refs": [
+                {
+                  "page": 7,
+                  "quote": "Computed-tomography-guided biopsy demonstrated malignant melanoma, immunohistochemistry was positive for S-100 and Melan-A (Fig. 1A).",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "metastasis",
+              "description": "Initial FDG PET/CT showed increased uptake in the left upper lobe lesion, with an SUV of 3.4, and mild uptake in small hilar and mediastinal lymph nodes.",
+              "event_date": null,
+              "relative_time": "The initial FDG (fluorodeoxyglucose) positron emission tomography/computed tomography (PET/CT) scan",
+              "date_precision": "RELATIVE",
+              "relation_to_regression": "BEFORE",
+              "temporal_order_confidence": 0.9,
+              "evidence_refs": [
+                {
+                  "page": 7,
+                  "quote": "The initial FDG (fluorodeoxyglucose) positron emission tomography/computed tomography (PET/CT) scan (Fig. 2A) showed increased uptake in the left upper lobe lesion with an SUV of 3.4, and mild uptake in the small hilar and mediastinal lymph nodes.",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "other",
+              "description": "Bronchoscopy showed no endobronchial lesions, and endobronchial ultrasound-guided fine-needle aspiration of mediastinal nodes showed no malignant cells.",
+              "event_date": null,
+              "relative_time": null,
+              "date_precision": "UNKNOWN",
+              "relation_to_regression": "BEFORE",
+              "temporal_order_confidence": 0.75,
+              "evidence_refs": [
+                {
+                  "page": 7,
+                  "quote": "No endobronchial lesions were seen on bronchoscopy. Endobronchial ultrasound-guided fine-needle aspiration of the mediastinal nodes showed no malignant cells.",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "other",
+              "description": "No cutaneous melanoma or other sites of metastasis were identified.",
+              "event_date": null,
+              "relative_time": null,
+              "date_precision": "UNKNOWN",
+              "relation_to_regression": "BEFORE",
+              "temporal_order_confidence": 0.75,
+              "evidence_refs": [
+                {
+                  "page": 7,
+                  "quote": "No cutaneous melanoma or other sites of metastasis were identified.",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "tumor_regression",
+              "description": "Serial PET/CT at 3 and 6 months showed no disease progression; at 6 months, the left upper lobe nodule SUV had reduced to 0.9.",
+              "event_date": null,
+              "relative_time": "at 6 months",
+              "date_precision": "RELATIVE",
+              "relation_to_regression": "DURING",
+              "temporal_order_confidence": 0.98,
+              "evidence_refs": [
+                {
+                  "page": 7,
+                  "quote": "Serial PET/CT scans were performed at 3 and 6 months as part of the treatment planning workup, which confirmed no progression of disease, but the left upper lobe nodule SUV (standardized uptake value) had reduced to 0.9 at 6 months (Fig. 2B).",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "surgery",
+              "description": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed.",
+              "event_date": null,
+              "relative_time": "8 months after initial diagnosis",
+              "date_precision": "RELATIVE",
+              "relation_to_regression": "AFTER",
+              "temporal_order_confidence": 0.98,
+              "evidence_refs": [
+                {
+                  "page": 7,
+                  "quote": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis.",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "tumor_regression",
+              "description": "Resection histopathology showed completely infarcted and necrotic ghost outlines of cells within the nodule, with no viable cells; S-100 and Melan-A stains were negative, and melanin pigment was confirmed within necrotic cells.",
+              "event_date": null,
+              "relative_time": "8 months after initial diagnosis",
+              "date_precision": "RELATIVE",
+              "relation_to_regression": "DURING",
+              "temporal_order_confidence": 0.95,
+              "evidence_refs": [
+                {
+                  "page": 7,
+                  "quote": "Histopathology showed scattered completely infarcted and necrotic ghost outlines of cells seen within the nodule with no viable cells present. Stains for S-100 and Melan-A were negative. Stains with Mason Fontana and Melanin bleach confirmed the presence of melanin pigment within the necrotic cells (Fig. 1B).",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "diagnosis",
+              "description": "The final diagnosis was spontaneous regression of pulmonary metastatic melanoma, confirmed on histopathology and accompanied by reduced FDG activity on serial PET scan.",
+              "event_date": null,
+              "relative_time": null,
+              "date_precision": "UNKNOWN",
+              "relation_to_regression": "DURING",
+              "temporal_order_confidence": 0.95,
+              "evidence_refs": [
+                {
+                  "page": 7,
+                  "quote": "The final diagnosis was spontaneous regression of pulmonary metastatic melanoma confirmed on histopathology accompanied by reduction in FDG-activity on serial PET scan.",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "other",
+              "description": "Post-operative CT chest confirmed complete resection of the left upper lobe nodule and no new pulmonary nodules.",
+              "event_date": null,
+              "relative_time": "Post-operative",
+              "date_precision": "RELATIVE",
+              "relation_to_regression": "AFTER",
+              "temporal_order_confidence": 0.95,
+              "evidence_refs": [
+                {
+                  "page": 7,
+                  "quote": "Post-operative CT chest confirmed the left upper lobe nodule had been completely resected with no new pulmonary nodules.",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "paper_field_evidence": [
+    {
+      "field_name": "abstract",
+      "evidence": {
+        "id": 6,
+        "paper_id": 2,
+        "case_id": null,
+        "evidence_type": "AUTHOR_INTERPRETATION",
+        "claim": "paper.abstract: Spontaneous regression of metastatic melanoma is a rare event with only 76 cases\nhaving been reported since 1866. The precise mechanism of regression remains\nunknown. We present a case of a man with spontaneous regression of pulmonary\nmetastatic melanoma conﬁrmed on histopathology accompanied by reduction in\nﬂuorodeoxyglucose-activity on serial positron emission tomography/computed\ntomography scan.",
+        "source_quote": "Spontaneous regression of metastatic melanoma is a rare event with only 76 cases\nhaving been reported since 1866. The precise mechanism of regression remains\nunknown. We present a case of a man with spontaneous regression of pulmonary\nmetastatic melanoma conﬁrmed on histopathology accompanied by reduction in\nﬂuorodeoxyglucose-activity on serial positron emission tomography/computed\ntomography scan.",
+        "page": 1,
+        "section": "Abstract",
+        "paragraph": null,
+        "confidence": 1.0,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "authors",
+      "evidence": {
+        "id": 2,
+        "paper_id": 2,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.authors: ['Sook Fen Ong', 'Michael Harden', 'Shabnam Irandoust', 'Richard Wai Wing Lee']",
+        "source_quote": "Sook Fen Ong1, Michael Harden2, Shabnam Irandoust3 & Richard Wai Wing Lee1",
+        "page": 1,
+        "section": "Title",
+        "paragraph": null,
+        "confidence": 1.0,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "case_existence",
+      "evidence": {
+        "id": 8,
+        "paper_id": 2,
+        "case_id": null,
+        "evidence_type": "AUTHOR_INTERPRETATION",
+        "claim": "paper.case_existence: YES",
+        "source_quote": "The final diagnosis was spontaneous regression of pulmonary metastatic melanoma confirmed on histopathology accompanied by reduction in FDG-activity on serial PET scan.",
+        "page": 1,
+        "section": "Case Report",
+        "paragraph": null,
+        "confidence": 0.99,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "doi",
+      "evidence": {
+        "id": 5,
+        "paper_id": 2,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.doi: 10.1002/rcr2.138",
+        "source_quote": "doi: 10.1002/rcr2.138",
+        "page": 1,
+        "section": "Title",
+        "paragraph": null,
+        "confidence": 1.0,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "journal",
+      "evidence": {
+        "id": 4,
+        "paper_id": 2,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.journal: Respirology Case Reports",
+        "source_quote": "Respirology Case Reports 2016; 4(1):\n7–9",
+        "page": 1,
+        "section": "Title",
+        "paragraph": null,
+        "confidence": 1.0,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "paper_type",
+      "evidence": {
+        "id": 7,
+        "paper_id": 2,
+        "case_id": null,
+        "evidence_type": "AUTHOR_INTERPRETATION",
+        "claim": "paper.paper_type: PaperType.CASE_REPORT",
+        "source_quote": "To our knowledge, this is the only case report of sponta-\nneous regression of melanoma with evidence of serial\nreduction in FDG-avidity on PET/CT imaging, and con-\nﬁrmed on histopathology.",
+        "page": 3,
+        "section": "Discussion",
+        "paragraph": null,
+        "confidence": 1.0,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "title",
+      "evidence": {
+        "id": 1,
+        "paper_id": 2,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.title: Spontaneous regression of pulmonary\nmetastatic melanoma",
+        "source_quote": "Spontaneous regression of pulmonary\nmetastatic melanoma",
+        "page": 1,
+        "section": "Title",
+        "paragraph": null,
+        "confidence": 1.0,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "year",
+      "evidence": {
+        "id": 3,
+        "paper_id": 2,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.year: 2016",
+        "source_quote": "Respirology Case Reports 2016; 4(1):\n7–9",
+        "page": 1,
+        "section": "Title",
+        "paragraph": null,
+        "confidence": 1.0,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "case": {
+        "id": 1,
+        "paper_id": 2,
+        "patient_identifier": "paper-2-case-1",
+        "age": 83,
+        "sex": "male",
+        "melanoma_subtype": "pulmonary metastatic melanoma",
+        "primary_site": null,
+        "stage": null,
+        "metastatic_sites": [
+          "left upper lobe lingula segment of lung"
+        ],
+        "diagnosis_date": null,
+        "regression_start_date": null,
+        "regression_confirmed_date": null,
+        "regression_type": "spontaneous regression of pulmonary metastatic melanoma",
+        "partial_or_complete": "complete",
+        "treatment_before_regression": null,
+        "treatment_status": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis.",
+        "preceding_event": "investigation of peripheral neuropathy; Computed-tomography-guided biopsy",
+        "outcome": null,
+        "follow_up_duration": null,
+        "notes": null,
+        "extraction_confidence": 0.95,
+        "field_statuses": {
+          "patient_identifier": {
+            "status": "NOT_REPORTED",
+            "raw_value": null
+          },
+          "age": {
+            "status": "REPORTED",
+            "raw_value": 83
+          },
+          "sex": {
+            "status": "REPORTED",
+            "raw_value": "male"
+          },
+          "melanoma_subtype": {
+            "status": "REPORTED",
+            "raw_value": "pulmonary metastatic melanoma"
+          },
+          "primary_site": {
+            "status": "NOT_REPORTED",
+            "raw_value": null
+          },
+          "stage": {
+            "status": "NOT_REPORTED",
+            "raw_value": null
+          },
+          "metastatic_sites": {
+            "status": "REPORTED",
+            "raw_value": [
+              "left upper lobe lingula segment of lung"
+            ]
+          },
+          "diagnosis_date": {
+            "status": "NOT_REPORTED",
+            "raw_value": null
+          },
+          "regression_start_date": {
+            "status": "REPORTED",
+            "raw_value": "at 6 months"
+          },
+          "regression_confirmed_date": {
+            "status": "REPORTED",
+            "raw_value": "8 months after initial diagnosis"
+          },
+          "regression_type": {
+            "status": "REPORTED",
+            "raw_value": "spontaneous regression of pulmonary metastatic melanoma"
+          },
+          "partial_or_complete": {
+            "status": "REPORTED",
+            "raw_value": "complete"
+          },
+          "treatment_before_regression": {
+            "status": "NOT_REPORTED",
+            "raw_value": null
+          },
+          "treatment_status": {
+            "status": "REPORTED",
+            "raw_value": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis."
+          },
+          "preceding_events": {
+            "status": "REPORTED",
+            "raw_value": [
+              "investigation of peripheral neuropathy",
+              "Computed-tomography-guided biopsy"
+            ]
+          },
+          "outcome": {
+            "status": "UNCERTAIN",
+            "raw_value": "Post-operative CT chest confirmed the left upper lobe nodule had been completely resected with no new pulmonary nodules."
+          },
+          "follow_up_duration": {
+            "status": "NOT_REPORTED",
+            "raw_value": null
+          }
+        },
+        "extraction_run_id": 7
+      },
+      "field_evidence": [
+        {
+          "field_name": "age",
+          "evidence": {
+            "id": 9,
+            "paper_id": 2,
+            "case_id": 1,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.age: 83",
+            "source_quote": "A healthy 83-year-old male, a lifelong non-smoker, was found to have an incidental 15 mm left upper lobe lingula segment lung nodule as part of the investigation of peripheral neuropathy.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.95,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "melanoma_subtype",
+          "evidence": {
+            "id": 11,
+            "paper_id": 2,
+            "case_id": 1,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.melanoma_subtype: pulmonary metastatic melanoma",
+            "source_quote": "The final diagnosis was spontaneous regression of pulmonary metastatic melanoma confirmed on histopathology accompanied by reduction in FDG-activity on serial PET scan.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.95,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "metastatic_sites",
+          "evidence": {
+            "id": 12,
+            "paper_id": 2,
+            "case_id": 1,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.metastatic_sites: ['left upper lobe lingula segment of lung']",
+            "source_quote": "A healthy 83-year-old male, a lifelong non-smoker, was found to have an incidental 15 mm left upper lobe lingula segment lung nodule as part of the investigation of peripheral neuropathy.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.95,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "metastatic_sites",
+          "evidence": {
+            "id": 13,
+            "paper_id": 2,
+            "case_id": 1,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.metastatic_sites: ['left upper lobe lingula segment of lung']",
+            "source_quote": "The final diagnosis was spontaneous regression of pulmonary metastatic melanoma confirmed on histopathology accompanied by reduction in FDG-activity on serial PET scan.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.95,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "partial_or_complete",
+          "evidence": {
+            "id": 17,
+            "paper_id": 2,
+            "case_id": 1,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.partial_or_complete: complete",
+            "source_quote": "Histopathology showed scattered completely infarcted and necrotic ghost outlines of cells seen within the nodule with no viable cells present.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.95,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "preceding_events",
+          "evidence": {
+            "id": 19,
+            "paper_id": 2,
+            "case_id": 1,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.preceding_events: ['investigation of peripheral neuropathy', 'Computed-tomography-guided biopsy']",
+            "source_quote": "A healthy 83-year-old male, a lifelong non-smoker, was found to have an incidental 15 mm left upper lobe lingula segment lung nodule as part of the investigation of peripheral neuropathy.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.95,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "preceding_events",
+          "evidence": {
+            "id": 20,
+            "paper_id": 2,
+            "case_id": 1,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.preceding_events: ['investigation of peripheral neuropathy', 'Computed-tomography-guided biopsy']",
+            "source_quote": "Computed-tomography-guided biopsy demonstrated malignant melanoma, immunohistochemistry was positive for S-100 and Melan-A (Fig. 1A).",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.95,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "regression_confirmed_date",
+          "evidence": {
+            "id": 15,
+            "paper_id": 2,
+            "case_id": 1,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.regression_confirmed_date: 8 months after initial diagnosis",
+            "source_quote": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis.Histopathology showed scattered completely infarcted and necrotic ghost outlines of cells seen within the nodule with no viable cells present.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.95,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "regression_start_date",
+          "evidence": {
+            "id": 14,
+            "paper_id": 2,
+            "case_id": 1,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.regression_start_date: at 6 months",
+            "source_quote": "Serial PET/CT scans were performed at 3 and 6 months as part of the treatment planning workup, which confirmed no progression of disease, but the left upper lobe nodule SUV (standardized uptake value) had reduced to 0.9 at 6 months (Fig. 2B).",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.95,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "regression_type",
+          "evidence": {
+            "id": 16,
+            "paper_id": 2,
+            "case_id": 1,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.regression_type: spontaneous regression of pulmonary metastatic melanoma",
+            "source_quote": "The final diagnosis was spontaneous regression of pulmonary metastatic melanoma confirmed on histopathology accompanied by reduction in FDG-activity on serial PET scan.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.95,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "sex",
+          "evidence": {
+            "id": 10,
+            "paper_id": 2,
+            "case_id": 1,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.sex: male",
+            "source_quote": "A healthy 83-year-old male, a lifelong non-smoker, was found to have an incidental 15 mm left upper lobe lingula segment lung nodule as part of the investigation of peripheral neuropathy.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.95,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "treatment_status",
+          "evidence": {
+            "id": 18,
+            "paper_id": 2,
+            "case_id": 1,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.treatment_status: Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis.",
+            "source_quote": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.95,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "event": {
+            "id": 8,
+            "case_id": 1,
+            "event_date": null,
+            "date_precision": "relative",
+            "relative_day": 240,
+            "relative_time": "8 months after initial diagnosis",
+            "source_date_precision": "RELATIVE",
+            "relation_to_regression": "AFTER",
+            "temporal_order_confidence": 0.98,
+            "extraction_run_id": 7,
+            "event_type": "surgery",
+            "description": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed."
+          },
+          "field_evidence": [
+            {
+              "field_name": "date_precision",
+              "evidence": {
+                "id": 28,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed.",
+                "source_quote": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.98,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 28,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed.",
+                "source_quote": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.98,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 28,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed.",
+                "source_quote": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.98,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 28,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed.",
+                "source_quote": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.98,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relative_time",
+              "evidence": {
+                "id": 28,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed.",
+                "source_quote": "Video-assisted thoracoscopic surgery wedge resection of the left upper lobe lesion was performed 8 months after initial diagnosis.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.98,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 9,
+            "case_id": 1,
+            "event_date": null,
+            "date_precision": "relative",
+            "relative_day": 240,
+            "relative_time": "8 months after initial diagnosis",
+            "source_date_precision": "RELATIVE",
+            "relation_to_regression": "DURING",
+            "temporal_order_confidence": 0.95,
+            "extraction_run_id": 7,
+            "event_type": "tumor_regression",
+            "description": "Resection histopathology showed completely infarcted and necrotic ghost outlines of cells within the nodule, with no viable cells; S-100 and Melan-A stains were negative, and melanin pigment was confirmed within necrotic cells."
+          },
+          "field_evidence": [
+            {
+              "field_name": "date_precision",
+              "evidence": {
+                "id": 29,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Resection histopathology showed completely infarcted and necrotic ghost outlines of cells within the nodule, with no viable cells; S-100 and Melan-A stains were negative, and melanin pigment was confirmed within necrotic cells.",
+                "source_quote": "Histopathology showed scattered completely infarcted and necrotic ghost outlines of cells seen within the nodule with no viable cells present. Stains for S-100 and Melan-A were negative. Stains with Mason Fontana and Melanin bleach confirmed the presence of melanin pigment within the necrotic cells (Fig. 1B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 29,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Resection histopathology showed completely infarcted and necrotic ghost outlines of cells within the nodule, with no viable cells; S-100 and Melan-A stains were negative, and melanin pigment was confirmed within necrotic cells.",
+                "source_quote": "Histopathology showed scattered completely infarcted and necrotic ghost outlines of cells seen within the nodule with no viable cells present. Stains for S-100 and Melan-A were negative. Stains with Mason Fontana and Melanin bleach confirmed the presence of melanin pigment within the necrotic cells (Fig. 1B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 29,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Resection histopathology showed completely infarcted and necrotic ghost outlines of cells within the nodule, with no viable cells; S-100 and Melan-A stains were negative, and melanin pigment was confirmed within necrotic cells.",
+                "source_quote": "Histopathology showed scattered completely infarcted and necrotic ghost outlines of cells seen within the nodule with no viable cells present. Stains for S-100 and Melan-A were negative. Stains with Mason Fontana and Melanin bleach confirmed the presence of melanin pigment within the necrotic cells (Fig. 1B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 29,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Resection histopathology showed completely infarcted and necrotic ghost outlines of cells within the nodule, with no viable cells; S-100 and Melan-A stains were negative, and melanin pigment was confirmed within necrotic cells.",
+                "source_quote": "Histopathology showed scattered completely infarcted and necrotic ghost outlines of cells seen within the nodule with no viable cells present. Stains for S-100 and Melan-A were negative. Stains with Mason Fontana and Melanin bleach confirmed the presence of melanin pigment within the necrotic cells (Fig. 1B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relative_time",
+              "evidence": {
+                "id": 29,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Resection histopathology showed completely infarcted and necrotic ghost outlines of cells within the nodule, with no viable cells; S-100 and Melan-A stains were negative, and melanin pigment was confirmed within necrotic cells.",
+                "source_quote": "Histopathology showed scattered completely infarcted and necrotic ghost outlines of cells seen within the nodule with no viable cells present. Stains for S-100 and Melan-A were negative. Stains with Mason Fontana and Melanin bleach confirmed the presence of melanin pigment within the necrotic cells (Fig. 1B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 1,
+            "case_id": 1,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": null,
+            "source_date_precision": "UNKNOWN",
+            "relation_to_regression": "BEFORE",
+            "temporal_order_confidence": 0.9,
+            "extraction_run_id": 7,
+            "event_type": "other",
+            "description": "During investigation of peripheral neuropathy, an incidental 15 mm left upper lobe lingula segment lung nodule was found."
+          },
+          "field_evidence": [
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 21,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: During investigation of peripheral neuropathy, an incidental 15 mm left upper lobe lingula segment lung nodule was found.",
+                "source_quote": "A healthy 83-year-old male, a lifelong non-smoker, was found to have an incidental 15 mm left upper lobe lingula segment lung nodule as part of the investigation of peripheral neuropathy.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 21,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: During investigation of peripheral neuropathy, an incidental 15 mm left upper lobe lingula segment lung nodule was found.",
+                "source_quote": "A healthy 83-year-old male, a lifelong non-smoker, was found to have an incidental 15 mm left upper lobe lingula segment lung nodule as part of the investigation of peripheral neuropathy.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 21,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: During investigation of peripheral neuropathy, an incidental 15 mm left upper lobe lingula segment lung nodule was found.",
+                "source_quote": "A healthy 83-year-old male, a lifelong non-smoker, was found to have an incidental 15 mm left upper lobe lingula segment lung nodule as part of the investigation of peripheral neuropathy.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 2,
+            "case_id": 1,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": null,
+            "source_date_precision": "UNKNOWN",
+            "relation_to_regression": "BEFORE",
+            "temporal_order_confidence": 0.95,
+            "extraction_run_id": 7,
+            "event_type": "biopsy",
+            "description": "Computed-tomography-guided biopsy demonstrated malignant melanoma; immunohistochemistry was positive for S-100 and Melan-A."
+          },
+          "field_evidence": [
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 22,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Computed-tomography-guided biopsy demonstrated malignant melanoma; immunohistochemistry was positive for S-100 and Melan-A.",
+                "source_quote": "Computed-tomography-guided biopsy demonstrated malignant melanoma, immunohistochemistry was positive for S-100 and Melan-A (Fig. 1A).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 22,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Computed-tomography-guided biopsy demonstrated malignant melanoma; immunohistochemistry was positive for S-100 and Melan-A.",
+                "source_quote": "Computed-tomography-guided biopsy demonstrated malignant melanoma, immunohistochemistry was positive for S-100 and Melan-A (Fig. 1A).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 22,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Computed-tomography-guided biopsy demonstrated malignant melanoma; immunohistochemistry was positive for S-100 and Melan-A.",
+                "source_quote": "Computed-tomography-guided biopsy demonstrated malignant melanoma, immunohistochemistry was positive for S-100 and Melan-A (Fig. 1A).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 3,
+            "case_id": 1,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": null,
+            "source_date_precision": "UNKNOWN",
+            "relation_to_regression": "BEFORE",
+            "temporal_order_confidence": 0.95,
+            "extraction_run_id": 7,
+            "event_type": "diagnosis",
+            "description": "Malignant melanoma was diagnosed by computed-tomography-guided biopsy."
+          },
+          "field_evidence": [
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 23,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Malignant melanoma was diagnosed by computed-tomography-guided biopsy.",
+                "source_quote": "Computed-tomography-guided biopsy demonstrated malignant melanoma, immunohistochemistry was positive for S-100 and Melan-A (Fig. 1A).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 23,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Malignant melanoma was diagnosed by computed-tomography-guided biopsy.",
+                "source_quote": "Computed-tomography-guided biopsy demonstrated malignant melanoma, immunohistochemistry was positive for S-100 and Melan-A (Fig. 1A).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 23,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Malignant melanoma was diagnosed by computed-tomography-guided biopsy.",
+                "source_quote": "Computed-tomography-guided biopsy demonstrated malignant melanoma, immunohistochemistry was positive for S-100 and Melan-A (Fig. 1A).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 4,
+            "case_id": 1,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": "The initial FDG (fluorodeoxyglucose) positron emission tomography/computed tomography (PET/CT) scan",
+            "source_date_precision": "RELATIVE",
+            "relation_to_regression": "BEFORE",
+            "temporal_order_confidence": 0.9,
+            "extraction_run_id": 7,
+            "event_type": "metastasis",
+            "description": "Initial FDG PET/CT showed increased uptake in the left upper lobe lesion, with an SUV of 3.4, and mild uptake in small hilar and mediastinal lymph nodes."
+          },
+          "field_evidence": [
+            {
+              "field_name": "date_precision",
+              "evidence": {
+                "id": 24,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Initial FDG PET/CT showed increased uptake in the left upper lobe lesion, with an SUV of 3.4, and mild uptake in small hilar and mediastinal lymph nodes.",
+                "source_quote": "The initial FDG (fluorodeoxyglucose) positron emission tomography/computed tomography (PET/CT) scan (Fig. 2A) showed increased uptake in the left upper lobe lesion with an SUV of 3.4, and mild uptake in the small hilar and mediastinal lymph nodes.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 24,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Initial FDG PET/CT showed increased uptake in the left upper lobe lesion, with an SUV of 3.4, and mild uptake in small hilar and mediastinal lymph nodes.",
+                "source_quote": "The initial FDG (fluorodeoxyglucose) positron emission tomography/computed tomography (PET/CT) scan (Fig. 2A) showed increased uptake in the left upper lobe lesion with an SUV of 3.4, and mild uptake in the small hilar and mediastinal lymph nodes.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 24,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Initial FDG PET/CT showed increased uptake in the left upper lobe lesion, with an SUV of 3.4, and mild uptake in small hilar and mediastinal lymph nodes.",
+                "source_quote": "The initial FDG (fluorodeoxyglucose) positron emission tomography/computed tomography (PET/CT) scan (Fig. 2A) showed increased uptake in the left upper lobe lesion with an SUV of 3.4, and mild uptake in the small hilar and mediastinal lymph nodes.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 24,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Initial FDG PET/CT showed increased uptake in the left upper lobe lesion, with an SUV of 3.4, and mild uptake in small hilar and mediastinal lymph nodes.",
+                "source_quote": "The initial FDG (fluorodeoxyglucose) positron emission tomography/computed tomography (PET/CT) scan (Fig. 2A) showed increased uptake in the left upper lobe lesion with an SUV of 3.4, and mild uptake in the small hilar and mediastinal lymph nodes.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relative_time",
+              "evidence": {
+                "id": 24,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Initial FDG PET/CT showed increased uptake in the left upper lobe lesion, with an SUV of 3.4, and mild uptake in small hilar and mediastinal lymph nodes.",
+                "source_quote": "The initial FDG (fluorodeoxyglucose) positron emission tomography/computed tomography (PET/CT) scan (Fig. 2A) showed increased uptake in the left upper lobe lesion with an SUV of 3.4, and mild uptake in the small hilar and mediastinal lymph nodes.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 5,
+            "case_id": 1,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": null,
+            "source_date_precision": "UNKNOWN",
+            "relation_to_regression": "BEFORE",
+            "temporal_order_confidence": 0.75,
+            "extraction_run_id": 7,
+            "event_type": "other",
+            "description": "Bronchoscopy showed no endobronchial lesions, and endobronchial ultrasound-guided fine-needle aspiration of mediastinal nodes showed no malignant cells."
+          },
+          "field_evidence": [
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 25,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Bronchoscopy showed no endobronchial lesions, and endobronchial ultrasound-guided fine-needle aspiration of mediastinal nodes showed no malignant cells.",
+                "source_quote": "No endobronchial lesions were seen on bronchoscopy. Endobronchial ultrasound-guided fine-needle aspiration of the mediastinal nodes showed no malignant cells.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.75,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 25,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Bronchoscopy showed no endobronchial lesions, and endobronchial ultrasound-guided fine-needle aspiration of mediastinal nodes showed no malignant cells.",
+                "source_quote": "No endobronchial lesions were seen on bronchoscopy. Endobronchial ultrasound-guided fine-needle aspiration of the mediastinal nodes showed no malignant cells.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.75,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 25,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Bronchoscopy showed no endobronchial lesions, and endobronchial ultrasound-guided fine-needle aspiration of mediastinal nodes showed no malignant cells.",
+                "source_quote": "No endobronchial lesions were seen on bronchoscopy. Endobronchial ultrasound-guided fine-needle aspiration of the mediastinal nodes showed no malignant cells.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.75,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 6,
+            "case_id": 1,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": null,
+            "source_date_precision": "UNKNOWN",
+            "relation_to_regression": "BEFORE",
+            "temporal_order_confidence": 0.75,
+            "extraction_run_id": 7,
+            "event_type": "other",
+            "description": "No cutaneous melanoma or other sites of metastasis were identified."
+          },
+          "field_evidence": [
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 26,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: No cutaneous melanoma or other sites of metastasis were identified.",
+                "source_quote": "No cutaneous melanoma or other sites of metastasis were identified.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.75,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 26,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: No cutaneous melanoma or other sites of metastasis were identified.",
+                "source_quote": "No cutaneous melanoma or other sites of metastasis were identified.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.75,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 26,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: No cutaneous melanoma or other sites of metastasis were identified.",
+                "source_quote": "No cutaneous melanoma or other sites of metastasis were identified.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.75,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 7,
+            "case_id": 1,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": "at 6 months",
+            "source_date_precision": "RELATIVE",
+            "relation_to_regression": "DURING",
+            "temporal_order_confidence": 0.98,
+            "extraction_run_id": 7,
+            "event_type": "tumor_regression",
+            "description": "Serial PET/CT at 3 and 6 months showed no disease progression; at 6 months, the left upper lobe nodule SUV had reduced to 0.9."
+          },
+          "field_evidence": [
+            {
+              "field_name": "date_precision",
+              "evidence": {
+                "id": 27,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Serial PET/CT at 3 and 6 months showed no disease progression; at 6 months, the left upper lobe nodule SUV had reduced to 0.9.",
+                "source_quote": "Serial PET/CT scans were performed at 3 and 6 months as part of the treatment planning workup, which confirmed no progression of disease, but the left upper lobe nodule SUV (standardized uptake value) had reduced to 0.9 at 6 months (Fig. 2B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.98,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 27,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Serial PET/CT at 3 and 6 months showed no disease progression; at 6 months, the left upper lobe nodule SUV had reduced to 0.9.",
+                "source_quote": "Serial PET/CT scans were performed at 3 and 6 months as part of the treatment planning workup, which confirmed no progression of disease, but the left upper lobe nodule SUV (standardized uptake value) had reduced to 0.9 at 6 months (Fig. 2B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.98,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 27,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Serial PET/CT at 3 and 6 months showed no disease progression; at 6 months, the left upper lobe nodule SUV had reduced to 0.9.",
+                "source_quote": "Serial PET/CT scans were performed at 3 and 6 months as part of the treatment planning workup, which confirmed no progression of disease, but the left upper lobe nodule SUV (standardized uptake value) had reduced to 0.9 at 6 months (Fig. 2B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.98,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 27,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Serial PET/CT at 3 and 6 months showed no disease progression; at 6 months, the left upper lobe nodule SUV had reduced to 0.9.",
+                "source_quote": "Serial PET/CT scans were performed at 3 and 6 months as part of the treatment planning workup, which confirmed no progression of disease, but the left upper lobe nodule SUV (standardized uptake value) had reduced to 0.9 at 6 months (Fig. 2B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.98,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relative_time",
+              "evidence": {
+                "id": 27,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Serial PET/CT at 3 and 6 months showed no disease progression; at 6 months, the left upper lobe nodule SUV had reduced to 0.9.",
+                "source_quote": "Serial PET/CT scans were performed at 3 and 6 months as part of the treatment planning workup, which confirmed no progression of disease, but the left upper lobe nodule SUV (standardized uptake value) had reduced to 0.9 at 6 months (Fig. 2B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.98,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 10,
+            "case_id": 1,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": null,
+            "source_date_precision": "UNKNOWN",
+            "relation_to_regression": "DURING",
+            "temporal_order_confidence": 0.95,
+            "extraction_run_id": 7,
+            "event_type": "diagnosis",
+            "description": "The final diagnosis was spontaneous regression of pulmonary metastatic melanoma, confirmed on histopathology and accompanied by reduced FDG activity on serial PET scan."
+          },
+          "field_evidence": [
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 30,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The final diagnosis was spontaneous regression of pulmonary metastatic melanoma, confirmed on histopathology and accompanied by reduced FDG activity on serial PET scan.",
+                "source_quote": "The final diagnosis was spontaneous regression of pulmonary metastatic melanoma confirmed on histopathology accompanied by reduction in FDG-activity on serial PET scan.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 30,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The final diagnosis was spontaneous regression of pulmonary metastatic melanoma, confirmed on histopathology and accompanied by reduced FDG activity on serial PET scan.",
+                "source_quote": "The final diagnosis was spontaneous regression of pulmonary metastatic melanoma confirmed on histopathology accompanied by reduction in FDG-activity on serial PET scan.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 30,
+                "paper_id": 2,
+                "case_id": 1,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The final diagnosis was spontaneous regression of pulmonary metastatic melanoma, confirmed on histopathology and accompanied by reduced FDG activity on serial PET scan.",
+                "source_quote": "The final diagnosis was spontaneous regression of pulmonary metastatic melanoma confirmed on histopathology accompanied by reduction in FDG-activity on serial PET scan.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

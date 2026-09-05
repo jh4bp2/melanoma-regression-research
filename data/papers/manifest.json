@@ -1,0 +1,399 @@
+{
+  "purpose": "Acquisition provenance only; candidate metadata is not scientific Evidence.",
+  "source_dataset": "NIH NLM NCBI PubMed Central Article Datasets on AWS",
+  "accessed_on": "2026-09-05",
+  "papers": [
+    {
+      "filename": "ong_2015_pmc4722093.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4722093.1/PMC4722093.1.pdf",
+      "source_version": "PMC4722093.1",
+      "source_size_bytes": 341426,
+      "source_etag_md5": "4ef67a69ed2a82cdd9131ba320c9a5ed",
+      "local_sha256": "4ec00bf0ec1e5a27d9a0f86df3e5861d1de7122528152146761f58e387c0394c",
+      "candidate_identifiers": {
+        "doi": "10.1002/rcr2.138",
+        "pmid": "26839692",
+        "pmcid": "PMC4722093"
+      }
+    },
+    {
+      "filename": "behnia_2018_pmc6029935.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6029935.1/PMC6029935.1.pdf",
+      "source_version": "PMC6029935.1",
+      "source_size_bytes": 739550,
+      "source_etag_md5": "8098281c64b3f950688001c199db6d34",
+      "local_sha256": "516e1992f797b08dde8f3c736f205922a7ed6c15844707a90e8b1b2885ab7aca",
+      "candidate_identifiers": {
+        "doi": "10.1016/j.radcr.2018.02.012",
+        "pmid": "29988770",
+        "pmcid": "PMC6029935"
+      }
+    },
+    {
+      "title": "Complete regression of metastatic melanoma in a patient following open-heart surgery with an infective complication",
+      "filename": null,
+      "source_url": "https://casereports.bmj.com/content/19/6/e272670",
+      "access_source": "BMJ Case Reports publisher page (closed access)",
+      "source_size_bytes": null,
+      "local_sha256": null,
+      "page_count": null,
+      "download_date": null,
+      "access_checked_on": "2026-09-05",
+      "status": "FULLTEXT_UNAVAILABLE",
+      "candidate_identifiers": {
+        "doi": "10.1136/bcr-2026-272670",
+        "pmid": "42309562",
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Spontaneous regression of metastatic melanoma after inoculation with tetanus-diphtheria-pertussis vaccine",
+      "filename": "tran_2013_pmc3671034.pdf",
+      "source_url": "https://europepmc.org/articles/PMC3671034?pdf=render",
+      "access_source": "Europe PMC full-text PDF",
+      "source_size_bytes": 492604,
+      "local_sha256": "3dc31ba3cdcfe76adb4d468aeb7bde1fc7a9e73d80144211d28c38dc89744ace",
+      "page_count": 4,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 4,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.3747/co.20.1212",
+        "pmid": "23737697",
+        "pmcid": "PMC3671034"
+      }
+    },
+    {
+      "title": "Regression of multifocoal in transit melanoma metastases after palliative resection of dominant masses and 2 years after treatment with ipilimumab",
+      "filename": "moreira_2017_pmc5514538.pdf",
+      "source_url": "https://jitc.bmj.com/content/jitc/5/1/61.full.pdf",
+      "access_source": "Journal for ImmunoTherapy of Cancer publisher open-access PDF",
+      "source_size_bytes": 781559,
+      "local_sha256": "eaec4d860bf3fa3f953f894e6e6c335ed567122a5b131c64bdfc03cf4800f991",
+      "page_count": 4,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 3,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.1186/s40425-017-0259-9",
+        "pmid": "28716097",
+        "pmcid": "PMC5514538"
+      }
+    },
+    {
+      "title": "A clinical histologic, and immunologic study of a case of metastatic malignant melanoma undergoing spontaneous remission",
+      "filename": null,
+      "source_url": "https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/1097-0142(197602)37:2%3C735::AID-CNCR2820370221%3E3.0.CO;2-Z",
+      "access_source": "Wiley/ACS Journals publisher page (closed access)",
+      "source_size_bytes": null,
+      "local_sha256": null,
+      "page_count": null,
+      "download_date": null,
+      "access_checked_on": "2026-09-05",
+      "status": "FULLTEXT_UNAVAILABLE",
+      "candidate_identifiers": {
+        "doi": "10.1002/1097-0142(197602)37:2<735::AID-CNCR2820370221>3.0.CO;2-Z",
+        "pmid": "943226",
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Spontaneous regression of metastases from malignant melanoma: a case report",
+      "filename": null,
+      "source_url": "https://journals.lww.com/melanomaresearch/fulltext/2008/08000/spontaneous_regression_of_metastases_from.7.aspx",
+      "access_source": "Wolters Kluwer/Lippincott Williams & Wilkins publisher page (closed access)",
+      "source_size_bytes": null,
+      "local_sha256": null,
+      "page_count": null,
+      "download_date": null,
+      "access_checked_on": "2026-09-05",
+      "status": "FULLTEXT_UNAVAILABLE",
+      "candidate_identifiers": {
+        "doi": "10.1097/CMR.0b013e328307ee4c",
+        "pmid": "18626313",
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Long-term survival and preservation of natural killer cell activity in a xeroderma pigmentosum patient with spontaneous regression and multiple deposits of malignant melanoma",
+      "filename": null,
+      "source_url": "https://academic.oup.com/bjd/article/125/3/272/6685628",
+      "access_source": "Oxford University Press / British Journal of Dermatology publisher page (closed access); Unpaywall oa_status=closed; not in PMC; Europe PMC hasPDF=N, authMan=N",
+      "source_size_bytes": null,
+      "local_sha256": null,
+      "page_count": null,
+      "download_date": null,
+      "access_checked_on": "2026-09-05",
+      "status": "FULLTEXT_UNAVAILABLE",
+      "candidate_identifiers": {
+        "doi": "10.1111/j.1365-2133.1991.tb14754.x",
+        "pmid": "1911321",
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Spontaneous partial regression of malignant melanoma and its first metastasis. Case report",
+      "filename": null,
+      "source_url": "https://www.tandfonline.com/doi/full/10.3109/02844317609012977",
+      "access_source": "Taylor & Francis / Scandinavian Journal of Plastic and Reconstructive Surgery publisher page (closed access); Unpaywall oa_status=closed; not in PMC; Europe PMC hasPDF=N, authMan=N",
+      "source_size_bytes": null,
+      "local_sha256": null,
+      "page_count": null,
+      "download_date": null,
+      "access_checked_on": "2026-09-05",
+      "status": "FULLTEXT_UNAVAILABLE",
+      "candidate_identifiers": {
+        "doi": "10.3109/02844317609012977",
+        "pmid": "1053454",
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Spontaneous regression of multiple bone metastases in malignant melanoma",
+      "filename": null,
+      "source_url": "https://academic.oup.com/bjr/article/62/744/1095-1100/7439324",
+      "access_source": "Oxford University Press / British Journal of Radiology publisher page (closed access); Unpaywall oa_status=closed, has_repository_copy=false; not in PMC; Europe PMC hasPDF=N, authMan=N",
+      "source_size_bytes": null,
+      "local_sha256": null,
+      "page_count": null,
+      "download_date": null,
+      "access_checked_on": "2026-09-05",
+      "status": "FULLTEXT_UNAVAILABLE",
+      "candidate_identifiers": {
+        "doi": "10.1259/0007-1285-62-744-1095",
+        "pmid": "2605458",
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Identification of a Germline Pyrin Variant in a Metastatic Melanoma Patient With Multiple Spontaneous Regressions and Immune-related Adverse Events",
+      "filename": "oswalt_2022_pmc9172893.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9172893.1/PMC9172893.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC9172893.1)",
+      "source_version": "PMC9172893.1",
+      "source_size_bytes": 729744,
+      "local_sha256": "74a8b81a818108b7570dc5d4a0f831b0a9290398cc47f982b132227eaeaa0cbf",
+      "page_count": 7,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 5,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.1097/CJI.0000000000000425",
+        "pmid": "35621992",
+        "pmcid": "PMC9172893"
+      }
+    },
+    {
+      "title": "Complete spontaneous regression of a metastatic acral melanoma with associated leukoderma",
+      "filename": "spring_2017_pmc5729012.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5729012.1/PMC5729012.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC5729012.1)",
+      "source_version": "PMC5729012.1",
+      "source_size_bytes": 3165408,
+      "local_sha256": "8b40d8059261f916fbcd4fca3638766627b1b338f5bad4e5919a5b4c46519f9a",
+      "page_count": 5,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 6,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.1016/j.jdcr.2017.07.001",
+        "pmid": "29264383",
+        "pmcid": "PMC5729012"
+      }
+    },
+    {
+      "title": "Case Report: Shadows of disappearance: the enigma of completely regressed cutaneous melanoma revealed by lymph node metastasis",
+      "filename": "wang_2025_pmc12520872.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12520872.1/PMC12520872.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC12520872.1)",
+      "source_version": "PMC12520872.1",
+      "source_size_bytes": 18623959,
+      "local_sha256": "ea7f62c8f9f7b7b4b1fcb2fc569dd950494d4e99773f023cf3bb9f999f45ec72",
+      "page_count": 8,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 7,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.3389/fonc.2025.1671450",
+        "pmid": "41103958",
+        "pmcid": "PMC12520872"
+      }
+    },
+    {
+      "title": "Spontaneous regression of metastatic malignant melanoma in 2 sibs with xeroderma pigmentosum",
+      "filename": "lynch_1978_pmc1013731.pdf",
+      "source_url": "https://europepmc.org/articles/PMC1013731?pdf=render",
+      "access_source": "Europe PMC full-text PDF (PMC1013731)",
+      "source_version": "PMC1013731.1",
+      "source_size_bytes": 1808808,
+      "local_sha256": "7de2e92fde2fabea65131b7ad89b078dd0b99379e31cef3f24fab88d3b80c6fe",
+      "page_count": 6,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 8,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.1136/jmg.15.5.357",
+        "pmid": "739525",
+        "pmcid": "PMC1013731"
+      }
+    },
+    {
+      "title": "Spontaneous Regression of a Malignant Melanoma",
+      "filename": "levison_1955_pmc2061225.pdf",
+      "source_url": "https://europepmc.org/articles/PMC2061225?pdf=render",
+      "access_source": "Europe PMC full-text PDF (PMC2061225)",
+      "source_version": "PMC2061225.1",
+      "source_size_bytes": 503353,
+      "local_sha256": "9c1286ddfb9db14165e3cd7b7d1356e7d4e43ba91013c05996987454113254ec",
+      "page_count": 2,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 9,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.1136/bmj.1.4911.458",
+        "pmid": "13230519",
+        "pmcid": "PMC2061225"
+      }
+    },
+    {
+      "title": "Metastatic melanoma with spontaneous complete regression of a thick primary lesion",
+      "filename": "khosravi_2016_pmc5144746.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5144746.1/PMC5144746.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC5144746.1)",
+      "source_version": "PMC5144746.1",
+      "source_size_bytes": 1061410,
+      "local_sha256": "8fc1197ff0692972bee46365e1e24e1b4b50f7c2b440f031ca6b505b4dbaf8b2",
+      "page_count": 3,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 10,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.1016/j.jdcr.2016.09.011",
+        "pmid": "27981212",
+        "pmcid": "PMC5144746"
+      }
+    },
+    {
+      "title": "Spontaneous Regression of Primary Melanoma and Multiple Melanocytic Nevi in a Patient With Metastatic Melanoma",
+      "filename": "paolino_2020_pmc7346594.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7346594.1/PMC7346594.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC7346594.1)",
+      "source_version": "PMC7346594.1",
+      "source_size_bytes": 618554,
+      "local_sha256": "6471312a947c57e92736e75a675b48cd7e6e985c6271047207f82bf013c448f1",
+      "page_count": 3,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 11,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.5826/dpc.1003a52",
+        "pmid": "32685272",
+        "pmcid": "PMC7346594"
+      }
+    },
+    {
+      "title": "Clinical, Dermoscopic and Microscopic Features of a \"Collision Tumour\" Ultimately Confirmed as a Regressing Melanoma - Lessons Learnt from a Chance Diagnosis",
+      "filename": "nwabudike_2022_pmc9289571.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9289571.1/PMC9289571.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC9289571.1)",
+      "source_version": "PMC9289571.1",
+      "source_size_bytes": 1578150,
+      "local_sha256": "019d3958fc0ba450eb5d9f39783e5dcf9ee4b9d0f422240b7628ce06f9f21f26",
+      "page_count": 7,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 12,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.2147/CCID.S361793",
+        "pmid": "35860608",
+        "pmcid": "PMC9289571"
+      }
+    },
+    {
+      "title": "Spontaneous Regression of Metastatic Visceral Malignant Melanoma",
+      "filename": "haight_1984_pmc2153525.pdf",
+      "source_url": "https://europepmc.org/articles/PMC2153525?pdf=render",
+      "access_source": "Europe PMC full-text PDF (PMC2153525)",
+      "source_version": "PMC2153525.1",
+      "source_size_bytes": 2704607,
+      "local_sha256": "c5b436686e864d6cdae5d9387f40aa378a35db2c0e8e002060b9b2b55591681a",
+      "page_count": 4,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 13,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": null,
+        "pmid": "21278950",
+        "pmcid": "PMC2153525"
+      }
+    },
+    {
+      "title": "Spontaneous regression of metastatic malignant melanoma",
+      "filename": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/3700829/",
+      "access_source": "Not in PMC; Europe PMC hasPDF=N; Unpaywall oa_status=closed, has_repository_copy=false; OpenAlex is_oa=false; Deep Blue handle 2027.42/74434 is a restricted/non-OA deposit",
+      "source_size_bytes": null,
+      "local_sha256": null,
+      "page_count": null,
+      "download_date": null,
+      "access_checked_on": "2026-09-05",
+      "status": "FULLTEXT_UNAVAILABLE",
+      "candidate_identifiers": {
+        "doi": "10.1111/j.1524-4725.1986.tb01939.x",
+        "pmid": "3700829",
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Spontaneous regression of primary malignant melanoma with metastases",
+      "filename": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/6473562/",
+      "access_source": "Not in PMC; Europe PMC hasPDF=N; Unpaywall oa_status=closed, has_repository_copy=false; OpenAlex is_oa=false; LWW/PRS closed",
+      "source_size_bytes": null,
+      "local_sha256": null,
+      "page_count": null,
+      "download_date": null,
+      "access_checked_on": "2026-09-05",
+      "status": "FULLTEXT_UNAVAILABLE",
+      "candidate_identifiers": {
+        "doi": "10.1097/00006534-198409000-00019",
+        "pmid": "6473562",
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Spontaneous regression of the primary lesion of a metastatic malignant melanoma",
+      "filename": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/1257341/",
+      "access_source": "Not in PMC; Europe PMC hasPDF=N; Unpaywall oa_status=closed, has_repository_copy=false; OpenAlex is_oa=false; LWW/PRS closed. Europe PMC OpenAlex 'Free' DOI link is the publisher landing page, not an OA PDF",
+      "source_size_bytes": null,
+      "local_sha256": null,
+      "page_count": null,
+      "download_date": null,
+      "access_checked_on": "2026-09-05",
+      "status": "FULLTEXT_UNAVAILABLE",
+      "candidate_identifiers": {
+        "doi": "10.1097/00006534-197603000-00013",
+        "pmid": "1257341",
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Regressing malignant melanoma",
+      "filename": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/7844465/",
+      "access_source": "No DOI; not in PMC; Europe PMC hasPDF=N; OpenAlex is_oa=false, any_repository_has_fulltext=false; J La State Med Soc closed",
+      "source_size_bytes": null,
+      "local_sha256": null,
+      "page_count": null,
+      "download_date": null,
+      "access_checked_on": "2026-09-05",
+      "status": "FULLTEXT_UNAVAILABLE",
+      "candidate_identifiers": {
+        "doi": null,
+        "pmid": "7844465",
+        "pmcid": null
+      }
+    }
+  ]
+}

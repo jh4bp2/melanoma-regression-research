@@ -1,0 +1,2199 @@
+{
+  "export_type": "PHASE_2_RESEARCH_AUDIT",
+  "warning": "Association does not imply causation.",
+  "paper": {
+    "id": 1,
+    "title": "Spontaneous regression of a metastatic melanoma pulmonary deposit following biopsy",
+    "authors": [
+      "Fatemeh Behnia",
+      "Megan Zare",
+      "Saeed Elojeimy"
+    ],
+    "year": 2018,
+    "journal": "Radiology Case Reports",
+    "doi": "10.1016/j.radcr.2018.02.012",
+    "pmid": null,
+    "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6029935.1/PMC6029935.1.pdf",
+    "abstract": "Spontaneous complete and partial regression of metastatic melanoma is poorly under-\nstood, and is a rare phenomenon with less than 80 cases reported since 1866. Several\ncorrelations have been noted such as systemic or local infections, operative trauma, hor-\nmonal inﬂuences, nutrition and immunologic factors. We present FDG PET and CT ﬁndings\nin a patient with multiple pulmonary metastases of melanoma, one of which underwent\nregression following biopsy. We suggest immune system modulation, triggered by biopsy,\ncould have played a role, although the precise mechanism remains unknown.",
+    "full_text_path": "C:\\Users\\bidul\\Desktop\\암 추적\\data\\papers\\behnia_2018_pmc6029935.pdf",
+    "extracted_text_path": "C:\\Users\\bidul\\Desktop\\암 추적\\data\\processed\\516e1992f797b08dde8f3c736f205922a7ed6c15844707a90e8b1b2885ab7aca.txt",
+    "paper_type": "case_report",
+    "analysis_status": "partial",
+    "content_sha256": "516e1992f797b08dde8f3c736f205922a7ed6c15844707a90e8b1b2885ab7aca",
+    "page_count": 3,
+    "created_at": "2026-09-02T13:22:16"
+  },
+  "extraction_run": {
+    "id": 10,
+    "paper_id": 1,
+    "model": "gpt-5.6-terra",
+    "prompt_version": "paper_metadata:v2,case_detection:v2,case_extraction:v2,timeline_extraction:v2",
+    "status": "partial",
+    "retry_count": 0,
+    "started_at": "2026-09-02T16:40:40",
+    "finished_at": "2026-09-02T16:41:37.906958",
+    "error": null,
+    "result_json": {
+      "verification_failures": [],
+      "metadata": {
+        "title": {
+          "value": "Spontaneous regression of a metastatic melanoma pulmonary deposit following biopsy",
+          "status": "REPORTED",
+          "evidence_refs": [
+            {
+              "page": 1,
+              "quote": "Spontaneous regression of a metastatic melanoma\npulmonary deposit following biopsy",
+              "section": "Title",
+              "evidence_type": "OBSERVED_FACT"
+            }
+          ]
+        },
+        "authors": {
+          "value": [
+            "Fatemeh Behnia",
+            "Megan Zare",
+            "Saeed Elojeimy"
+          ],
+          "status": "REPORTED",
+          "evidence_refs": [
+            {
+              "page": 1,
+              "quote": "Fatemeh Behnia MDa,*, Megan Zare MDa, Saeed Elojeimy MD, PhDb",
+              "section": "Title",
+              "evidence_type": "OBSERVED_FACT"
+            }
+          ]
+        },
+        "year": {
+          "value": 2018,
+          "status": "REPORTED",
+          "evidence_refs": [
+            {
+              "page": 1,
+              "quote": "© 2018 the Authors. Published by Elsevier Inc. under copyright license from the University\nof Washington.",
+              "section": "Title",
+              "evidence_type": "OBSERVED_FACT"
+            }
+          ]
+        },
+        "journal": {
+          "value": "Radiology Case Reports",
+          "status": "REPORTED",
+          "evidence_refs": [
+            {
+              "page": 1,
+              "quote": "R a d i o l o g y C a s e R e p o r t s 1 3 ( 2 0 1 8 ) 5 8 0 – 5 8 2",
+              "section": "Case Report",
+              "evidence_type": "OBSERVED_FACT"
+            }
+          ]
+        },
+        "doi": {
+          "value": "10.1016/j.radcr.2018.02.012",
+          "status": "REPORTED",
+          "evidence_refs": [
+            {
+              "page": 1,
+              "quote": "https://doi.org/10.1016/j.radcr.2018.02.012",
+              "section": "Case Report",
+              "evidence_type": "OBSERVED_FACT"
+            }
+          ]
+        },
+        "pmid": {
+          "value": null,
+          "status": "NOT_REPORTED",
+          "evidence_refs": []
+        },
+        "abstract": {
+          "value": "Spontaneous complete and partial regression of metastatic melanoma is poorly under-\nstood, and is a rare phenomenon with less than 80 cases reported since 1866. Several\ncorrelations have been noted such as systemic or local infections, operative trauma, hor-\nmonal inﬂuences, nutrition and immunologic factors. We present FDG PET and CT ﬁndings\nin a patient with multiple pulmonary metastases of melanoma, one of which underwent\nregression following biopsy. We suggest immune system modulation, triggered by biopsy,\ncould have played a role, although the precise mechanism remains unknown.",
+          "status": "REPORTED",
+          "evidence_refs": [
+            {
+              "page": 1,
+              "quote": "Spontaneous complete and partial regression of metastatic melanoma is poorly under-\nstood, and is a rare phenomenon with less than 80 cases reported since 1866. Several\ncorrelations have been noted such as systemic or local infections, operative trauma, hor-\nmonal inﬂuences, nutrition and immunologic factors. We present FDG PET and CT ﬁndings\nin a patient with multiple pulmonary metastases of melanoma, one of which underwent\nregression following biopsy. We suggest immune system modulation, triggered by biopsy,\ncould have played a role, although the precise mechanism remains unknown.",
+              "section": "Title",
+              "evidence_type": "AUTHOR_INTERPRETATION"
+            }
+          ]
+        },
+        "paper_type": {
+          "value": "case_report",
+          "status": "REPORTED",
+          "evidence_refs": [
+            {
+              "page": 1,
+              "quote": "Case Report",
+              "section": "Case Report",
+              "evidence_type": "OBSERVED_FACT"
+            }
+          ]
+        }
+      },
+      "case_detection": {
+        "existence": "YES",
+        "confidence": 0.99,
+        "evidence_refs": [
+          {
+            "page": 1,
+            "quote": "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma.",
+            "section": "Case Report",
+            "evidence_type": "OBSERVED_FACT"
+          },
+          {
+            "page": 1,
+            "quote": "On the other hand, the previously biopsied left lung nodule has decreased in size and showed very minimal FDG uptake with max SUV of 2.5 (Fig. 3A and B).",
+            "section": "Case Report",
+            "evidence_type": "OBSERVED_FACT"
+          },
+          {
+            "page": 2,
+            "quote": "The left lower lobe nodule (A) has decreased to 17 × 14 mm in size.",
+            "section": "Discussion",
+            "evidence_type": "OBSERVED_FACT"
+          },
+          {
+            "page": 3,
+            "quote": "Interestingly, despite the recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months that followed after initial diagnosis.",
+            "section": "Discussion",
+            "evidence_type": "OBSERVED_FACT"
+          }
+        ]
+      },
+      "cases": [
+        {
+          "patient_identifier": {
+            "value": null,
+            "status": "NOT_REPORTED",
+            "evidence_refs": []
+          },
+          "age": {
+            "value": 55,
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 1,
+                "quote": "A 55-year-old woman presented with night sweats, cough, and hemoptysis.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "sex": {
+            "value": "woman",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 1,
+                "quote": "A 55-year-old woman presented with night sweats, cough, and hemoptysis.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "melanoma_subtype": {
+            "value": "metastatic melanoma",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 1,
+                "quote": "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "primary_site": {
+            "value": "No primary lesion identified on clinical examination",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 1,
+                "quote": "Patient had no history of melanoma and clinical examination did not reveal a primary lesion.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "stage": {
+            "value": null,
+            "status": "NOT_REPORTED",
+            "evidence_refs": []
+          },
+          "metastatic_sites": {
+            "value": [
+              "lungs (left lower lobe and bilateral upper lungs)",
+              "left hilar node",
+              "brain",
+              "spinal cord"
+            ],
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 1,
+                "quote": "In addition to the left lower lobe pulmonary nodule, smaller cavitary lesions were seen in the bilateral upper lungs (Fig. 2).",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              },
+              {
+                "page": 2,
+                "quote": "Note left hilar nodal spread (arrowhead).",
+                "section": "Discussion",
+                "evidence_type": "OBSERVED_FACT"
+              },
+              {
+                "page": 3,
+                "quote": "Unfortunately, as is common with this form of treatment, melanoma recurred with lung, brain, and spinal cord metastases, this time resistant to ipilimumab.",
+                "section": "Discussion",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "diagnosis_date": {
+            "value": null,
+            "status": "NOT_REPORTED",
+            "evidence_refs": []
+          },
+          "regression_start_date": {
+            "value": null,
+            "status": "NOT_REPORTED",
+            "evidence_refs": []
+          },
+          "regression_confirmed_date": {
+            "value": "43 days after the baseline CT",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 1,
+                "quote": "The time interval between the baseline CT and PET-CT was 43 days.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              },
+              {
+                "page": 1,
+                "quote": "On the other hand, the previously biopsied left lung nodule has decreased in size and showed very minimal FDG uptake with max SUV of 2.5 (Fig. 3A and B).",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "regression_type": {
+            "value": "spontaneous regression of a metastatic melanoma pulmonary deposit",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 1,
+                "quote": "Spontaneous regression of a metastatic melanoma pulmonary deposit following biopsy",
+                "section": "Title",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "partial_or_complete": {
+            "value": "partial",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 2,
+                "quote": "Spontaneous regression is, by definition, disappearance of a tumor (complete regression) or decrease in size of a tumor (partial regression) in the absence of treatment.",
+                "section": "Discussion",
+                "evidence_type": "AUTHOR_INTERPRETATION"
+              },
+              {
+                "page": 2,
+                "quote": "The left lower lobe nodule (A) has decreased to 17 × 14 mm in size.",
+                "section": "Discussion",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "treatment_before_regression": {
+            "value": "ipilimumab; timing relative to the initially documented regression is not explicitly stated",
+            "status": "UNCERTAIN",
+            "evidence_refs": [
+              {
+                "page": 3,
+                "quote": "Our patient underwent immune therapy with ipilimumab with a favorable initial response.",
+                "section": "Discussion",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "treatment_status": {
+            "value": "unknown",
+            "status": "UNCERTAIN",
+            "evidence_refs": []
+          },
+          "preceding_events": {
+            "value": [
+              "CT-guided biopsy of the left lower lobe nodule"
+            ],
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 1,
+                "quote": "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma.",
+                "section": "Case Report",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "outcome": {
+            "value": "Melanoma recurred with lung, brain, and spinal cord metastases resistant to ipilimumab; the biopsied lesion continued to decrease in size.",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 3,
+                "quote": "Unfortunately, as is common with this form of treatment, melanoma recurred with lung, brain, and spinal cord metastases, this time resistant to ipilimumab.",
+                "section": "Discussion",
+                "evidence_type": "OBSERVED_FACT"
+              },
+              {
+                "page": 3,
+                "quote": "Interestingly, despite the recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months that followed after initial diagnosis.",
+                "section": "Discussion",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "follow_up_duration": {
+            "value": "19 months that followed after initial diagnosis",
+            "status": "REPORTED",
+            "evidence_refs": [
+              {
+                "page": 3,
+                "quote": "Interestingly, despite the recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months that followed after initial diagnosis.",
+                "section": "Discussion",
+                "evidence_type": "OBSERVED_FACT"
+              }
+            ]
+          },
+          "confidence": 0.92
+        }
+      ],
+      "timelines": [
+        {
+          "case_id": 2,
+          "events": [
+            {
+              "event_type": "other",
+              "description": "A 55-year-old woman presented with night sweats, cough, and hemoptysis.",
+              "event_date": null,
+              "relative_time": null,
+              "date_precision": "UNKNOWN",
+              "relation_to_regression": "BEFORE",
+              "temporal_order_confidence": 0.9,
+              "evidence_refs": [
+                {
+                  "page": 1,
+                  "quote": "A 55-year-old woman presented with night sweats, cough, and hemoptysis.",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "other",
+              "description": "Chest x-ray showed a well-defined round opacity in the left lower lobe; it was not seen on a previous chest x-ray and was considered suspicious for malignancy.",
+              "event_date": null,
+              "relative_time": null,
+              "date_precision": "UNKNOWN",
+              "relation_to_regression": "BEFORE",
+              "temporal_order_confidence": 0.9,
+              "evidence_refs": [
+                {
+                  "page": 1,
+                  "quote": "While the complete blood count was normal, the chest x-ray showed a well deﬁned round opacity in the left lower lobe (Fig. 1). This was not seen on a previous chest x-ray and was considered unlikely to represent tuberculosis, but highly suspicious for malignancy.",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "other",
+              "description": "Chest CT identified a left lower lobe pulmonary nodule and smaller cavitary lesions in the bilateral upper lungs.",
+              "event_date": null,
+              "relative_time": "10 days later",
+              "date_precision": "RELATIVE",
+              "relation_to_regression": "BEFORE",
+              "temporal_order_confidence": 0.95,
+              "evidence_refs": [
+                {
+                  "page": 1,
+                  "quote": "Computed Tomography (CT) scan of the chest was performed 10 days later for further characterization. In addition to the left lower lobe pulmonary nodule, smaller cavitary lesions were seen in the bilateral upper lungs (Fig. 2).",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "biopsy",
+              "description": "CT-guided biopsy of the left lower lobe nodule was performed and was positive for metastatic melanoma.",
+              "event_date": null,
+              "relative_time": null,
+              "date_precision": "UNKNOWN",
+              "relation_to_regression": "BEFORE",
+              "temporal_order_confidence": 0.9,
+              "evidence_refs": [
+                {
+                  "page": 1,
+                  "quote": "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma.",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "diagnosis",
+              "description": "Metastatic melanoma was diagnosed; the patient had no history of melanoma and clinical examination did not reveal a primary lesion.",
+              "event_date": null,
+              "relative_time": null,
+              "date_precision": "UNKNOWN",
+              "relation_to_regression": "BEFORE",
+              "temporal_order_confidence": 0.85,
+              "evidence_refs": [
+                {
+                  "page": 1,
+                  "quote": "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma.",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                },
+                {
+                  "page": 1,
+                  "quote": "Patient had no history of melanoma and clinical examination did not reveal a primary lesion.",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "tumor_progression",
+              "description": "At PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic (maximum SUV 15.2).",
+              "event_date": null,
+              "relative_time": "The time interval between the baseline CT and PET-CT was 43 days.",
+              "date_precision": "RELATIVE",
+              "relation_to_regression": "DURING",
+              "temporal_order_confidence": 0.95,
+              "evidence_refs": [
+                {
+                  "page": 1,
+                  "quote": "The time interval between the baseline CT and PET-CT was 43 days.",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                },
+                {
+                  "page": 1,
+                  "quote": "On F-18 FDG PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic with maximum standardized uptake value (max SUV) of 15.2 (Fig. 3C and D).",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "tumor_regression",
+              "description": "The previously biopsied left lung nodule had decreased in size and showed minimal FDG uptake (maximum SUV 2.5).",
+              "event_date": null,
+              "relative_time": "The time interval between the baseline CT and PET-CT was 43 days.",
+              "date_precision": "RELATIVE",
+              "relation_to_regression": "DURING",
+              "temporal_order_confidence": 0.95,
+              "evidence_refs": [
+                {
+                  "page": 1,
+                  "quote": "The time interval between the baseline CT and PET-CT was 43 days.",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                },
+                {
+                  "page": 1,
+                  "quote": "On the other hand, the previously biopsied left lung nodule has decreased in size and showed very minimal FDG uptake with max SUV of 2.5 (Fig. 3A and B).",
+                  "section": "Case Report",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "treatment",
+              "description": "The patient underwent immune therapy with ipilimumab and had a favorable initial response. Timing relative to the initially documented lesion regression is not explicitly stated.",
+              "event_date": null,
+              "relative_time": null,
+              "date_precision": "UNKNOWN",
+              "relation_to_regression": "UNKNOWN",
+              "temporal_order_confidence": 0.4,
+              "evidence_refs": [
+                {
+                  "page": 3,
+                  "quote": "Our patient underwent immune therapy with ipilimumab with a favorable initial response.",
+                  "section": "Discussion",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "metastasis",
+              "description": "Melanoma recurred with lung, brain, and spinal cord metastases and was resistant to ipilimumab.",
+              "event_date": null,
+              "relative_time": null,
+              "date_precision": "UNKNOWN",
+              "relation_to_regression": "UNKNOWN",
+              "temporal_order_confidence": 0.55,
+              "evidence_refs": [
+                {
+                  "page": 3,
+                  "quote": "Unfortunately, as is common with this form of treatment, melanoma recurred with lung, brain, and spinal cord metastases, this time resistant to ipilimumab.",
+                  "section": "Discussion",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            },
+            {
+              "event_type": "tumor_regression",
+              "description": "Despite recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months following initial diagnosis.",
+              "event_date": null,
+              "relative_time": "throughout the 19 months that followed after initial diagnosis",
+              "date_precision": "RELATIVE",
+              "relation_to_regression": "AFTER",
+              "temporal_order_confidence": 0.85,
+              "evidence_refs": [
+                {
+                  "page": 3,
+                  "quote": "Interestingly, despite the recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months that followed after initial diagnosis.",
+                  "section": "Discussion",
+                  "evidence_type": "OBSERVED_FACT"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "partial_reason_codes": [
+        "PARTIAL_TEMPORAL_UNCERTAINTY"
+      ]
+    },
+    "reason_codes": [
+      "PARTIAL_TEMPORAL_UNCERTAINTY"
+    ]
+  },
+  "paper_field_evidence": [
+    {
+      "field_name": "abstract",
+      "evidence": {
+        "id": 111,
+        "paper_id": 1,
+        "case_id": null,
+        "evidence_type": "AUTHOR_INTERPRETATION",
+        "claim": "paper.abstract: Spontaneous complete and partial regression of metastatic melanoma is poorly under-\nstood, and is a rare phenomenon with less than 80 cases reported since 1866. Several\ncorrelations have been noted such as systemic or local infections, operative trauma, hor-\nmonal inﬂuences, nutrition and immunologic factors. We present FDG PET and CT ﬁndings\nin a patient with multiple pulmonary metastases of melanoma, one of which underwent\nregression following biopsy. We suggest immune system modulation, triggered by biopsy,\ncould have played a role, although the precise mechanism remains unknown.",
+        "source_quote": "Spontaneous complete and partial regression of metastatic melanoma is poorly under-\nstood, and is a rare phenomenon with less than 80 cases reported since 1866. Several\ncorrelations have been noted such as systemic or local infections, operative trauma, hor-\nmonal inﬂuences, nutrition and immunologic factors. We present FDG PET and CT ﬁndings\nin a patient with multiple pulmonary metastases of melanoma, one of which underwent\nregression following biopsy. We suggest immune system modulation, triggered by biopsy,\ncould have played a role, although the precise mechanism remains unknown.",
+        "page": 1,
+        "section": "Title",
+        "paragraph": null,
+        "confidence": 1.0,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "authors",
+      "evidence": {
+        "id": 107,
+        "paper_id": 1,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.authors: ['Fatemeh Behnia', 'Megan Zare', 'Saeed Elojeimy']",
+        "source_quote": "Fatemeh Behnia MDa,*, Megan Zare MDa, Saeed Elojeimy MD, PhDb",
+        "page": 1,
+        "section": "Title",
+        "paragraph": null,
+        "confidence": 1.0,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "case_existence",
+      "evidence": {
+        "id": 113,
+        "paper_id": 1,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.case_existence: YES",
+        "source_quote": "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma.",
+        "page": 1,
+        "section": "Case Report",
+        "paragraph": null,
+        "confidence": 0.99,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "case_existence",
+      "evidence": {
+        "id": 114,
+        "paper_id": 1,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.case_existence: YES",
+        "source_quote": "On the other hand, the previously biopsied left lung nodule has decreased in size and showed very minimal FDG uptake with max SUV of 2.5 (Fig. 3A and B).",
+        "page": 1,
+        "section": "Case Report",
+        "paragraph": null,
+        "confidence": 0.99,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "case_existence",
+      "evidence": {
+        "id": 115,
+        "paper_id": 1,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.case_existence: YES",
+        "source_quote": "The left lower lobe nodule (A) has decreased to 17 × 14 mm in size.",
+        "page": 2,
+        "section": "Discussion",
+        "paragraph": null,
+        "confidence": 0.99,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "case_existence",
+      "evidence": {
+        "id": 116,
+        "paper_id": 1,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.case_existence: YES",
+        "source_quote": "Interestingly, despite the recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months that followed after initial diagnosis.",
+        "page": 3,
+        "section": "Discussion",
+        "paragraph": null,
+        "confidence": 0.99,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "doi",
+      "evidence": {
+        "id": 110,
+        "paper_id": 1,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.doi: 10.1016/j.radcr.2018.02.012",
+        "source_quote": "https://doi.org/10.1016/j.radcr.2018.02.012",
+        "page": 1,
+        "section": "Case Report",
+        "paragraph": null,
+        "confidence": 1.0,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "journal",
+      "evidence": {
+        "id": 109,
+        "paper_id": 1,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.journal: Radiology Case Reports",
+        "source_quote": "R a d i o l o g y C a s e R e p o r t s 1 3 ( 2 0 1 8 ) 5 8 0 – 5 8 2",
+        "page": 1,
+        "section": "Case Report",
+        "paragraph": null,
+        "confidence": 1.0,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "paper_type",
+      "evidence": {
+        "id": 112,
+        "paper_id": 1,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.paper_type: PaperType.CASE_REPORT",
+        "source_quote": "Case Report",
+        "page": 1,
+        "section": "Case Report",
+        "paragraph": null,
+        "confidence": 1.0,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "title",
+      "evidence": {
+        "id": 106,
+        "paper_id": 1,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.title: Spontaneous regression of a metastatic melanoma pulmonary deposit following biopsy",
+        "source_quote": "Spontaneous regression of a metastatic melanoma\npulmonary deposit following biopsy",
+        "page": 1,
+        "section": "Title",
+        "paragraph": null,
+        "confidence": 1.0,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    },
+    {
+      "field_name": "year",
+      "evidence": {
+        "id": 108,
+        "paper_id": 1,
+        "case_id": null,
+        "evidence_type": "OBSERVED_FACT",
+        "claim": "paper.year: 2018",
+        "source_quote": "© 2018 the Authors. Published by Elsevier Inc. under copyright license from the University\nof Washington.",
+        "page": 1,
+        "section": "Title",
+        "paragraph": null,
+        "confidence": 1.0,
+        "support_type": "neutral",
+        "status": "SUPPORTED"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "case": {
+        "id": 2,
+        "paper_id": 1,
+        "patient_identifier": "paper-1-case-1",
+        "age": 55,
+        "sex": "woman",
+        "melanoma_subtype": "metastatic melanoma",
+        "primary_site": "No primary lesion identified on clinical examination",
+        "stage": null,
+        "metastatic_sites": [
+          "lungs (left lower lobe and bilateral upper lungs)",
+          "left hilar node",
+          "brain",
+          "spinal cord"
+        ],
+        "diagnosis_date": null,
+        "regression_start_date": null,
+        "regression_confirmed_date": null,
+        "regression_type": "spontaneous regression of a metastatic melanoma pulmonary deposit",
+        "partial_or_complete": "partial",
+        "treatment_before_regression": "CT-guided biopsy of the left lower lobe nodule",
+        "treatment_status": null,
+        "preceding_event": "CT-guided biopsy of the left lower lobe nodule",
+        "outcome": "Melanoma recurred with lung, brain, and spinal cord metastases resistant to ipilimumab; the biopsied lesion continued to decrease in size.",
+        "follow_up_duration": "19 months that followed after initial diagnosis",
+        "notes": null,
+        "extraction_confidence": 0.92,
+        "field_statuses": {
+          "patient_identifier": {
+            "status": "NOT_REPORTED",
+            "raw_value": null
+          },
+          "age": {
+            "status": "REPORTED",
+            "raw_value": 55
+          },
+          "sex": {
+            "status": "REPORTED",
+            "raw_value": "woman"
+          },
+          "melanoma_subtype": {
+            "status": "REPORTED",
+            "raw_value": "metastatic melanoma"
+          },
+          "primary_site": {
+            "status": "REPORTED",
+            "raw_value": "No primary lesion identified on clinical examination"
+          },
+          "stage": {
+            "status": "NOT_REPORTED",
+            "raw_value": null
+          },
+          "metastatic_sites": {
+            "status": "REPORTED",
+            "raw_value": [
+              "lungs (left lower lobe and bilateral upper lungs)",
+              "left hilar node",
+              "brain",
+              "spinal cord"
+            ]
+          },
+          "diagnosis_date": {
+            "status": "NOT_REPORTED",
+            "raw_value": null
+          },
+          "regression_start_date": {
+            "status": "NOT_REPORTED",
+            "raw_value": null
+          },
+          "regression_confirmed_date": {
+            "status": "REPORTED",
+            "raw_value": "43 days after the baseline CT"
+          },
+          "regression_type": {
+            "status": "REPORTED",
+            "raw_value": "spontaneous regression of a metastatic melanoma pulmonary deposit"
+          },
+          "partial_or_complete": {
+            "status": "REPORTED",
+            "raw_value": "partial"
+          },
+          "treatment_before_regression": {
+            "status": "UNCERTAIN",
+            "raw_value": "ipilimumab; timing relative to the initially documented regression is not explicitly stated"
+          },
+          "treatment_status": {
+            "status": "UNCERTAIN",
+            "raw_value": "unknown"
+          },
+          "preceding_events": {
+            "status": "REPORTED",
+            "raw_value": [
+              "CT-guided biopsy of the left lower lobe nodule"
+            ]
+          },
+          "outcome": {
+            "status": "REPORTED",
+            "raw_value": "Melanoma recurred with lung, brain, and spinal cord metastases resistant to ipilimumab; the biopsied lesion continued to decrease in size."
+          },
+          "follow_up_duration": {
+            "status": "REPORTED",
+            "raw_value": "19 months that followed after initial diagnosis"
+          }
+        },
+        "extraction_run_id": 10
+      },
+      "field_evidence": [
+        {
+          "field_name": "age",
+          "evidence": {
+            "id": 117,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.age: 55",
+            "source_quote": "A 55-year-old woman presented with night sweats, cough, and hemoptysis.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "follow_up_duration",
+          "evidence": {
+            "id": 132,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.follow_up_duration: 19 months that followed after initial diagnosis",
+            "source_quote": "Interestingly, despite the recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months that followed after initial diagnosis.",
+            "page": 3,
+            "section": "Discussion",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "melanoma_subtype",
+          "evidence": {
+            "id": 119,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.melanoma_subtype: metastatic melanoma",
+            "source_quote": "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "metastatic_sites",
+          "evidence": {
+            "id": 121,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.metastatic_sites: ['lungs (left lower lobe and bilateral upper lungs)', 'left hilar node', 'brain', 'spinal cord']",
+            "source_quote": "In addition to the left lower lobe pulmonary nodule, smaller cavitary lesions were seen in the bilateral upper lungs (Fig. 2).",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "metastatic_sites",
+          "evidence": {
+            "id": 122,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.metastatic_sites: ['lungs (left lower lobe and bilateral upper lungs)', 'left hilar node', 'brain', 'spinal cord']",
+            "source_quote": "Note left hilar nodal spread (arrowhead).",
+            "page": 2,
+            "section": "Discussion",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "metastatic_sites",
+          "evidence": {
+            "id": 123,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.metastatic_sites: ['lungs (left lower lobe and bilateral upper lungs)', 'left hilar node', 'brain', 'spinal cord']",
+            "source_quote": "Unfortunately, as is common with this form of treatment, melanoma recurred with lung, brain, and spinal cord metastases, this time resistant to ipilimumab.",
+            "page": 3,
+            "section": "Discussion",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "outcome",
+          "evidence": {
+            "id": 130,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.outcome: Melanoma recurred with lung, brain, and spinal cord metastases resistant to ipilimumab; the biopsied lesion continued to decrease in size.",
+            "source_quote": "Unfortunately, as is common with this form of treatment, melanoma recurred with lung, brain, and spinal cord metastases, this time resistant to ipilimumab.",
+            "page": 3,
+            "section": "Discussion",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "outcome",
+          "evidence": {
+            "id": 131,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.outcome: Melanoma recurred with lung, brain, and spinal cord metastases resistant to ipilimumab; the biopsied lesion continued to decrease in size.",
+            "source_quote": "Interestingly, despite the recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months that followed after initial diagnosis.",
+            "page": 3,
+            "section": "Discussion",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "partial_or_complete",
+          "evidence": {
+            "id": 127,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "AUTHOR_INTERPRETATION",
+            "claim": "case.partial_or_complete: partial",
+            "source_quote": "Spontaneous regression is, by definition, disappearance of a tumor (complete regression) or decrease in size of a tumor (partial regression) in the absence of treatment.",
+            "page": 2,
+            "section": "Discussion",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "partial_or_complete",
+          "evidence": {
+            "id": 128,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.partial_or_complete: partial",
+            "source_quote": "The left lower lobe nodule (A) has decreased to 17 × 14 mm in size.",
+            "page": 2,
+            "section": "Discussion",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "preceding_events",
+          "evidence": {
+            "id": 129,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.preceding_events: ['CT-guided biopsy of the left lower lobe nodule']",
+            "source_quote": "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "primary_site",
+          "evidence": {
+            "id": 120,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.primary_site: No primary lesion identified on clinical examination",
+            "source_quote": "Patient had no history of melanoma and clinical examination did not reveal a primary lesion.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "regression_confirmed_date",
+          "evidence": {
+            "id": 124,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.regression_confirmed_date: 43 days after the baseline CT",
+            "source_quote": "The time interval between the baseline CT and PET-CT was 43 days.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "regression_confirmed_date",
+          "evidence": {
+            "id": 125,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.regression_confirmed_date: 43 days after the baseline CT",
+            "source_quote": "On the other hand, the previously biopsied left lung nodule has decreased in size and showed very minimal FDG uptake with max SUV of 2.5 (Fig. 3A and B).",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "regression_type",
+          "evidence": {
+            "id": 126,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.regression_type: spontaneous regression of a metastatic melanoma pulmonary deposit",
+            "source_quote": "Spontaneous regression of a metastatic melanoma pulmonary deposit following biopsy",
+            "page": 1,
+            "section": "Title",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        },
+        {
+          "field_name": "sex",
+          "evidence": {
+            "id": 118,
+            "paper_id": 1,
+            "case_id": 2,
+            "evidence_type": "OBSERVED_FACT",
+            "claim": "case.sex: woman",
+            "source_quote": "A 55-year-old woman presented with night sweats, cough, and hemoptysis.",
+            "page": 1,
+            "section": "Case Report",
+            "paragraph": null,
+            "confidence": 0.92,
+            "support_type": "neutral",
+            "status": "SUPPORTED"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "event": {
+            "id": 33,
+            "case_id": 2,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": null,
+            "source_date_precision": "UNKNOWN",
+            "relation_to_regression": "BEFORE",
+            "temporal_order_confidence": 0.9,
+            "extraction_run_id": 10,
+            "event_type": "other",
+            "description": "A 55-year-old woman presented with night sweats, cough, and hemoptysis."
+          },
+          "field_evidence": [
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 133,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: A 55-year-old woman presented with night sweats, cough, and hemoptysis.",
+                "source_quote": "A 55-year-old woman presented with night sweats, cough, and hemoptysis.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 133,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: A 55-year-old woman presented with night sweats, cough, and hemoptysis.",
+                "source_quote": "A 55-year-old woman presented with night sweats, cough, and hemoptysis.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 133,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: A 55-year-old woman presented with night sweats, cough, and hemoptysis.",
+                "source_quote": "A 55-year-old woman presented with night sweats, cough, and hemoptysis.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 34,
+            "case_id": 2,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": null,
+            "source_date_precision": "UNKNOWN",
+            "relation_to_regression": "BEFORE",
+            "temporal_order_confidence": 0.9,
+            "extraction_run_id": 10,
+            "event_type": "other",
+            "description": "Chest x-ray showed a well-defined round opacity in the left lower lobe; it was not seen on a previous chest x-ray and was considered suspicious for malignancy."
+          },
+          "field_evidence": [
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 134,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Chest x-ray showed a well-defined round opacity in the left lower lobe; it was not seen on a previous chest x-ray and was considered suspicious for malignancy.",
+                "source_quote": "While the complete blood count was normal, the chest x-ray showed a well deﬁned round opacity in the left lower lobe (Fig. 1). This was not seen on a previous chest x-ray and was considered unlikely to represent tuberculosis, but highly suspicious for malignancy.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 134,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Chest x-ray showed a well-defined round opacity in the left lower lobe; it was not seen on a previous chest x-ray and was considered suspicious for malignancy.",
+                "source_quote": "While the complete blood count was normal, the chest x-ray showed a well deﬁned round opacity in the left lower lobe (Fig. 1). This was not seen on a previous chest x-ray and was considered unlikely to represent tuberculosis, but highly suspicious for malignancy.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 134,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Chest x-ray showed a well-defined round opacity in the left lower lobe; it was not seen on a previous chest x-ray and was considered suspicious for malignancy.",
+                "source_quote": "While the complete blood count was normal, the chest x-ray showed a well deﬁned round opacity in the left lower lobe (Fig. 1). This was not seen on a previous chest x-ray and was considered unlikely to represent tuberculosis, but highly suspicious for malignancy.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 35,
+            "case_id": 2,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": "10 days later",
+            "source_date_precision": "RELATIVE",
+            "relation_to_regression": "BEFORE",
+            "temporal_order_confidence": 0.95,
+            "extraction_run_id": 10,
+            "event_type": "other",
+            "description": "Chest CT identified a left lower lobe pulmonary nodule and smaller cavitary lesions in the bilateral upper lungs."
+          },
+          "field_evidence": [
+            {
+              "field_name": "date_precision",
+              "evidence": {
+                "id": 135,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Chest CT identified a left lower lobe pulmonary nodule and smaller cavitary lesions in the bilateral upper lungs.",
+                "source_quote": "Computed Tomography (CT) scan of the chest was performed 10 days later for further characterization. In addition to the left lower lobe pulmonary nodule, smaller cavitary lesions were seen in the bilateral upper lungs (Fig. 2).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 135,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Chest CT identified a left lower lobe pulmonary nodule and smaller cavitary lesions in the bilateral upper lungs.",
+                "source_quote": "Computed Tomography (CT) scan of the chest was performed 10 days later for further characterization. In addition to the left lower lobe pulmonary nodule, smaller cavitary lesions were seen in the bilateral upper lungs (Fig. 2).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 135,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Chest CT identified a left lower lobe pulmonary nodule and smaller cavitary lesions in the bilateral upper lungs.",
+                "source_quote": "Computed Tomography (CT) scan of the chest was performed 10 days later for further characterization. In addition to the left lower lobe pulmonary nodule, smaller cavitary lesions were seen in the bilateral upper lungs (Fig. 2).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 135,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Chest CT identified a left lower lobe pulmonary nodule and smaller cavitary lesions in the bilateral upper lungs.",
+                "source_quote": "Computed Tomography (CT) scan of the chest was performed 10 days later for further characterization. In addition to the left lower lobe pulmonary nodule, smaller cavitary lesions were seen in the bilateral upper lungs (Fig. 2).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relative_time",
+              "evidence": {
+                "id": 135,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Chest CT identified a left lower lobe pulmonary nodule and smaller cavitary lesions in the bilateral upper lungs.",
+                "source_quote": "Computed Tomography (CT) scan of the chest was performed 10 days later for further characterization. In addition to the left lower lobe pulmonary nodule, smaller cavitary lesions were seen in the bilateral upper lungs (Fig. 2).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 36,
+            "case_id": 2,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": null,
+            "source_date_precision": "UNKNOWN",
+            "relation_to_regression": "BEFORE",
+            "temporal_order_confidence": 0.9,
+            "extraction_run_id": 10,
+            "event_type": "biopsy",
+            "description": "CT-guided biopsy of the left lower lobe nodule was performed and was positive for metastatic melanoma."
+          },
+          "field_evidence": [
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 136,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: CT-guided biopsy of the left lower lobe nodule was performed and was positive for metastatic melanoma.",
+                "source_quote": "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 136,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: CT-guided biopsy of the left lower lobe nodule was performed and was positive for metastatic melanoma.",
+                "source_quote": "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 136,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: CT-guided biopsy of the left lower lobe nodule was performed and was positive for metastatic melanoma.",
+                "source_quote": "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.9,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 37,
+            "case_id": 2,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": null,
+            "source_date_precision": "UNKNOWN",
+            "relation_to_regression": "BEFORE",
+            "temporal_order_confidence": 0.85,
+            "extraction_run_id": 10,
+            "event_type": "diagnosis",
+            "description": "Metastatic melanoma was diagnosed; the patient had no history of melanoma and clinical examination did not reveal a primary lesion."
+          },
+          "field_evidence": [
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 137,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Metastatic melanoma was diagnosed; the patient had no history of melanoma and clinical examination did not reveal a primary lesion.",
+                "source_quote": "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.85,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 138,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Metastatic melanoma was diagnosed; the patient had no history of melanoma and clinical examination did not reveal a primary lesion.",
+                "source_quote": "Patient had no history of melanoma and clinical examination did not reveal a primary lesion.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.85,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 137,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Metastatic melanoma was diagnosed; the patient had no history of melanoma and clinical examination did not reveal a primary lesion.",
+                "source_quote": "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.85,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 138,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Metastatic melanoma was diagnosed; the patient had no history of melanoma and clinical examination did not reveal a primary lesion.",
+                "source_quote": "Patient had no history of melanoma and clinical examination did not reveal a primary lesion.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.85,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 137,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Metastatic melanoma was diagnosed; the patient had no history of melanoma and clinical examination did not reveal a primary lesion.",
+                "source_quote": "A CT-guided biopsy of the left lower lobe nodule was positive for metastatic melanoma.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.85,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 138,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Metastatic melanoma was diagnosed; the patient had no history of melanoma and clinical examination did not reveal a primary lesion.",
+                "source_quote": "Patient had no history of melanoma and clinical examination did not reveal a primary lesion.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.85,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 38,
+            "case_id": 2,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": "The time interval between the baseline CT and PET-CT was 43 days.",
+            "source_date_precision": "RELATIVE",
+            "relation_to_regression": "DURING",
+            "temporal_order_confidence": 0.95,
+            "extraction_run_id": 10,
+            "event_type": "tumor_progression",
+            "description": "At PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic (maximum SUV 15.2)."
+          },
+          "field_evidence": [
+            {
+              "field_name": "date_precision",
+              "evidence": {
+                "id": 139,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: At PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic (maximum SUV 15.2).",
+                "source_quote": "The time interval between the baseline CT and PET-CT was 43 days.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "date_precision",
+              "evidence": {
+                "id": 140,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: At PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic (maximum SUV 15.2).",
+                "source_quote": "On F-18 FDG PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic with maximum standardized uptake value (max SUV) of 15.2 (Fig. 3C and D).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 139,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: At PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic (maximum SUV 15.2).",
+                "source_quote": "The time interval between the baseline CT and PET-CT was 43 days.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 140,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: At PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic (maximum SUV 15.2).",
+                "source_quote": "On F-18 FDG PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic with maximum standardized uptake value (max SUV) of 15.2 (Fig. 3C and D).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 139,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: At PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic (maximum SUV 15.2).",
+                "source_quote": "The time interval between the baseline CT and PET-CT was 43 days.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 140,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: At PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic (maximum SUV 15.2).",
+                "source_quote": "On F-18 FDG PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic with maximum standardized uptake value (max SUV) of 15.2 (Fig. 3C and D).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 139,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: At PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic (maximum SUV 15.2).",
+                "source_quote": "The time interval between the baseline CT and PET-CT was 43 days.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 140,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: At PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic (maximum SUV 15.2).",
+                "source_quote": "On F-18 FDG PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic with maximum standardized uptake value (max SUV) of 15.2 (Fig. 3C and D).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relative_time",
+              "evidence": {
+                "id": 139,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: At PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic (maximum SUV 15.2).",
+                "source_quote": "The time interval between the baseline CT and PET-CT was 43 days.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relative_time",
+              "evidence": {
+                "id": 140,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: At PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic (maximum SUV 15.2).",
+                "source_quote": "On F-18 FDG PET-CT, bilateral upper lobe cavitary lesions had increased in size and number and were markedly hypermetabolic with maximum standardized uptake value (max SUV) of 15.2 (Fig. 3C and D).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 39,
+            "case_id": 2,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": "The time interval between the baseline CT and PET-CT was 43 days.",
+            "source_date_precision": "RELATIVE",
+            "relation_to_regression": "DURING",
+            "temporal_order_confidence": 0.95,
+            "extraction_run_id": 10,
+            "event_type": "tumor_regression",
+            "description": "The previously biopsied left lung nodule had decreased in size and showed minimal FDG uptake (maximum SUV 2.5)."
+          },
+          "field_evidence": [
+            {
+              "field_name": "date_precision",
+              "evidence": {
+                "id": 141,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The previously biopsied left lung nodule had decreased in size and showed minimal FDG uptake (maximum SUV 2.5).",
+                "source_quote": "The time interval between the baseline CT and PET-CT was 43 days.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "date_precision",
+              "evidence": {
+                "id": 142,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The previously biopsied left lung nodule had decreased in size and showed minimal FDG uptake (maximum SUV 2.5).",
+                "source_quote": "On the other hand, the previously biopsied left lung nodule has decreased in size and showed very minimal FDG uptake with max SUV of 2.5 (Fig. 3A and B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 141,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The previously biopsied left lung nodule had decreased in size and showed minimal FDG uptake (maximum SUV 2.5).",
+                "source_quote": "The time interval between the baseline CT and PET-CT was 43 days.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 142,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The previously biopsied left lung nodule had decreased in size and showed minimal FDG uptake (maximum SUV 2.5).",
+                "source_quote": "On the other hand, the previously biopsied left lung nodule has decreased in size and showed very minimal FDG uptake with max SUV of 2.5 (Fig. 3A and B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 141,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The previously biopsied left lung nodule had decreased in size and showed minimal FDG uptake (maximum SUV 2.5).",
+                "source_quote": "The time interval between the baseline CT and PET-CT was 43 days.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 142,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The previously biopsied left lung nodule had decreased in size and showed minimal FDG uptake (maximum SUV 2.5).",
+                "source_quote": "On the other hand, the previously biopsied left lung nodule has decreased in size and showed very minimal FDG uptake with max SUV of 2.5 (Fig. 3A and B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 141,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The previously biopsied left lung nodule had decreased in size and showed minimal FDG uptake (maximum SUV 2.5).",
+                "source_quote": "The time interval between the baseline CT and PET-CT was 43 days.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 142,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The previously biopsied left lung nodule had decreased in size and showed minimal FDG uptake (maximum SUV 2.5).",
+                "source_quote": "On the other hand, the previously biopsied left lung nodule has decreased in size and showed very minimal FDG uptake with max SUV of 2.5 (Fig. 3A and B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relative_time",
+              "evidence": {
+                "id": 141,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The previously biopsied left lung nodule had decreased in size and showed minimal FDG uptake (maximum SUV 2.5).",
+                "source_quote": "The time interval between the baseline CT and PET-CT was 43 days.",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relative_time",
+              "evidence": {
+                "id": 142,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The previously biopsied left lung nodule had decreased in size and showed minimal FDG uptake (maximum SUV 2.5).",
+                "source_quote": "On the other hand, the previously biopsied left lung nodule has decreased in size and showed very minimal FDG uptake with max SUV of 2.5 (Fig. 3A and B).",
+                "page": 1,
+                "section": "Case Report",
+                "paragraph": null,
+                "confidence": 0.95,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 40,
+            "case_id": 2,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": null,
+            "source_date_precision": "UNKNOWN",
+            "relation_to_regression": "UNKNOWN",
+            "temporal_order_confidence": 0.4,
+            "extraction_run_id": 10,
+            "event_type": "treatment",
+            "description": "The patient underwent immune therapy with ipilimumab and had a favorable initial response. Timing relative to the initially documented lesion regression is not explicitly stated."
+          },
+          "field_evidence": [
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 143,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The patient underwent immune therapy with ipilimumab and had a favorable initial response. Timing relative to the initially documented lesion regression is not explicitly stated.",
+                "source_quote": "Our patient underwent immune therapy with ipilimumab with a favorable initial response.",
+                "page": 3,
+                "section": "Discussion",
+                "paragraph": null,
+                "confidence": 0.4,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 143,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The patient underwent immune therapy with ipilimumab and had a favorable initial response. Timing relative to the initially documented lesion regression is not explicitly stated.",
+                "source_quote": "Our patient underwent immune therapy with ipilimumab with a favorable initial response.",
+                "page": 3,
+                "section": "Discussion",
+                "paragraph": null,
+                "confidence": 0.4,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 143,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: The patient underwent immune therapy with ipilimumab and had a favorable initial response. Timing relative to the initially documented lesion regression is not explicitly stated.",
+                "source_quote": "Our patient underwent immune therapy with ipilimumab with a favorable initial response.",
+                "page": 3,
+                "section": "Discussion",
+                "paragraph": null,
+                "confidence": 0.4,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 41,
+            "case_id": 2,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": null,
+            "source_date_precision": "UNKNOWN",
+            "relation_to_regression": "UNKNOWN",
+            "temporal_order_confidence": 0.55,
+            "extraction_run_id": 10,
+            "event_type": "metastasis",
+            "description": "Melanoma recurred with lung, brain, and spinal cord metastases and was resistant to ipilimumab."
+          },
+          "field_evidence": [
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 144,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Melanoma recurred with lung, brain, and spinal cord metastases and was resistant to ipilimumab.",
+                "source_quote": "Unfortunately, as is common with this form of treatment, melanoma recurred with lung, brain, and spinal cord metastases, this time resistant to ipilimumab.",
+                "page": 3,
+                "section": "Discussion",
+                "paragraph": null,
+                "confidence": 0.55,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 144,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Melanoma recurred with lung, brain, and spinal cord metastases and was resistant to ipilimumab.",
+                "source_quote": "Unfortunately, as is common with this form of treatment, melanoma recurred with lung, brain, and spinal cord metastases, this time resistant to ipilimumab.",
+                "page": 3,
+                "section": "Discussion",
+                "paragraph": null,
+                "confidence": 0.55,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 144,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Melanoma recurred with lung, brain, and spinal cord metastases and was resistant to ipilimumab.",
+                "source_quote": "Unfortunately, as is common with this form of treatment, melanoma recurred with lung, brain, and spinal cord metastases, this time resistant to ipilimumab.",
+                "page": 3,
+                "section": "Discussion",
+                "paragraph": null,
+                "confidence": 0.55,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        },
+        {
+          "event": {
+            "id": 42,
+            "case_id": 2,
+            "event_date": null,
+            "date_precision": "unknown",
+            "relative_day": null,
+            "relative_time": "throughout the 19 months that followed after initial diagnosis",
+            "source_date_precision": "RELATIVE",
+            "relation_to_regression": "AFTER",
+            "temporal_order_confidence": 0.85,
+            "extraction_run_id": 10,
+            "event_type": "tumor_regression",
+            "description": "Despite recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months following initial diagnosis."
+          },
+          "field_evidence": [
+            {
+              "field_name": "date_precision",
+              "evidence": {
+                "id": 145,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Despite recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months following initial diagnosis.",
+                "source_quote": "Interestingly, despite the recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months that followed after initial diagnosis.",
+                "page": 3,
+                "section": "Discussion",
+                "paragraph": null,
+                "confidence": 0.85,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "description",
+              "evidence": {
+                "id": 145,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Despite recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months following initial diagnosis.",
+                "source_quote": "Interestingly, despite the recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months that followed after initial diagnosis.",
+                "page": 3,
+                "section": "Discussion",
+                "paragraph": null,
+                "confidence": 0.85,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "event_type",
+              "evidence": {
+                "id": 145,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Despite recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months following initial diagnosis.",
+                "source_quote": "Interestingly, despite the recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months that followed after initial diagnosis.",
+                "page": 3,
+                "section": "Discussion",
+                "paragraph": null,
+                "confidence": 0.85,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relation_to_regression",
+              "evidence": {
+                "id": 145,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Despite recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months following initial diagnosis.",
+                "source_quote": "Interestingly, despite the recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months that followed after initial diagnosis.",
+                "page": 3,
+                "section": "Discussion",
+                "paragraph": null,
+                "confidence": 0.85,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            },
+            {
+              "field_name": "relative_time",
+              "evidence": {
+                "id": 145,
+                "paper_id": 1,
+                "case_id": 2,
+                "evidence_type": "OBSERVED_FACT",
+                "claim": "event.description: Despite recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months following initial diagnosis.",
+                "source_quote": "Interestingly, despite the recurrence of disease, the biopsied lesion continued to decrease in size throughout the 19 months that followed after initial diagnosis.",
+                "page": 3,
+                "section": "Discussion",
+                "paragraph": null,
+                "confidence": 0.85,
+                "support_type": "neutral",
+                "status": "SUPPORTED"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

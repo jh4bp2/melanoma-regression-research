@@ -1,0 +1,102 @@
+Extract only directly observed biological and disease findings for the specified
+melanoma case. This is an observation ontology task, not mechanism inference.
+
+The source text may be tagged:
+- [SHARED_BOTH] applies to every patient in the paper and may be used
+- [CASE_SCOPE_UNCERTAIN] must not be assigned as a unique fact for this patient
+- Do not use sentences about a different named patient (Patient A vs Patient B).
+
+General rules:
+- Do not infer mechanisms, causes, pathways, or treatment effects.
+- Do not convert author hypotheses into observations.
+- Put may/might/likely/suggest/postulate/could/believe/hypothesize statements
+  in rejected_interpretations with exact evidence.
+- Preserve source variable wording, source values, numbers, units, timing,
+  explicit absence, and uncertainty.
+- Every observation requires contiguous verbatim evidence. Do not join distant
+  sentences or invent ellipsis quotes.
+- A finding documented in Discussion remains OBSERVED_FACT if it is observed.
+- Split mixed sentences: the observed clause is an observation; the
+  mechanistic clause is a rejected interpretation.
+- Repeated findings across sections become one observation with multiple
+  Evidence references.
+- Missing variables are calculated by the system; do not invent evidence.
+
+Recall-critical findings. Do not drop these when the PDF states them:
+- Immune pathology: CD3, CD8, CD4, NK, TIL, macrophage, or lymphocyte
+  infiltration, especially in pathology, immunohistochemistry, and figure
+  captions. Use BIOLOGICAL_STATE + domain_secondary DIAGNOSTIC_EVIDENCE.
+- Genotype: any gene with wild type, mutation, variant, germline, somatic,
+  deletion, amplification, rsID, protein change, or coding change. Use the
+  PDF body, not title or abstract metadata alone.
+- Author alternatives: delayed treatment effect, vaccine, infection, or
+  "cannot exclude" language goes in rejected_interpretations only.
+
+observation_domain:
+- BIOLOGICAL_STATE: measured host/tumor biological state, including CBC,
+  lesion-specific FDG/SUV, tumor necrosis, viable tumor status, and
+  immune-cell infiltration even when obtained from pathology.
+- DISEASE_PHENOTYPE: lesion size/morphology, progression, recurrence,
+  spontaneous regression, and metastatic phenotype. Clinical disappearance
+  belongs here.
+- DIAGNOSTIC_EVIDENCE: biopsy diagnosis, immunohistochemistry used only
+  for diagnosis, staging evidence, and diagnostic stains.
+- CLINICAL_CONTEXT: symptoms, infection, fever, vaccination, leukoderma,
+  and immune-related adverse events (irAEs). irAE is context, not a cause
+  of regression.
+- TREATMENT_RESPONSE: only a directly reported response or resistance to
+  a named treatment. Spontaneous regression is never TREATMENT_RESPONSE.
+
+domain_secondary:
+- Use when one finding has two semantic roles.
+- CD3/CD8/lymphocyte infiltration: domain_primary BIOLOGICAL_STATE,
+  domain_secondary DIAGNOSTIC_EVIDENCE, measurement_semantics
+  PATHOLOGIC_FINDING, category IMMUNE.
+
+measurement_semantics:
+- DIRECT_MEASUREMENT, IMAGING_PROXY, PATHOLOGIC_FINDING, LAB_MEASUREMENT,
+  MORPHOLOGIC_FINDING, SYMPTOM, CLINICAL_FINDING, or UNKNOWN.
+- FDG uptake and SUV are IMAGING_PROXY.
+- Histopathology is PATHOLOGIC_FINDING.
+- Leukoderma is CLINICAL_FINDING, category DERMATOLOGIC_PHENOTYPE.
+
+Lesion identity:
+- Use laterality + anatomical region + lesion type
+  (right inguinal lymph node, left axillary lymph node,
+  right heel primary melanoma lesion).
+- Do not emit names such as "right lesion", "skin lesion",
+  or "lymph node lymph node".
+- Do not collapse multifocal, bilateral, in-transit, or multi-station
+  lymph-node sets into one lesion. Use lesion_collection_identifier.
+- Do not invent unnamed member lesions for a collection.
+- Primary disappearance and persistent nodal metastasis are compatible
+  lesion states in one case. Do not treat them as a contradiction.
+
+Split these even if they share one sentence:
+- no viable malignant cells
+- fibrosis
+- melanophages
+- leukoderma
+- lymphocytic infiltration
+- necrosis
+
+Direction:
+- A single static value or range has direction UNKNOWN.
+- "decreased from 15 mm to 8 mm" may be DECREASED.
+
+Genotype:
+- Not limited to BRAF/NRAS/KIT/NF1. Include MEFV and cytogenetic findings
+  such as del(5q).
+- "BRAF V600E wild type" is gene BRAF, variant V600E, state WILD_TYPE.
+  Never invert this to MUTATED.
+- "MEFV P369S/R408Q germline variant" is VARIANT_PRESENT, origin GERMLINE.
+  Preserve both protein changes. Do not reduce it to ABSENT/PRESENT.
+- "mutation not detected" is NOT_DETECTED, not wild-type.
+
+Regression:
+- Multiple spontaneous regression episodes in one patient stay separate
+  by organ and time.
+- Delayed possible ipilimumab, vaccine, infection, pyrin, or biopsy
+  explanations go in rejected_interpretations, not observations.
+
+Association and Event linkage never imply causation.
