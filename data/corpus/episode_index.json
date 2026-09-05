@@ -246,5 +246,77 @@
     "extent": "COMPLETE",
     "associated_lesions": [],
     "temporal_relation": "YES"
+  },
+  {
+    "case_id": 35,
+    "episode_id": 153,
+    "episode_type": "SPONTANEOUS",
+    "extent": "COMPLETE",
+    "associated_lesions": [],
+    "temporal_relation": "YES"
+  },
+  {
+    "case_id": 36,
+    "episode_id": 154,
+    "episode_type": "SPONTANEOUS",
+    "extent": "COMPLETE",
+    "associated_lesions": [],
+    "temporal_relation": "YES"
+  },
+  {
+    "case_id": 36,
+    "episode_id": 155,
+    "episode_type": "SPONTANEOUS",
+    "extent": "COMPLETE",
+    "associated_lesions": [],
+    "temporal_relation": "YES"
+  },
+  {
+    "case_id": 37,
+    "episode_id": 159,
+    "episode_type": "SPONTANEOUS",
+    "extent": "UNCERTAIN",
+    "associated_lesions": [],
+    "temporal_relation": "YES"
+  },
+  {
+    "case_id": 38,
+    "episode_id": 160,
+    "episode_type": "SPONTANEOUS",
+    "extent": "COMPLETE",
+    "associated_lesions": [],
+    "temporal_relation": "YES"
+  },
+  {
+    "case_id": 39,
+    "episode_id": 161,
+    "episode_type": "SPONTANEOUS",
+    "extent": "UNCERTAIN",
+    "associated_lesions": [],
+    "temporal_relation": "YES"
+  },
+  {
+    "case_id": 40,
+    "episode_id": 168,
+    "episode_type": "SPONTANEOUS",
+    "extent": "PARTIAL",
+    "associated_lesions": [],
+    "temporal_relation": "YES"
+  },
+  {
+    "case_id": 41,
+    "episode_id": 169,
+    "episode_type": "SPONTANEOUS",
+    "extent": "PARTIAL",
+    "associated_lesions": [],
+    "temporal_relation": "YES"
+  },
+  {
+    "case_id": 42,
+    "episode_id": 170,
+    "episode_type": "SPONTANEOUS",
+    "extent": "UNCERTAIN",
+    "associated_lesions": [],
+    "temporal_relation": "YES"
   }
 ]

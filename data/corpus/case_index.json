@@ -131,5 +131,61 @@
     "patient_marker": "55-year-old woman [run 123]",
     "year": 2017,
     "melanoma_context": "metastatic melanoma"
+  },
+  {
+    "paper_id": 19,
+    "case_id": 35,
+    "patient_marker": "paper-19-case-1 [run 168]",
+    "year": 2016,
+    "melanoma_context": "fully regressive melanoma"
+  },
+  {
+    "paper_id": 20,
+    "case_id": 36,
+    "patient_marker": "paper-20-case-1 [run 170]",
+    "year": 1955,
+    "melanoma_context": "malignant melanoma"
+  },
+  {
+    "paper_id": 24,
+    "case_id": 37,
+    "patient_marker": "paper-24-case-1 [run 174]",
+    "year": 2020,
+    "melanoma_context": "malignant melanoma"
+  },
+  {
+    "paper_id": 25,
+    "case_id": 38,
+    "patient_marker": "paper-25-case-1 [run 176]",
+    "year": 2007,
+    "melanoma_context": "malignant melanoma"
+  },
+  {
+    "paper_id": 26,
+    "case_id": 39,
+    "patient_marker": "68-year-old male patient [run 178]",
+    "year": 2021,
+    "melanoma_context": "mucosal melanoma"
+  },
+  {
+    "paper_id": 27,
+    "case_id": 40,
+    "patient_marker": "paper-27-case-1 [run 187]",
+    "year": 2022,
+    "melanoma_context": "choroidal melanoma"
+  },
+  {
+    "paper_id": 28,
+    "case_id": 41,
+    "patient_marker": "27-year-old woman of European descent [run 189]",
+    "year": 2025,
+    "melanoma_context": "nodular melanoma"
+  },
+  {
+    "paper_id": 29,
+    "case_id": 42,
+    "patient_marker": "paper-29-case-1 [run 191]",
+    "year": 2012,
+    "melanoma_context": "arm"
   }
 ]

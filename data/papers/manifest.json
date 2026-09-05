@@ -486,6 +486,281 @@
       },
       "exclusion_reason": "NOT_SPONTANEOUS_REGRESSION",
       "discovery_track": "LATENT_REGRESSION"
+    },
+    {
+      "title": "Fully Regressive Melanoma: A Case Without Metastasis.",
+      "filename": "ehrsam_2016_pmc5022996.pdf",
+      "source_url": "https://europepmc.org/articles/PMC5022996?pdf=render",
+      "access_source": "Europe PMC full-text PDF (PMC5022996)",
+      "source_version": "PMC5022996.1",
+      "source_size_bytes": 118705,
+      "local_sha256": "65a12f20c5be6bf345e5cba4544a089254b8069bd82cb5720076651544d1a15c",
+      "page_count": 5,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 19,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": null,
+        "pmid": "27672418",
+        "pmcid": "PMC5022996"
+      }
+    },
+    {
+      "title": "Malignant melanoma; spontaneous regression after pregnancy.",
+      "filename": "allen_1955_pmc1981517.pdf",
+      "source_url": "https://europepmc.org/articles/PMC1981517?pdf=render",
+      "access_source": "Europe PMC full-text PDF (PMC1981517)",
+      "source_version": "PMC1981517.1",
+      "source_size_bytes": 249384,
+      "local_sha256": "a2bf6bdd33b60807cf0cc7cb876fe29e0dbae046f9de65ae05c5e3a08a58ce07",
+      "page_count": 1,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 20,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.1136/bmj.2.4947.1067",
+        "pmid": "13260663",
+        "pmcid": "PMC1981517"
+      }
+    },
+    {
+      "title": "Tumoral melanosis without metastasis: a report after three years of follow-up.",
+      "filename": "miola_2021_pmc8790163.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8790163.1/PMC8790163.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC8790163.1)",
+      "source_version": "PMC8790163.1",
+      "source_size_bytes": 1123043,
+      "local_sha256": "0fd0436b5d197ab5a9a522960ba3c48c9c645131fca9b0f674ee08f15c1f9e43",
+      "page_count": 2,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 21,
+      "status": "EXCLUDED",
+      "candidate_identifiers": {
+        "doi": "10.1016/j.abd.2020.04.016",
+        "pmid": "34598805",
+        "pmcid": "PMC8790163"
+      },
+      "exclusion_reason": "NOT_SPONTANEOUS_REGRESSION",
+      "discovery_track": "LATENT_REGRESSION",
+      "inclusion_class": "LATENT_REGRESSION_DISCOVERY_SOURCE"
+    },
+    {
+      "title": "Complete regression of primary melanoma associated with nevi involution under BRAF inhibitors: A case report and review of the literature.",
+      "filename": "grigore_2019_pmc6444337.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6444337.1/PMC6444337.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC6444337.1)",
+      "source_version": "PMC6444337.1",
+      "source_size_bytes": 1132810,
+      "local_sha256": "658b462dd151ba033a75e2396b4fff6c7cefaa8c02e8b31b9420009a6f6b0fb8",
+      "page_count": 7,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 22,
+      "status": "EXCLUDED",
+      "candidate_identifiers": {
+        "doi": "10.3892/ol.2018.9738",
+        "pmid": "30944613",
+        "pmcid": "PMC6444337"
+      },
+      "exclusion_reason": "NOT_SPONTANEOUS_REGRESSION",
+      "discovery_track": "TREATMENT_ASSOCIATED",
+      "inclusion_class": "TREATMENT_ASSOCIATED_REFERENCE"
+    },
+    {
+      "title": "Tumoral Melanosis Associated with Pembrolizumab-Treated Metastatic Melanoma.",
+      "filename": "bari_2017_pmc5348220.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5348220.1/PMC5348220.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC5348220.1)",
+      "source_version": "PMC5348220.1",
+      "source_size_bytes": 12527494,
+      "local_sha256": "1d15567814946de836a998a0ee2071bcacdb79f9589acb52068a209b68f89acd",
+      "page_count": 17,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 23,
+      "status": "EXCLUDED",
+      "candidate_identifiers": {
+        "doi": "10.7759/cureus.1026",
+        "pmid": "28348944",
+        "pmcid": "PMC5348220"
+      },
+      "exclusion_reason": "NOT_SPONTANEOUS_REGRESSION",
+      "discovery_track": "TREATMENT_ASSOCIATED",
+      "inclusion_class": "TREATMENT_ASSOCIATED_REFERENCE"
+    },
+    {
+      "title": "Spontaneous Regression of a Metastasis from Melanoma: A Case Report",
+      "filename": "davidfilho_2020_bjstr004593.pdf",
+      "source_url": "https://biomedres.us/pdfs/BJSTR.MS.ID.004593.pdf",
+      "access_source": "BJSTR publisher open-access PDF",
+      "source_version": "None.1",
+      "source_size_bytes": 475609,
+      "local_sha256": "f088f1a13ab300460c2d76ee4453d85b034c940e365ad844bcc4eb46bf4489e8",
+      "page_count": 5,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 24,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.26717/BJSTR.2020.28.004593",
+        "pmid": null,
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Spontaneous regression of melanoma with distant metastases - report of a patient with brain metastases",
+      "filename": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16935819/",
+      "access_source": "EJD publisher PDF if legally available; otherwise FULLTEXT_UNAVAILABLE",
+      "source_size_bytes": null,
+      "local_sha256": null,
+      "page_count": null,
+      "download_date": null,
+      "access_checked_on": "2026-09-05",
+      "status": "FULLTEXT_UNAVAILABLE",
+      "candidate_identifiers": {
+        "doi": null,
+        "pmid": "16935819",
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Spontaneous regression of metastatic melanoma.",
+      "filename": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/1872546/",
+      "access_source": "Annals of Plastic Surgery; legal PDF only if publisher OA",
+      "source_size_bytes": null,
+      "local_sha256": null,
+      "page_count": null,
+      "download_date": null,
+      "access_checked_on": "2026-09-05",
+      "status": "FULLTEXT_UNAVAILABLE",
+      "candidate_identifiers": {
+        "doi": "10.1097/00000637-199104000-00016",
+        "pmid": "1872546",
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Disease regression in malignant melanoma: spontaneous resolution or a result of treatment with antioxidants, green tea, and pineapple cores? A case report.",
+      "filename": "michael_2007_integrcancerther.pdf",
+      "source_url": "https://openresearch.surrey.ac.uk/view/pdfCoverPage?download=true&filePid=13140500260002346&instCode=44SUR_INST",
+      "access_source": "University of Surrey institutional repository PDF",
+      "source_version": "None.1",
+      "source_size_bytes": 800058,
+      "local_sha256": "d3719923207ab697e58d17ca760e4bbf6a0614082e2e3b3752d0faf44bbbfcf1",
+      "page_count": 9,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 25,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.1177/1534735406298897",
+        "pmid": "17393612",
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Spontaneous Regression of a Middle Ear Melanoma.",
+      "filename": "krebbers_2021_pmc8584193.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8584193.1/PMC8584193.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC8584193.1)",
+      "source_version": "PMC8584193.1",
+      "source_size_bytes": 745718,
+      "local_sha256": "88c4a38a46c88418e9097271d4092e0614dd19068fc29504c11526ed40f463f7",
+      "page_count": 5,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 26,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.1097/mao.0000000000003371",
+        "pmid": "34607999",
+        "pmcid": "PMC8584193"
+      }
+    },
+    {
+      "title": "Complete regression of melanoma associated with vitiligo",
+      "filename": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21272495/",
+      "access_source": "UC eScholarship / Dermatology Online Journal OA PDF",
+      "source_size_bytes": null,
+      "local_sha256": null,
+      "page_count": null,
+      "download_date": null,
+      "access_checked_on": "2026-09-06",
+      "status": "FULLTEXT_UNAVAILABLE",
+      "candidate_identifiers": {
+        "doi": "10.5070/D37SN7H2J7",
+        "pmid": "21272495",
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Partial spontaneous regression of choroidal melanoma: A case image with histopathology and gene expression profiling",
+      "filename": "patel_2022_pmc9048143.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9048143.1/PMC9048143.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC9048143.1)",
+      "source_version": "PMC9048143.1",
+      "source_size_bytes": 3971604,
+      "local_sha256": "76a32435f040c292b0186e349ccf0389809884ef93f600d5a2254591130e2d76",
+      "page_count": 3,
+      "download_date": "2026-09-06",
+      "ingestion_paper_id": 27,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.1016/j.ajoc.2022.101517",
+        "pmid": "35496766",
+        "pmcid": "PMC9048143"
+      }
+    },
+    {
+      "title": "Spontaneous regression of metastases in malignant melanoma: a case report",
+      "filename": "goncharov_2025_smr.pdf",
+      "source_url": "https://journals.rcsi.science/1819-9496/article/download/413125/680297",
+      "access_source": "Siberian Medical Review publisher OA PDF",
+      "source_version": "None.1",
+      "source_size_bytes": 1067296,
+      "local_sha256": "3f598a7bd453794df586659da646d20e5b1722e976f2094d2214bfe6aff51c60",
+      "page_count": 4,
+      "download_date": "2026-09-06",
+      "ingestion_paper_id": 28,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.20333/25000136-2025-3-102-105",
+        "pmid": null,
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Complete regression of primary malignant melanoma",
+      "filename": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/18360126/",
+      "access_source": "LWW closed access. ResearchGate not used. No institutional/author-manuscript PDF located.",
+      "source_size_bytes": null,
+      "local_sha256": null,
+      "page_count": null,
+      "download_date": null,
+      "access_checked_on": "2026-09-06",
+      "status": "FULLTEXT_UNAVAILABLE",
+      "candidate_identifiers": {
+        "doi": "10.1097/DAD.0b013e318165641a",
+        "pmid": "18360126",
+        "pmcid": null
+      }
+    },
+    {
+      "title": "Extensive regression in pigmented skin lesions: a dangerous confounding feature",
+      "filename": "lallas_2012_pmc3663342.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC3663342.1/PMC3663342.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC3663342.1)",
+      "source_version": "PMC3663342.1",
+      "source_size_bytes": 1224840,
+      "local_sha256": "fc80a45320ee67c445e9de8e421c7d95847cabbd8ae228ec7104512e4dfa251c",
+      "page_count": 4,
+      "download_date": "2026-09-06",
+      "ingestion_paper_id": 29,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.5826/dpc.0202a08",
+        "pmid": "23785596",
+        "pmcid": "PMC3663342"
+      }
     }
   ]
 }

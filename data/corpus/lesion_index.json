@@ -367,5 +367,122 @@
     "laterality": null,
     "collection_id": null,
     "regression_role": null
+  },
+  {
+    "case_id": 35,
+    "lesion_id": 125,
+    "organ": "SKIN",
+    "location": "BACK",
+    "laterality": null,
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 36,
+    "lesion_id": 126,
+    "organ": null,
+    "location": "PRIMARY_SITE",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 36,
+    "lesion_id": 127,
+    "organ": "LYMPH_NODE",
+    "location": null,
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 37,
+    "lesion_id": 128,
+    "organ": null,
+    "location": "PRIMARY_SITE",
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 37,
+    "lesion_id": 129,
+    "organ": "LYMPH_NODE",
+    "location": "AXILLA",
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 37,
+    "lesion_id": 130,
+    "organ": "LUNG",
+    "location": null,
+    "laterality": null,
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 38,
+    "lesion_id": 131,
+    "organ": null,
+    "location": "PRIMARY_SITE",
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 38,
+    "lesion_id": 132,
+    "organ": "LUNG",
+    "location": "UPPER_LOBE",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": "REGRESSED"
+  },
+  {
+    "case_id": 39,
+    "lesion_id": 133,
+    "organ": null,
+    "location": "PRIMARY_SITE",
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 39,
+    "lesion_id": 134,
+    "organ": "LYMPH_NODE",
+    "location": null,
+    "laterality": null,
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 41,
+    "lesion_id": 135,
+    "organ": null,
+    "location": "PRIMARY_SITE",
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 41,
+    "lesion_id": 136,
+    "organ": "LYMPH_NODE",
+    "location": "INGUINAL",
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 42,
+    "lesion_id": 137,
+    "organ": "LYMPH_NODE",
+    "location": "AXILLA",
+    "laterality": null,
+    "collection_id": null,
+    "regression_role": null
   }
 ]
