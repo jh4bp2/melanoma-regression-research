@@ -18,7 +18,12 @@ from app.corpus.manifest import (
 )
 from app.corpus.matrix import MATRIX_COLUMNS, build_case_row, empty_cell, skeleton
 from app.corpus.quality import score_case
-from app.corpus.runs import latest_phase2_run, latest_phase3_runs, seed_cases_and_runs
+from app.corpus.runs import (
+    latest_phase2_run,
+    latest_phase3_runs,
+    latest_reconciliation_runs,
+    seed_cases_and_runs,
+)
 from app.corpus.states import PaperIntakeState, QualityStatus
 from app.corpus.store import CorpusStore
 from app.corpus.versions import BATCH_SIZE, CORPUS_INFRA_VERSION, frozen_ontology
@@ -171,11 +176,20 @@ class CorpusPipeline:
             if paper_id is None:
                 continue
             cases, phase2, phase3 = seed_cases_and_runs(session, paper_id)
+            recon = latest_reconciliation_runs(session, paper_id)
             run_ids = [run.id for run in phase3]
+            recon_ids = [run.id for run in recon]
             case_ids = [case.id for case in cases]
-            cases, lesions, episodes, states = load_seed_entities(
+            cases, lesions, historical_episodes, states = load_seed_entities(
                 session, case_ids, run_ids
             )
+            if recon_ids:
+                _cases, _lesions, recon_episodes, _states = load_seed_entities(
+                    session, case_ids, recon_ids
+                )
+                episodes = recon_episodes or historical_episodes
+            else:
+                episodes = historical_episodes
             all_cases.extend(cases)
             all_lesions.extend(lesions)
             all_episodes.extend(episodes)

@@ -4,8 +4,9 @@ from app.services.biological_observation_pipeline import BiologicalObservationPi
 from app.services.extraction_pipeline import ExtractionPipeline
 
 
-CORPUS_INFRA_VERSION = "phase4a.1"
-CORPUS_RULE_VERSION = "corpus-infra-v1"
+CORPUS_INFRA_VERSION = "phase4a.2"
+CORPUS_RULE_VERSION = "phase4a2-collection-episode-v1"
+RECONCILIATION_RUN_TYPE = "corpus_reconciliation"
 BATCH_SIZE = 5
 
 FROZEN_PHASE2_SCHEMA = ExtractionPipeline.SCHEMA_VERSION
@@ -35,7 +36,8 @@ def frozen_ontology() -> dict[str, str]:
         "phase3_rule": FROZEN_PHASE3_RULE,
         "phase3_prompt": FROZEN_PHASE3_PROMPT,
         "policy": (
-            "Do not change schema/rule/prompt for a single new paper. "
-            "Record ONTOLOGY_PRESSURE_POINT and review in batch."
+            "Do not change PHASE 2/3 schema/rule/prompt for a single new paper. "
+            "Record ONTOLOGY_PRESSURE_POINT and review in batch. "
+            "Corpus collection/episode patches use a reconciliation layer."
         ),
     }

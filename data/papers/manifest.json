@@ -394,6 +394,98 @@
         "pmid": "7844465",
         "pmcid": null
       }
+    },
+    {
+      "title": "Spontaneous regression of lymphovascular invasion and metastasis of malignant melanoma: ultrasound findings",
+      "filename": "koibuchi_2022_pmc10632326.pdf",
+      "source_url": "https://europepmc.org/articles/PMC10632326?pdf=render",
+      "access_source": "Europe PMC full-text PDF (PMC10632326)",
+      "source_version": "PMC10632326.1",
+      "source_size_bytes": 534835,
+      "local_sha256": "97959a8116361e3dd208b83bcc2b450ce7d2cf335b47c3fc8a0c9cd3b7efa63a",
+      "page_count": 3,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 14,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.1007/s40477-022-00752-6",
+        "pmid": "36574191",
+        "pmcid": "PMC10632326"
+      }
+    },
+    {
+      "title": "Complete regression of primary cutaneous malignant melanoma associated with distant lymph node metastasis: a teaching case mimicking blue nevus",
+      "filename": "yamada_2016_pmc4960676.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4960676.1/PMC4960676.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC4960676.1)",
+      "source_version": "PMC4960676.1",
+      "source_size_bytes": 2173284,
+      "local_sha256": "dc37353487b4619ed223ab5976400e03f7a120c43c4db44097292a359f2b3200",
+      "page_count": 6,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 15,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.1186/s13104-016-2174-4",
+        "pmid": "27456492",
+        "pmcid": "PMC4960676"
+      }
+    },
+    {
+      "title": "Regressive melanoma in a female patient: A case report",
+      "filename": "sandru_2020_pmc7271722.pdf",
+      "source_url": "https://europepmc.org/articles/PMC7271722?pdf=render",
+      "access_source": "Europe PMC full-text PDF (PMC7271722)",
+      "source_version": "PMC7271722.1",
+      "source_size_bytes": 349504,
+      "local_sha256": "d1e95378b76cf6e19ba11f9de47e3da4488b7f379ce760a725254950eb3795c1",
+      "page_count": 4,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 16,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.3892/etm.2020.8675",
+        "pmid": "32508999",
+        "pmcid": "PMC7271722"
+      }
+    },
+    {
+      "title": "Disappearance of All Nevi as Initial Sign of Metastatic Melanoma",
+      "filename": "martinez_lopez_2017_pmc5527740.pdf",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5527740.1/PMC5527740.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC5527740.1)",
+      "source_version": "PMC5527740.1",
+      "source_size_bytes": 308648,
+      "local_sha256": "cda8fc9af75f2044240fdd3cad4573b5bb3a75daaa53a7208fde7ca0d0dc3b7a",
+      "page_count": 2,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 17,
+      "status": "INGESTED",
+      "candidate_identifiers": {
+        "doi": "10.4103/ijd.IJD_260_16",
+        "pmid": "28794570",
+        "pmcid": "PMC5527740"
+      }
+    },
+    {
+      "title": "Stage IV malignant melanoma of unknown primary site in a young man",
+      "filename": "unknown_primary_2012_pmc4543345.pdf",
+      "source_url": "https://europepmc.org/articles/PMC4543345?pdf=render",
+      "access_source": "Europe PMC full-text PDF (PMC4543345)",
+      "source_version": "PMC4543345.1",
+      "source_size_bytes": 2077322,
+      "local_sha256": "89441b35c323e67414cf922d8daacdc87603f55628ad2ec4de9d1c5e4eb8749e",
+      "page_count": 4,
+      "download_date": "2026-09-05",
+      "ingestion_paper_id": 18,
+      "status": "EXCLUDED",
+      "candidate_identifiers": {
+        "doi": "10.1136/bcr-2012-006283",
+        "pmid": "22847563",
+        "pmcid": "PMC4543345"
+      },
+      "exclusion_reason": "NOT_SPONTANEOUS_REGRESSION",
+      "discovery_track": "LATENT_REGRESSION"
     }
   ]
 }

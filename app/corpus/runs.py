@@ -3,7 +3,12 @@ from __future__ import annotations
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.corpus.versions import FROZEN_PHASE2_SCHEMA, FROZEN_PHASE3_SCHEMA
+from app.corpus.versions import (
+    CORPUS_INFRA_VERSION,
+    FROZEN_PHASE2_SCHEMA,
+    FROZEN_PHASE3_SCHEMA,
+    RECONCILIATION_RUN_TYPE,
+)
 from app.models import Case, ExtractionRun, ExtractionStatus
 
 
@@ -44,6 +49,28 @@ def latest_phase3_runs(session: Session, paper_id: int) -> list[ExtractionRun]:
     for run in reversed(runs):
         if run.source_extraction_run_id != latest_source:
             continue
+        if run.case_id not in by_case:
+            by_case[run.case_id] = run
+    return list(by_case.values())
+
+
+def latest_reconciliation_runs(session: Session, paper_id: int) -> list[ExtractionRun]:
+    runs = list(
+        session.scalars(
+            select(ExtractionRun)
+            .where(
+                ExtractionRun.paper_id == paper_id,
+                ExtractionRun.run_type == RECONCILIATION_RUN_TYPE,
+                ExtractionRun.schema_version == CORPUS_INFRA_VERSION,
+                ExtractionRun.status.in_(
+                    (ExtractionStatus.COMPLETED, ExtractionStatus.PARTIAL)
+                ),
+            )
+            .order_by(ExtractionRun.id.desc())
+        )
+    )
+    by_case: dict[int | None, ExtractionRun] = {}
+    for run in runs:
         if run.case_id not in by_case:
             by_case[run.case_id] = run
     return list(by_case.values())

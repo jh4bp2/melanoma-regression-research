@@ -98,10 +98,25 @@ ADDITIVE_COLUMNS = {
         "assay": "VARCHAR(255)",
         "source_context": "TEXT",
     },
+    "lesions": {
+        "reconciled_canonical_name": "VARCHAR(255)",
+    },
     "lesion_collections": {
         "member_count_reported": "INTEGER",
         "membership_confidence": "FLOAT",
         "collection_only": "BOOLEAN",
+        "laterality": "VARCHAR(32)",
+        "normalized_label": "VARCHAR(255)",
+        "count_semantics": "VARCHAR(32)",
+        "membership_status": "VARCHAR(32)",
+    },
+    "regression_episodes": {
+        "associated_collection_ids": "TEXT",
+        "anatomic_scope": "VARCHAR(255)",
+        "milestones": "TEXT",
+        "source_episode_ids": "TEXT",
+        "extent_transition": "VARCHAR(64)",
+        "is_canonical": "BOOLEAN",
     },
     "lesion_collection_memberships": {
         "membership_confidence": "FLOAT",

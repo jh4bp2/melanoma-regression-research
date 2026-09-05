@@ -277,5 +277,95 @@
     "laterality": null,
     "collection_id": null,
     "regression_role": null
+  },
+  {
+    "case_id": 31,
+    "lesion_id": 115,
+    "organ": "SKIN",
+    "location": "ANKLE",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 31,
+    "lesion_id": 116,
+    "organ": "SKIN",
+    "location": null,
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": "REGRESSED"
+  },
+  {
+    "case_id": 32,
+    "lesion_id": 117,
+    "organ": null,
+    "location": "PRIMARY_SITE",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": "REGRESSED"
+  },
+  {
+    "case_id": 32,
+    "lesion_id": 118,
+    "organ": "LYMPH_NODE",
+    "location": "INGUINAL",
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 33,
+    "lesion_id": 119,
+    "organ": null,
+    "location": "PRIMARY_SITE",
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 33,
+    "lesion_id": 120,
+    "organ": "LUNG",
+    "location": null,
+    "laterality": null,
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 33,
+    "lesion_id": 121,
+    "organ": "BRAIN",
+    "location": null,
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 33,
+    "lesion_id": 122,
+    "organ": "BRAIN",
+    "location": null,
+    "laterality": "LEFT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 34,
+    "lesion_id": 123,
+    "organ": "SKIN",
+    "location": null,
+    "laterality": "RIGHT",
+    "collection_id": null,
+    "regression_role": null
+  },
+  {
+    "case_id": 34,
+    "lesion_id": 124,
+    "organ": "LUNG",
+    "location": null,
+    "laterality": null,
+    "collection_id": null,
+    "regression_role": null
   }
 ]

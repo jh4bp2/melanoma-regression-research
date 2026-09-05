@@ -1,5 +1,5 @@
 {
-  "version": "phase4a.1",
+  "version": "phase4a.2",
   "cases": [
     {
       "paper_id": 2,
@@ -210,6 +210,62 @@
         "quote_verification_rate": 1.0
       },
       "mean": 0.8403
+    },
+    {
+      "paper_id": 14,
+      "case_id": 31,
+      "kind": "data_quality_not_biological_importance",
+      "scores": {
+        "provenance_completeness": 1.0,
+        "temporal_completeness": 0.7273,
+        "lesion_identity_quality": 1.0,
+        "biological_measurement_density": 0.375,
+        "case_scope_confidence": 1.0,
+        "quote_verification_rate": 1.0
+      },
+      "mean": 0.8504
+    },
+    {
+      "paper_id": 15,
+      "case_id": 32,
+      "kind": "data_quality_not_biological_importance",
+      "scores": {
+        "provenance_completeness": 1.0,
+        "temporal_completeness": 0.5714,
+        "lesion_identity_quality": 1.0,
+        "biological_measurement_density": 0.75,
+        "case_scope_confidence": 1.0,
+        "quote_verification_rate": 1.0
+      },
+      "mean": 0.8869
+    },
+    {
+      "paper_id": 16,
+      "case_id": 33,
+      "kind": "data_quality_not_biological_importance",
+      "scores": {
+        "provenance_completeness": 1.0,
+        "temporal_completeness": 0.1818,
+        "lesion_identity_quality": 1.0,
+        "biological_measurement_density": 0.125,
+        "case_scope_confidence": 1.0,
+        "quote_verification_rate": 1.0
+      },
+      "mean": 0.7178
+    },
+    {
+      "paper_id": 17,
+      "case_id": 34,
+      "kind": "data_quality_not_biological_importance",
+      "scores": {
+        "provenance_completeness": 1.0,
+        "temporal_completeness": 0.4545,
+        "lesion_identity_quality": 1.0,
+        "biological_measurement_density": 0.125,
+        "case_scope_confidence": 1.0,
+        "quote_verification_rate": 1.0
+      },
+      "mean": 0.7633
     }
   ]
 }

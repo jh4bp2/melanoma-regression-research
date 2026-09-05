@@ -209,7 +209,22 @@ class LesionScopeKind(str, enum.Enum):
     SINGLE_LESION = "SINGLE_LESION"
     LESION_COLLECTION = "LESION_COLLECTION"
     MULTIFOCAL_DISEASE = "MULTIFOCAL_DISEASE"
+    METASTATIC_LESION_GROUP = "METASTATIC_LESION_GROUP"
+    MELANOCYTIC_NEVI_GROUP = "MELANOCYTIC_NEVI_GROUP"
     UNKNOWN = "UNKNOWN"
+
+
+class CollectionCountSemantics(str, enum.Enum):
+    EXACT = "EXACT"
+    APPROXIMATE = "APPROXIMATE"
+    MULTIPLE_UNSPECIFIED = "MULTIPLE_UNSPECIFIED"
+    UNKNOWN = "UNKNOWN"
+
+
+class CollectionMembershipStatus(str, enum.Enum):
+    INDIVIDUAL_MEMBERS_KNOWN = "INDIVIDUAL_MEMBERS_KNOWN"
+    PARTIAL_MEMBERS_KNOWN = "PARTIAL_MEMBERS_KNOWN"
+    COLLECTION_ONLY = "COLLECTION_ONLY"
 
 
 class LesionAliasStatus(str, enum.Enum):
@@ -653,6 +668,7 @@ class Lesion(Base):
     laterality: Mapped[str | None] = mapped_column(String(32))
     lesion_type: Mapped[str | None] = mapped_column(String(100))
     identity_key: Mapped[str] = mapped_column(String(255), index=True)
+    reconciled_canonical_name: Mapped[str | None] = mapped_column(String(255))
     created_from_run_id: Mapped[int | None] = mapped_column(
         ForeignKey("extraction_runs.id", ondelete="SET NULL"), index=True
     )
@@ -726,7 +742,11 @@ class LesionCollection(Base):
     organ: Mapped[str | None] = mapped_column(String(100))
     anatomical_location: Mapped[str | None] = mapped_column(String(255))
     source_text: Mapped[str | None] = mapped_column(Text)
+    laterality: Mapped[str | None] = mapped_column(String(32))
+    normalized_label: Mapped[str | None] = mapped_column(String(255))
     member_count_reported: Mapped[int | None] = mapped_column(Integer)
+    count_semantics: Mapped[str | None] = mapped_column(String(32))
+    membership_status: Mapped[str | None] = mapped_column(String(32))
     membership_confidence: Mapped[float | None] = mapped_column(Float)
     collection_only: Mapped[bool] = mapped_column(default=True)
     created_from_run_id: Mapped[int | None] = mapped_column(
@@ -917,6 +937,12 @@ class RegressionEpisode(Base):
     spontaneous_status: Mapped[str | None] = mapped_column(String(32))
     associated_lesion_ids: Mapped[list[int]] = mapped_column(JSON, default=list)
     associated_event_ids: Mapped[list[int]] = mapped_column(JSON, default=list)
+    associated_collection_ids: Mapped[list[int] | None] = mapped_column(JSON)
+    anatomic_scope: Mapped[str | None] = mapped_column(String(255))
+    milestones: Mapped[list[dict[str, Any]] | None] = mapped_column(JSON)
+    source_episode_ids: Mapped[list[int] | None] = mapped_column(JSON)
+    extent_transition: Mapped[str | None] = mapped_column(String(64))
+    is_canonical: Mapped[bool | None] = mapped_column(default=False)
     description: Mapped[str | None] = mapped_column(Text)
     confidence: Mapped[float | None] = mapped_column(Float)
     evidence_id: Mapped[int | None] = mapped_column(

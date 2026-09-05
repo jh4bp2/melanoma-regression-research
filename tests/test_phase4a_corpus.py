@@ -72,6 +72,7 @@ def test_frozen_ontology_is_phase34_baseline():
     assert frozen["phase2_schema"] == "phase2.3"
     assert frozen["phase3_schema"] == "phase3.4"
     assert frozen["phase3_prompt"] == "biological_observation_extraction:v5"
+    assert frozen["corpus_infra_version"] == "phase4a.2"
 
 
 def test_manifest_integrity_and_duplicate_rejection():

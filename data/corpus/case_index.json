@@ -103,5 +103,33 @@
     "patient_marker": "72-year-old retired farmer [run 114]",
     "year": 1984,
     "melanoma_context": "malignant melanoma"
+  },
+  {
+    "paper_id": 14,
+    "case_id": 31,
+    "patient_marker": "paper-14-case-1 [run 117]",
+    "year": 2023,
+    "melanoma_context": "malignant melanoma"
+  },
+  {
+    "paper_id": 15,
+    "case_id": 32,
+    "patient_marker": "The patient [run 119]",
+    "year": 2016,
+    "melanoma_context": "primary cutaneous malignant melanoma"
+  },
+  {
+    "paper_id": 16,
+    "case_id": 33,
+    "patient_marker": "paper-16-case-1 [run 121]",
+    "year": 2020,
+    "melanoma_context": "regressive melanoma"
+  },
+  {
+    "paper_id": 17,
+    "case_id": 34,
+    "patient_marker": "55-year-old woman [run 123]",
+    "year": 2017,
+    "melanoma_context": "metastatic melanoma"
   }
 ]

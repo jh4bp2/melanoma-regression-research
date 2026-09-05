@@ -1,15 +1,15 @@
 {
   "purpose": "Research corpus intake metadata. selection_reason is not Evidence.",
-  "version": "phase4a.1",
+  "version": "phase4a.2",
   "frozen_ontology": {
-    "corpus_infra_version": "phase4a.1",
-    "corpus_rule_version": "corpus-infra-v1",
+    "corpus_infra_version": "phase4a.2",
+    "corpus_rule_version": "phase4a2-collection-episode-v1",
     "phase2_schema": "phase2.3",
     "phase2_rule": "phase2.3-case-scope-v1",
     "phase3_schema": "phase3.4",
     "phase3_rule": "phase3.4-stability-v1",
     "phase3_prompt": "biological_observation_extraction:v5",
-    "policy": "Do not change schema/rule/prompt for a single new paper. Record ONTOLOGY_PRESSURE_POINT and review in batch."
+    "policy": "Do not change PHASE 2/3 schema/rule/prompt for a single new paper. Record ONTOLOGY_PRESSURE_POINT and review in batch. Corpus collection/episode patches use a reconciliation layer."
   },
   "papers": [
     {
@@ -600,6 +600,148 @@
       "notes": "No DOI; not in PMC; Europe PMC hasPDF=N; OpenAlex is_oa=false, any_repository_has_fulltext=false; J La State Med Soc closed",
       "role": "batch_2",
       "batch": 2
+    },
+    {
+      "candidate_id": "batch3-koibuchi-2022",
+      "title": "Spontaneous regression of lymphovascular invasion and metastasis of malignant melanoma: ultrasound findings",
+      "doi": "10.1007/s40477-022-00752-6",
+      "pmid": "36574191",
+      "pmcid": "PMC10632326",
+      "year": 2023,
+      "journal": "Journal of Ultrasound",
+      "selection_reason": "Batch 3 stress-test: ankle primary, thigh subcutaneous metastasis, lymphovascular invasion, and FNA-then-disappearance sequence",
+      "source_url": "https://europepmc.org/articles/PMC10632326?pdf=render",
+      "access_source": "Europe PMC full-text PDF (PMC10632326)",
+      "fulltext_status": "FULLTEXT_FOUND",
+      "ingestion_status": "INGESTED",
+      "extraction_status": "AUDITED",
+      "paper_id": 14,
+      "sha256": "97959a8116361e3dd208b83bcc2b450ce7d2cf335b47c3fc8a0c9cd3b7efa63a",
+      "page_count": 3,
+      "bytes": 534835,
+      "download_date": "2026-09-05",
+      "case_count": 1,
+      "lesion_count": 2,
+      "episode_count": 1,
+      "quality_status": "REVIEW",
+      "notes": "Corpus Expansion Batch 3 candidate.",
+      "role": "batch_3",
+      "batch": 3,
+      "exclusion_reason": null
+    },
+    {
+      "candidate_id": "batch3-yamada-2016",
+      "title": "Complete regression of primary cutaneous malignant melanoma associated with distant lymph node metastasis: a teaching case mimicking blue nevus",
+      "doi": "10.1186/s13104-016-2174-4",
+      "pmid": "27456492",
+      "pmcid": "PMC4960676",
+      "year": 2016,
+      "journal": "BMC Research Notes",
+      "selection_reason": "Batch 3 stress-test: completely regressed primary with distant lymph-node metastasis and split regression pathology",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4960676.1/PMC4960676.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC4960676.1)",
+      "fulltext_status": "FULLTEXT_FOUND",
+      "ingestion_status": "INGESTED",
+      "extraction_status": "AUDITED",
+      "paper_id": 15,
+      "sha256": "dc37353487b4619ed223ab5976400e03f7a120c43c4db44097292a359f2b3200",
+      "page_count": 6,
+      "bytes": 2173284,
+      "download_date": "2026-09-05",
+      "case_count": 1,
+      "lesion_count": 2,
+      "episode_count": 1,
+      "quality_status": "REVIEW",
+      "notes": "Corpus Expansion Batch 3 candidate.",
+      "role": "batch_3",
+      "batch": 3,
+      "exclusion_reason": null
+    },
+    {
+      "candidate_id": "batch3-sandru-2020",
+      "title": "Regressive melanoma in a female patient: A case report",
+      "doi": "10.3892/etm.2020.8675",
+      "pmid": "32508999",
+      "pmcid": "PMC7271722",
+      "year": 2020,
+      "journal": "Experimental and Therapeutic Medicine",
+      "selection_reason": "Batch 3 stress-test: regressive primary plus multiple lymph-node, lung, and brain metastases",
+      "source_url": "https://europepmc.org/articles/PMC7271722?pdf=render",
+      "access_source": "Europe PMC full-text PDF (PMC7271722)",
+      "fulltext_status": "FULLTEXT_FOUND",
+      "ingestion_status": "INGESTED",
+      "extraction_status": "AUDITED",
+      "paper_id": 16,
+      "sha256": "d1e95378b76cf6e19ba11f9de47e3da4488b7f379ce760a725254950eb3795c1",
+      "page_count": 4,
+      "bytes": 349504,
+      "download_date": "2026-09-05",
+      "case_count": 1,
+      "lesion_count": 4,
+      "episode_count": 1,
+      "quality_status": "REVIEW",
+      "notes": "Corpus Expansion Batch 3 candidate.",
+      "role": "batch_3",
+      "batch": 3,
+      "exclusion_reason": null
+    },
+    {
+      "candidate_id": "batch3-martinez-lopez-2017",
+      "title": "Disappearance of All Nevi as Initial Sign of Metastatic Melanoma",
+      "doi": "10.4103/ijd.IJD_260_16",
+      "pmid": "28794570",
+      "pmcid": "PMC5527740",
+      "year": 2017,
+      "journal": "Indian Journal of Dermatology",
+      "selection_reason": "Batch 3 stress-test: all-nevi disappearance plus subcutaneous, lung, inguinal, and iliac metastatic collections",
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5527740.1/PMC5527740.1.pdf",
+      "access_source": "NIH NLM NCBI PMC Article Datasets on AWS (PMC5527740.1)",
+      "fulltext_status": "FULLTEXT_FOUND",
+      "ingestion_status": "INGESTED",
+      "extraction_status": "AUDITED",
+      "paper_id": 17,
+      "sha256": "cda8fc9af75f2044240fdd3cad4573b5bb3a75daaa53a7208fde7ca0d0dc3b7a",
+      "page_count": 2,
+      "bytes": 308648,
+      "download_date": "2026-09-05",
+      "case_count": 1,
+      "lesion_count": 2,
+      "episode_count": 1,
+      "quality_status": "REVIEW",
+      "notes": "Corpus Expansion Batch 3 candidate.",
+      "role": "batch_3",
+      "batch": 3,
+      "exclusion_reason": null
+    },
+    {
+      "candidate_id": "batch3-unknown-primary-2012",
+      "title": "Stage IV malignant melanoma of unknown primary site in a young man",
+      "doi": "10.1136/bcr-2012-006283",
+      "pmid": "22847563",
+      "pmcid": "PMC4543345",
+      "year": 2012,
+      "journal": "BMJ Case Reports",
+      "selection_reason": "Batch 3 inclusion-gate test: melanoma of unknown primary where regressed primary is an explanatory possibility, not documented observed spontaneous regression",
+      "source_url": "https://europepmc.org/articles/PMC4543345?pdf=render",
+      "access_source": "Europe PMC full-text PDF (PMC4543345)",
+      "fulltext_status": "FULLTEXT_FOUND",
+      "ingestion_status": "INGESTED",
+      "extraction_status": "EXCLUDED",
+      "paper_id": 18,
+      "sha256": "89441b35c323e67414cf922d8daacdc87603f55628ad2ec4de9d1c5e4eb8749e",
+      "page_count": 4,
+      "bytes": 2077322,
+      "download_date": "2026-09-05",
+      "case_count": 0,
+      "lesion_count": 0,
+      "episode_count": 0,
+      "quality_status": "REVIEW",
+      "notes": "EXCLUDED: melanoma of unknown primary. Wood's lamp did not show a regressed-primary scar. Lung-lesion change followed chemotherapy and is a treatment response, not spontaneous regression. Regressed occult primary is an author/literature explanatory theory (UNKNOWN PRIMARY != PROVEN SPONTANEOUS REGRESSION). Kept as LATENT_REGRESSION / observation-bias discovery source. woods_negative=True chemo_response=True theory_only=True",
+      "role": "batch_3",
+      "batch": 3,
+      "exclusion_reason": "NOT_SPONTANEOUS_REGRESSION",
+      "discovery_track": "LATENT_REGRESSION",
+      "research_use": "observation-bias / unknown-primary hypothesized regression; not corpus Evidence"
     }
   ],
   "pressure_points": [
@@ -656,6 +798,110 @@
       "action": "Do not change frozen schema/rule/prompt until batch review.",
       "batch": 2,
       "repeat_status": "REPEATED"
+    },
+    {
+      "type": "ONTOLOGY_PRESSURE_POINT",
+      "candidate_id": "batch3-koibuchi-2022",
+      "note": "One FNA-then-disappearance course was stored as three RegressionEpisode rows (disappearance statement, CT absence, ultrasound absence). The frozen episode model fragments serial confirmation of one course.",
+      "action": "Do not change frozen schema/rule/prompt until batch review.",
+      "batch": 3,
+      "repeat_status": "NEW"
+    },
+    {
+      "type": "ONTOLOGY_PRESSURE_POINT",
+      "candidate_id": "batch3-koibuchi-2022",
+      "note": "The thigh subcutaneous/tubular metastasis was stored as canonical_name='right mass' without thigh/femur location. It was kept separate from the ankle primary.",
+      "action": "Do not change frozen schema/rule/prompt until batch review.",
+      "batch": 3,
+      "repeat_status": "NEW"
+    },
+    {
+      "type": "ONTOLOGY_PRESSURE_POINT",
+      "candidate_id": "batch3-yamada-2016",
+      "note": "Multiple-site wording is present but no LesionCollection row was created.",
+      "action": "Do not change frozen schema/rule/prompt until batch review.",
+      "batch": 3,
+      "repeat_status": "REPEATED"
+    },
+    {
+      "type": "ONTOLOGY_PRESSURE_POINT",
+      "candidate_id": "batch3-sandru-2020",
+      "note": "Sandru multiple lymph-node / lung / brain metastases have no LesionCollection rows. Frozen parser can create a collection only when lesion_identifier contains multiple/multifocal/numerous/several wording.",
+      "action": "Do not change frozen schema/rule/prompt until batch review.",
+      "batch": 3,
+      "repeat_status": "WORSENED"
+    },
+    {
+      "type": "ONTOLOGY_PRESSURE_POINT",
+      "candidate_id": "batch3-sandru-2020",
+      "note": "Melan-A negative and Tyrosinase negative were stored in one observation instead of two marker-level rows. They were not equated to tumor-cell absence.",
+      "action": "Do not change frozen schema/rule/prompt until batch review.",
+      "batch": 3,
+      "repeat_status": "NEW"
+    },
+    {
+      "type": "ONTOLOGY_PRESSURE_POINT",
+      "candidate_id": "batch3-sandru-2020",
+      "note": "Multiple-site wording is present but no LesionCollection row was created.",
+      "action": "Do not change frozen schema/rule/prompt until batch review.",
+      "batch": 3,
+      "repeat_status": "REPEATED"
+    },
+    {
+      "type": "ONTOLOGY_PRESSURE_POINT",
+      "candidate_id": "batch3-sandru-2020",
+      "note": "Frozen RegressionEpisode remains case-level and collapsed distinct lesion courses into one episode.",
+      "action": "Do not change frozen schema/rule/prompt until batch review.",
+      "batch": 3,
+      "repeat_status": "REPEATED"
+    },
+    {
+      "type": "ONTOLOGY_PRESSURE_POINT",
+      "candidate_id": "batch3-martinez-lopez-2017",
+      "note": "Martinez-Lopez 'all nevi disappeared' has no LesionCollection (MULTIPLE_MELANOCYTIC_NEVI or equivalent). Individual unnamed nevi were not invented, but the collection slot remains empty.",
+      "action": "Do not change frozen schema/rule/prompt until batch review.",
+      "batch": 3,
+      "repeat_status": "WORSENED"
+    },
+    {
+      "type": "ONTOLOGY_PRESSURE_POINT",
+      "candidate_id": "batch3-martinez-lopez-2017",
+      "note": "Nevi disappearance and later metastatic disease remain one case-level RegressionEpisode.",
+      "action": "Do not change frozen schema/rule/prompt until batch review.",
+      "batch": 3,
+      "repeat_status": "REPEATED"
+    },
+    {
+      "type": "ONTOLOGY_PRESSURE_POINT",
+      "candidate_id": "batch3-martinez-lopez-2017",
+      "note": "The paper states lentigines remained; extraction stored lentigines as having disappeared. This is a fact inversion, not an ontology gap.",
+      "action": "Do not change frozen schema/rule/prompt until batch review.",
+      "batch": 3,
+      "repeat_status": "NEW"
+    },
+    {
+      "type": "ONTOLOGY_PRESSURE_POINT",
+      "candidate_id": "batch3-martinez-lopez-2017",
+      "note": "Multiple-site wording is present but no LesionCollection row was created.",
+      "action": "Do not change frozen schema/rule/prompt until batch review.",
+      "batch": 3,
+      "repeat_status": "REPEATED"
+    },
+    {
+      "type": "ONTOLOGY_PRESSURE_POINT",
+      "candidate_id": "batch3-martinez-lopez-2017",
+      "note": "Frozen RegressionEpisode remains case-level and collapsed distinct lesion courses into one episode.",
+      "action": "Do not change frozen schema/rule/prompt until batch review.",
+      "batch": 3,
+      "repeat_status": "REPEATED"
+    },
+    {
+      "type": "ONTOLOGY_PRESSURE_POINT",
+      "candidate_id": "batch3-unknown-primary-2012",
+      "note": "Latent/hypothesized regressed occult primary was not promoted to a patient-level spontaneous-regression fact. Paper was EXCLUDED at the inclusion gate and was not extracted.",
+      "action": "Do not change frozen schema/rule/prompt until batch review.",
+      "batch": 3,
+      "repeat_status": "NEW"
     }
   ],
   "possible_duplicate_reports": [],
@@ -689,6 +935,67 @@
       "item": "old scanned PDF article-boundary contamination",
       "status": "RESOLVED_BY_EXISTING_MODEL",
       "note": "Haight PDF is the target article plus its French summary. No adjacent unrelated article was ingested, and Nathanson review cases were not created as patients."
+    }
+  ],
+  "batch3_repeat_watch": [
+    {
+      "item": "multiple pulmonary metastases collection",
+      "status": "WORSENED",
+      "note": "Multiple lung metastases are present without a LesionCollection. This now spans Batch 1, 2, and 3."
+    },
+    {
+      "item": "multiple lymph-node collection",
+      "status": "WORSENED",
+      "note": "Multiple lymph-node collection is present in Batch 3 extractions but still has no LesionCollection. This now spans Batch 1, 2, and 3."
+    },
+    {
+      "item": "multifocal / multiple-nevi collection",
+      "status": "WORSENED",
+      "note": "All-nevi / multiple-nevi wording has no LesionCollection. This now spans Batch 1 (Paolino) and Batch 3 (Martinez-Lopez)."
+    },
+    {
+      "item": "multiple brain metastases collection",
+      "status": "WORSENED",
+      "note": "Multiple brain metastases have no LesionCollection."
+    },
+    {
+      "item": "regression episode collapse",
+      "status": "REPEATED",
+      "note": "At least one Batch 3 paper still has one case-level episode for distinct lesion courses. This now spans Batch 1, 2, and 3."
+    },
+    {
+      "item": "primary regression + metastatic persistence",
+      "status": "REPEATED",
+      "note": "Yamada complete primary regression coexists with a persistent inguinal metastasis; Sandru regressive primary coexists with lymph-node, lung, and brain metastases; Martinez nevi disappearance coexists with subcutaneous/lung/nodal metastases. The frozen episode model still cannot hold those as one non-contradictory scoped pair."
+    },
+    {
+      "item": "vascular/lymphovascular lesion identity",
+      "status": "NEW",
+      "note": "Koibuchi vascular/lymphatic structure is present; identity was left as extracted without forcing merge or split beyond the quote."
+    },
+    {
+      "item": "dual-domain immune pathology",
+      "status": "REPEATED",
+      "note": "Immune-pathology findings again sit in BIOLOGICAL_STATE and/or DIAGNOSTIC_EVIDENCE because frozen ontology has no dedicated immune-pathology domain."
+    },
+    {
+      "item": "latent regression vs observed regression",
+      "status": "RESOLVED_BY_EXISTING_MODEL",
+      "note": "Unknown-primary paper was EXCLUDED at the inclusion gate. Hypothesized regressed primary was not extracted as a patient fact and no RegressionEpisode was created."
+    }
+  ],
+  "phase4a2_patch_candidates": [
+    {
+      "flag": "PHASE4A2_PATCH_CANDIDATE",
+      "priority": "PATCH_CANDIDATE_HIGH_PRIORITY",
+      "item": "LesionCollection missing",
+      "note": "LesionCollection absence now repeats across Batch 1, 2, and 3. Patch is recorded only; it was not executed."
+    },
+    {
+      "flag": "PHASE4A2_PATCH_CANDIDATE",
+      "priority": "PATCH_CANDIDATE_HIGH_PRIORITY",
+      "item": "RegressionEpisode collapse",
+      "note": "Case-level episode collapse now repeats across Batch 1, 2, and 3. Patch is recorded only; it was not executed."
     }
   ]
 }
